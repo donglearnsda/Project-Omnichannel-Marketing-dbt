@@ -1,0 +1,71 @@
+models:
+  # ── BẢNG DÀNH CHO AI AGENT ────────────────────────────
+  - name: dim_creator_knowledge_base
+    description: >
+      Bảng RAG-ready: Gom toàn bộ thông tin mô tả, lịch sử hoạt động, và reviews về Creator thành một Text Blob.
+      Được cấu trúc hóa để sẵn sàng mang đi Embedding vào Vector DB, giúp AI Agent trả lời các truy vấn ngữ nghĩa phức tạp.
+    columns:
+      - name: creator_id
+        description: Khóa chính (Primary Key) của Creator.
+        data_tests:
+          - unique
+          - not_null
+      - name: knowledge_text
+        description: "Đoạn văn bản (Text blob) tổng hợp sẵn sàng cho LLM."
+        data_tests:
+          - not_null
+
+  # ── BẢNG DÀNH CHO DASHBOARD BI ─────────────────────────
+  - name: mart_creator_intelligence
+    description: >
+      Mart layer tổng hợp hiệu suất Creator (spend, revenue, ROI, ROAS) phục vụ Looker Studio.
+    columns:
+      - name: creator_id
+        data_tests:
+          - unique
+          - not_null
+      - name: avg_roi
+        description: "Chỉ số ROI: (total_revenue - total_spend) / total_spend"
+      - name: roas
+        description: "Chỉ số ROAS: total_revenue / total_spend"
+
+  # ── BẢNG GIAO DỊCH (FACT TABLES) ───────────────────────
+  - name: fct_conversions
+    description: >
+      Fact table lưu trữ đơn hàng. Áp dụng Incremental strategy và Partition_by(order_date) 
+      để tối ưu lượng bytes processed và tiết kiệm chi phí trên BigQuery.
+    columns:
+      - name: order_id
+        description: Mã đơn hàng duy nhất - Đảm bảo Single Source of Truth.
+        data_tests:
+          - unique
+          - not_null
+      - name: campaign_id
+        description: Đảm bảo Referential Integrity với bảng dim_campaigns.
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('dim_campaigns')
+              field: campaign_id
+
+  - name: fct_ad_performance
+    description: Hiệu suất quảng cáo hàng ngày. Partitioned by date.
+    columns:
+      - name: performance_id
+        data_tests:
+          - unique
+          - not_null
+
+  # ── BẢNG CHIỀU (DIMENSION TABLES) ──────────────────────
+  - name: dim_creators
+    description: >
+      Bảng thông tin Creator đã được xử lý SCD Type 2 bằng Window Function (LEAD).
+      Lưu vết toàn bộ lịch sử thay đổi follower và tier.
+    columns:
+      - name: surrogate_key
+        description: Khóa đại diện cho từng phiên bản vòng đời của Creator.
+        data_tests:
+          - unique
+          - not_null
+      - name: is_current
+        description: Cờ True/False xác định bản ghi hiện tại đang có hiệu lực.
