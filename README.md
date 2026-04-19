@@ -23,4 +23,4 @@ The project follows the **Medallion Architecture** implemented within Google Big
 - **Language:** SQL (Jinja), Python (vEnv)
 
 ## 📊 Dashboard
-[Link to Looker Studio Dashboard](link)
+[Link to Looker Studio Dashboard]([Omnichannel Marketing Dashboard]([url](https://datastudio.google.com/s/rmVsMyUfYgI)))
