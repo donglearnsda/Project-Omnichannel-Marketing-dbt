@@ -1,0 +1,41 @@
+services:
+  postgres:
+    image: postgres:13
+    environment:
+      - POSTGRES_USER=airflow
+      - POSTGRES_PASSWORD=airflow
+      - POSTGRES_DB=airflow
+
+  airflow-webserver:
+    build: .
+    command: webserver
+    depends_on:
+      - postgres
+    environment:
+      - LOAD_EXEMPLE=as_false
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+      - AIRFLOW__WEBSERVER__SECRET_KEY='ronaldong_secret_key_2026'
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - ./plugins:/opt/airflow/plugins
+      - ./marketing_project:/opt/airflow/marketing_project
+      - ./.secrets:/opt/airflow/secrets:ro   # Mount thư mục chứa file JSON làm read-only
+    ports:
+      - "8081:8080"
+
+  airflow-scheduler:
+    build: .
+    command: scheduler
+    depends_on:
+      - postgres
+    environment:
+      - LOAD_EXEMPLE=as_false
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+      - AIRFLOW__WEBSERVER__SECRET_KEY='ronaldong_secret_key_2026'
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - ./plugins:/opt/airflow/plugins
+      - ./marketing_project:/opt/airflow/marketing_project
+      - ./.secrets:/opt/airflow/secrets:ro  

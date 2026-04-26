@@ -1,0 +1,80 @@
+models:
+  # ── 1. STG_CREATORS ──────────────────────────────────────────
+  - name: stg_creators
+    description: >
+      Lớp làm sạch cho bảng Creators. Đã thực hiện Explicit Casting (ép kiểu tường minh) 
+      cho các cột số (follower_count, engagement_rate) và thời gian (updated_at).
+      Lưu ý kiến trúc: Cố tình giữ nguyên các dòng trùng lặp (duplicate creator_id) 
+      để nhường phần xử lý lịch sử vòng đời cho mô hình SCD Type 2 ở lớp Intermediate.
+    columns:
+      - name: creator_id
+        description: Business key của Creator.
+      - name: updated_at
+        description: Timestamp cập nhật. Ép kiểu TIMESTAMP chuẩn BigQuery.
+
+  # ── 2. STG_CONVERSIONS ───────────────────────────────────────
+  - name: stg_conversions
+    description: >
+      Dữ liệu đơn hàng đã được làm sạch và chuẩn hóa từ hệ thống OMS.
+      Thao tác kỹ thuật: Trích xuất thêm cột `order_date` (kiểu DATE) từ `order_timestamp` 
+      để phục vụ làm khóa phân mảnh (Partition Key) ở bảng Fact cuối cùng.
+    columns:
+      - name: order_id
+        description: Khóa chính (Primary Key) của đơn hàng.
+        data_tests:
+          - unique
+          - not_null
+      - name: order_date
+        description: "Ngày đặt hàng (Được dbt tự động extract từ timestamp gốc)."
+      - name: order_amount_vnd
+        description: "Giá trị đơn hàng đã ép kiểu NUMERIC để tính toán an toàn."
+
+  # ── 3. STG_AD_PERFORMANCE ────────────────────────────────────
+  - name: stg_ad_performance
+    description: >
+      Lớp làm sạch cho hiệu suất quảng cáo (TikTok, Meta, Google). 
+      Đã ép kiểu chính xác cho các chỉ số chi phí (spend_vnd) và tương tác.
+    columns:
+      - name: performance_id
+        data_tests:
+          - unique
+          - not_null
+
+  # ── 4. STG_CAMPAIGNS ─────────────────────────────────────────
+  - name: stg_campaigns
+    description: >
+      Làm sạch dữ liệu chiến dịch Marketing. 
+      Đảm bảo start_date và end_date đồng nhất ở định dạng chuẩn DATE.
+    columns:
+      - name: campaign_id
+        data_tests:
+          - unique
+          - not_null
+
+  # ── 5. STG_CUSTOMERS ─────────────────────────────────────────
+  - name: stg_customers
+    description: >
+      Lớp làm sạch dữ liệu khách hàng từ CRM. Đã chuẩn hóa registered_at.
+    columns:
+      - name: customer_id
+        data_tests:
+          - unique
+          - not_null
+
+  # ── 6. STG_CREATOR_REVIEWS ───────────────────────────────────
+  - name: stg_creator_reviews
+    description: >
+      Làm sạch dữ liệu đánh giá nội bộ về Creator. 
+      Đảm bảo cột rating là kiểu số nguyên (INT64) và text comment giữ nguyên vẹn 
+      để phục vụ cho bảng RAG-ready ở lớp Mart.
+    columns:
+      - name: review_id
+        data_tests:
+          - unique
+          - not_null
+
+  # ── 7. STG_DATES ─────────────────────────────────────────────
+  - name: stg_dates
+    description: >
+      Trục thời gian cơ sở (Date spine). Dùng làm nền tảng để enrich 
+      thêm tháng, quý, năm ở lớp Mart.

@@ -1,0 +1,29 @@
+surrogate_key,creator_id,name,platform,follower_count,category,engagement_rate,country,tier,valid_from,valid_to,is_current
+1,CRE_0001,Trinh Pham,Lazada Live,214805,Fashion,0.0916,Vietnam,Mid-tier,2024-01-01,2024-06-30,False
+2,CRE_0001,Trinh Pham,TikTok,278248,Fashion,0.0844,Vietnam,Mid-tier,2024-07-01,9999-12-31,True
+3,CRE_0002,Linh Nguyen,Shopee Live,4958410,Fashion,0.0564,Vietnam,Mega,2024-01-01,2024-06-30,False
+4,CRE_0002,Linh Nguyen,Shopee Live,6971986,Fashion,0.0762,Vietnam,Mega,2024-07-01,9999-12-31,True
+5,CRE_0003,Bao Tran,Shopee Live,4576300,Technology,0.0561,Vietnam,Mega,2024-01-01,9999-12-31,True
+6,CRE_0004,Mai Le,YouTube,1344319,Beauty & Skincare,0.0868,Vietnam,Mega,2024-01-01,9999-12-31,True
+7,CRE_0005,Duc Hoang,Instagram,2828559,Technology,0.0212,Vietnam,Mega,2024-01-01,9999-12-31,True
+8,CRE_0006,Trang Vu,YouTube,2223961,Health & Fitness,0.0988,Vietnam,Mega,2024-01-01,9999-12-31,True
+9,CRE_0007,Khanh Do,Shopee Live,3180376,Fashion,0.0187,Vietnam,Mega,2024-01-01,2024-06-30,False
+10,CRE_0007,Khanh Do,YouTube,6297448,Fashion,0.0735,Vietnam,Mega,2024-07-01,9999-12-31,True
+11,CRE_0008,Huong Bui,Lazada Live,389402,Fashion,0.0827,Vietnam,Mid-tier,2024-01-01,9999-12-31,True
+12,CRE_0009,Nam Phan,TikTok,852261,Technology,0.0518,Vietnam,Macro,2024-01-01,9999-12-31,True
+13,CRE_0010,Thu Dang,YouTube,3110303,Food & Beverage,0.0491,Vietnam,Mega,2024-01-01,9999-12-31,True
+14,CRE_0011,Minh Ly,Lazada Live,1440615,Fashion,0.0688,Vietnam,Mega,2024-01-01,2024-06-30,False
+15,CRE_0011,Minh Ly,YouTube,2516991,Fashion,0.1188,Vietnam,Mega,2024-07-01,9999-12-31,True
+16,CRE_0012,Lan Cao,Lazada Live,2725280,Technology,0.1027,Vietnam,Mega,2024-01-01,9999-12-31,True
+17,CRE_0013,Tuan Dinh,Instagram,2651211,Beauty & Skincare,0.0541,Vietnam,Mega,2024-01-01,2024-06-30,False
+18,CRE_0013,Tuan Dinh,Shopee Live,6305615,Beauty & Skincare,0.1064,Vietnam,Mega,2024-07-01,9999-12-31,True
+19,CRE_0014,Hoa Ngo,YouTube,4192855,Technology,0.0535,Vietnam,Mega,2024-01-01,9999-12-31,True
+20,CRE_0015,Viet Truong,Facebook,2226975,Food & Beverage,0.0254,Vietnam,Mega,2024-01-01,9999-12-31,True
+21,CRE_0016,Phuong Nguyen,Shopee Live,4908862,Finance,0.0571,Vietnam,Mega,2024-01-01,9999-12-31,True
+22,CRE_0017,Long Ha,YouTube,1165410,Technology,0.066,Vietnam,Mega,2024-01-01,2024-06-30,False
+23,CRE_0017,Long Ha,TikTok,1358824,Technology,0.0268,Vietnam,Mega,2024-07-01,9999-12-31,True
+24,CRE_0018,Thao Nguyen,Instagram,537909,Home & Living,0.0523,Vietnam,Macro,2024-01-01,9999-12-31,True
+25,CRE_0019,Hung Le,Facebook,4645795,Finance,0.1047,Vietnam,Mega,2024-01-01,2024-06-30,False
+26,CRE_0019,Hung Le,Lazada Live,9798030,Finance,0.1073,Vietnam,Mega,2024-07-01,9999-12-31,True
+27,CRE_0020,Quynh Tran,YouTube,940767,Health & Fitness,0.0423,Vietnam,Macro,2024-01-01,2024-06-30,False
+28,CRE_0020,Quynh Tran,Lazada Live,1039118,Health & Fitness,0.1063,Vietnam,Mega,2024-07-01,9999-12-31,True

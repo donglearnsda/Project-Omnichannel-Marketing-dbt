@@ -1,0 +1,31 @@
+campaign_id,campaign_name,source,budget_type,total_budget_vnd,start_date,end_date,marketing_objective,target_audience,product_category,status
+CMP_0001,Holiday Special Q4 1,Instagram,Daily Budget,205743469,2024-05-14,2024-06-22,Awareness,Millennials,Beauty & Skincare,Completed
+CMP_0002,Collab Series Tet 2024 2,TikTok,Daily Budget,36098339,2024-06-14,2024-07-22,Awareness,Millennials,Fashion,Completed
+CMP_0003,Product Launch Q3 3,Facebook,Lifetime Budget,300173558,2024-02-13,2024-04-06,Awareness,Millennials,Finance,Completed
+CMP_0004,Flash Deal Tet 2024 4,Facebook,Lifetime Budget,365609191,2024-09-27,2024-11-11,Conversion,Gen X,Gaming,Completed
+CMP_0005,Flash Deal Q2 5,TikTok,Lifetime Budget,16292683,2024-09-21,2024-10-26,Conversion,Millennials,Technology,Completed
+CMP_0006,Flash Deal Q2 6,Lazada Live,Daily Budget,466513240,2024-01-04,2024-01-15,Awareness,Gen X,Fashion,Completed
+CMP_0007,Flash Deal Q3 7,YouTube,Lifetime Budget,135458149,2024-09-20,2024-10-12,Lead Generation,All Ages,Home & Living,Completed
+CMP_0008,Collab Series 12.12 8,TikTok,Lifetime Budget,255731958,2024-04-07,2024-04-20,Lead Generation,Gen Z,Fashion,Completed
+CMP_0009,Brand Awareness Q4 9,Lazada Live,Daily Budget,107117629,2024-02-01,2024-03-04,Retargeting,All Ages,Food & Beverage,Completed
+CMP_0010,Flash Deal Q2 10,YouTube,Lifetime Budget,438803639,2024-08-04,2024-08-22,Lead Generation,Gen Z,Beauty & Skincare,Completed
+CMP_0011,Flash Deal Q3 11,TikTok,Lifetime Budget,265726594,2024-10-03,2024-12-02,Awareness,All Ages,Technology,Active
+CMP_0012,Super Sale 12.12 12,Instagram,Lifetime Budget,425944696,2024-07-24,2024-08-03,Lead Generation,All Ages,Finance,Completed
+CMP_0013,Product Launch Q4 13,Lazada Live,Lifetime Budget,121877277,2024-08-04,2024-09-24,Lead Generation,Gen Z,Beauty & Skincare,Completed
+CMP_0014,Product Launch Q1 14,TikTok,Daily Budget,462061050,2024-06-09,2024-06-19,Lead Generation,Millennials,Fashion,Completed
+CMP_0015,Brand Awareness Q4 15,Instagram,Daily Budget,337527916,2024-02-04,2024-03-25,Lead Generation,Gen Z,Home & Living,Completed
+CMP_0016,Holiday Special Q4 16,Shopee Live,Lifetime Budget,133143547,2024-10-25,2024-12-07,Retargeting,Gen X,Home & Living,Active
+CMP_0017,Growth Drive 11.11 17,Lazada Live,Daily Budget,10001198,2024-03-08,2024-04-26,Retargeting,All Ages,Fashion,Completed
+CMP_0018,Product Launch 11.11 18,Instagram,Daily Budget,477054616,2024-02-07,2024-03-19,Retargeting,Millennials,Health & Fitness,Completed
+CMP_0019,Super Sale Tet 2024 19,Facebook,Daily Budget,476440824,2024-05-25,2024-06-11,Retargeting,Millennials,Finance,Completed
+CMP_0020,Holiday Special Tet 2024 20,Lazada Live,Daily Budget,390265108,2024-02-29,2024-03-13,Conversion,Gen X,Technology,Completed
+CMP_0021,Super Sale Q2 21,Facebook,Lifetime Budget,450252867,2024-05-15,2024-06-23,Retargeting,Gen X,Beauty & Skincare,Completed
+CMP_0022,Product Launch Mid-Year 22,Instagram,Lifetime Budget,306134582,2024-01-02,2024-01-30,Retargeting,Gen Z,Fashion,Completed
+CMP_0023,Collab Series Q3 23,Instagram,Lifetime Budget,73421792,2024-02-08,2024-03-30,Awareness,Gen Z,Finance,Completed
+CMP_0024,Flash Deal Q4 24,TikTok,Daily Budget,194879769,2024-07-05,2024-08-31,Retargeting,All Ages,Food & Beverage,Completed
+CMP_0025,Super Sale Q3 25,Instagram,Lifetime Budget,425040549,2024-05-01,2024-05-18,Lead Generation,All Ages,Technology,Completed
+CMP_0026,Mega Campaign Q1 26,Lazada Live,Lifetime Budget,124418192,2024-05-16,2024-06-02,Awareness,Millennials,Gaming,Completed
+CMP_0027,Super Sale Q4 27,Instagram,Lifetime Budget,181234293,2024-06-28,2024-07-24,Conversion,Gen X,Fashion,Completed
+CMP_0028,Collab Series Q1 28,Lazada Live,Daily Budget,475856411,2024-05-22,2024-06-20,Lead Generation,Gen X,Food & Beverage,Completed
+CMP_0029,Mega Campaign 11.11 29,TikTok,Lifetime Budget,239287182,2024-10-24,2024-11-16,Awareness,Gen Z,Home & Living,Completed
+CMP_0030,Mega Campaign Q1 30,YouTube,Daily Budget,200539914,2024-10-22,2024-11-10,Awareness,All Ages,Fashion,Completed

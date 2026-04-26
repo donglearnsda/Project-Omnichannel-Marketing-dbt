@@ -1,0 +1,13 @@
+marketing_project: # Phải khớp với tên project trong dbt_project.yml
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: dbt-project-493519 # ID_PROJECT_GCP
+      dataset: omnichannel_stg # Tên schema mà dbt sẽ tạo bảng ở BigQuery
+      threads: 4 # Tối ưu hóa hiệu năng chạy song song
+      # Nó sẽ ưu tiên lấy biến DBT_GOOGLE_KEYFILE. Nếu biến này không tồn tại, nó sẽ lấy đường dẫn mặc định của Docker.
+      keyfile: "{{ env_var('DBT_GOOGLE_KEYFILE', '/opt/airflow/secrets/key.json') }}"
+      location: US # Hoặc asia-southeast1 (Singapore)
+      priority: interactive
+  target: dev

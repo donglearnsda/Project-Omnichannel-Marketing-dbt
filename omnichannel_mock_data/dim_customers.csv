@@ -1,0 +1,2001 @@
+customer_id,region,acquisition_source,acquisition_date,age_group,gender,customer_segment,lifetime_value_vnd
+CST_000001,Bình Dương,Referral,2024-12-06,18-24,Unknown,VIP,0
+CST_000002,Cần Thơ,Shopee Ads,2024-09-16,35-44,Female,VIP,0
+CST_000003,Đà Nẵng,Facebook Ads,2024-10-10,45-54,Unknown,Churned,0
+CST_000004,Đà Nẵng,Organic Search,2024-12-12,45-54,Unknown,New,0
+CST_000005,Cần Thơ,Facebook Ads,2024-06-04,45-54,Unknown,VIP,0
+CST_000006,Huế,Email,2024-08-26,25-34,Unknown,Churned,0
+CST_000007,TP.HCM,Organic Search,2024-03-27,55+,Unknown,VIP,0
+CST_000008,Hải Phòng,Organic Search,2024-02-17,25-34,Male,Returning,0
+CST_000009,Hà Nội,Facebook Ads,2024-01-13,45-54,Unknown,New,0
+CST_000010,Đồng Nai,Facebook Ads,2024-08-21,45-54,Female,Churned,0
+CST_000011,Đà Nẵng,TikTok Ads,2024-05-04,18-24,Female,Returning,0
+CST_000012,Huế,TikTok Ads,2024-03-31,55+,Male,New,0
+CST_000013,Đà Nẵng,Email,2024-08-21,55+,Unknown,VIP,0
+CST_000014,Đồng Nai,Email,2024-08-14,25-34,Unknown,Churned,0
+CST_000015,Cần Thơ,Facebook Ads,2024-08-18,35-44,Unknown,Churned,0
+CST_000016,Hải Phòng,Organic Search,2024-11-16,45-54,Male,VIP,0
+CST_000017,Cần Thơ,Referral,2024-04-30,35-44,Unknown,New,0
+CST_000018,Đà Nẵng,Facebook Ads,2024-03-11,45-54,Unknown,Returning,0
+CST_000019,Hải Phòng,Instagram Ads,2024-12-27,45-54,Female,VIP,0
+CST_000020,Huế,Shopee Ads,2024-10-04,18-24,Male,Churned,0
+CST_000021,Hà Nội,Shopee Ads,2024-07-18,45-54,Male,VIP,0
+CST_000022,Đồng Nai,Shopee Ads,2024-06-01,55+,Unknown,Returning,0
+CST_000023,Hải Phòng,Organic Search,2024-09-06,45-54,Female,New,0
+CST_000024,Bình Dương,Shopee Ads,2024-07-18,25-34,Female,Returning,0
+CST_000025,Hà Nội,Shopee Ads,2024-11-14,55+,Unknown,New,0
+CST_000026,Đồng Nai,Google Ads,2024-02-12,45-54,Male,New,0
+CST_000027,Đồng Nai,Referral,2024-05-13,25-34,Female,VIP,0
+CST_000028,Đồng Nai,Organic Search,2024-06-21,45-54,Female,New,0
+CST_000029,Hà Nội,TikTok Ads,2024-08-28,35-44,Male,New,0
+CST_000030,Hà Nội,TikTok Ads,2024-11-29,25-34,Male,New,0
+CST_000031,Đà Nẵng,Facebook Ads,2024-11-14,25-34,Female,New,0
+CST_000032,Hải Phòng,Email,2024-10-15,35-44,Female,Returning,0
+CST_000033,TP.HCM,Google Ads,2024-11-06,35-44,Male,New,0
+CST_000034,Đồng Nai,Shopee Ads,2024-06-08,25-34,Male,Returning,0
+CST_000035,Cần Thơ,Instagram Ads,2024-02-22,55+,Male,VIP,0
+CST_000036,Đồng Nai,Referral,2024-09-29,18-24,Unknown,VIP,0
+CST_000037,Đồng Nai,Email,2024-01-07,18-24,Female,VIP,0
+CST_000038,Huế,Google Ads,2024-11-21,45-54,Male,VIP,0
+CST_000039,Huế,Email,2024-11-11,45-54,Unknown,VIP,0
+CST_000040,Hải Phòng,Instagram Ads,2024-06-14,35-44,Female,Returning,0
+CST_000041,Đồng Nai,Referral,2024-08-25,18-24,Female,VIP,0
+CST_000042,Huế,Facebook Ads,2024-04-03,35-44,Female,VIP,0
+CST_000043,Cần Thơ,TikTok Ads,2024-05-23,55+,Male,New,0
+CST_000044,Đồng Nai,Email,2024-05-03,55+,Male,Churned,0
+CST_000045,Huế,Email,2024-11-26,18-24,Male,VIP,0
+CST_000046,Đồng Nai,Facebook Ads,2024-04-23,35-44,Unknown,VIP,0
+CST_000047,Bình Dương,Shopee Ads,2024-08-30,55+,Female,VIP,0
+CST_000048,Huế,Organic Search,2024-12-25,35-44,Female,Returning,0
+CST_000049,Hải Phòng,Referral,2024-03-02,18-24,Unknown,Returning,0
+CST_000050,Hải Phòng,Email,2024-04-08,35-44,Unknown,VIP,0
+CST_000051,Hải Phòng,Organic Search,2024-02-21,25-34,Female,Returning,0
+CST_000052,Hà Nội,Google Ads,2024-06-03,35-44,Male,New,0
+CST_000053,Cần Thơ,Google Ads,2024-10-10,45-54,Male,New,0
+CST_000054,Cần Thơ,Email,2024-10-20,45-54,Female,VIP,0
+CST_000055,Hà Nội,Organic Search,2024-04-04,45-54,Male,New,0
+CST_000056,Huế,Instagram Ads,2024-07-24,55+,Unknown,New,0
+CST_000057,Đà Nẵng,Organic Search,2024-03-18,18-24,Male,New,0
+CST_000058,Đồng Nai,Facebook Ads,2024-10-12,55+,Female,Churned,0
+CST_000059,Cần Thơ,Shopee Ads,2024-08-14,35-44,Unknown,New,0
+CST_000060,TP.HCM,Facebook Ads,2024-11-08,25-34,Female,New,0
+CST_000061,Hải Phòng,Google Ads,2024-03-21,55+,Male,Returning,0
+CST_000062,Đồng Nai,Email,2024-01-02,55+,Female,VIP,0
+CST_000063,Hải Phòng,Organic Search,2024-01-17,35-44,Unknown,Churned,0
+CST_000064,Hải Phòng,Organic Search,2024-02-06,55+,Unknown,Returning,0
+CST_000065,TP.HCM,Facebook Ads,2024-08-05,25-34,Female,Returning,0
+CST_000066,Hà Nội,Google Ads,2024-02-06,35-44,Unknown,VIP,0
+CST_000067,TP.HCM,Email,2024-08-12,35-44,Unknown,Churned,0
+CST_000068,Huế,Email,2024-05-19,18-24,Unknown,New,0
+CST_000069,Bình Dương,Organic Search,2024-08-09,18-24,Male,Returning,0
+CST_000070,Hà Nội,Organic Search,2024-12-11,55+,Male,Returning,0
+CST_000071,Huế,Organic Search,2024-08-28,25-34,Unknown,Churned,0
+CST_000072,Huế,Instagram Ads,2024-11-21,45-54,Female,Churned,0
+CST_000073,Bình Dương,Instagram Ads,2024-06-19,25-34,Female,Churned,0
+CST_000074,Huế,Organic Search,2024-12-21,45-54,Unknown,New,0
+CST_000075,TP.HCM,Referral,2024-08-20,35-44,Female,New,0
+CST_000076,Hà Nội,Email,2024-07-25,45-54,Male,Returning,0
+CST_000077,Bình Dương,Email,2024-09-22,45-54,Male,Returning,0
+CST_000078,Đà Nẵng,Organic Search,2024-05-16,45-54,Unknown,Churned,0
+CST_000079,Hà Nội,Facebook Ads,2024-03-03,25-34,Female,New,0
+CST_000080,Đồng Nai,Instagram Ads,2024-10-09,25-34,Male,Churned,0
+CST_000081,Đà Nẵng,Email,2024-03-01,35-44,Unknown,VIP,0
+CST_000082,Huế,Email,2024-07-31,25-34,Female,Returning,0
+CST_000083,Hải Phòng,Google Ads,2024-07-15,18-24,Female,Churned,0
+CST_000084,Cần Thơ,TikTok Ads,2024-06-23,35-44,Unknown,VIP,0
+CST_000085,Huế,Google Ads,2024-10-27,45-54,Unknown,Churned,0
+CST_000086,Bình Dương,Shopee Ads,2024-06-25,45-54,Female,Returning,0
+CST_000087,Hải Phòng,Shopee Ads,2024-12-23,25-34,Female,New,0
+CST_000088,Huế,Shopee Ads,2024-06-11,45-54,Unknown,Returning,0
+CST_000089,Hà Nội,Google Ads,2024-09-10,55+,Unknown,VIP,0
+CST_000090,Huế,Instagram Ads,2024-02-21,55+,Female,New,0
+CST_000091,Đồng Nai,Google Ads,2024-03-14,18-24,Female,VIP,0
+CST_000092,Đồng Nai,Instagram Ads,2024-06-22,35-44,Unknown,Churned,0
+CST_000093,Huế,TikTok Ads,2024-06-11,55+,Male,Returning,0
+CST_000094,Cần Thơ,Facebook Ads,2024-11-19,18-24,Female,New,0
+CST_000095,TP.HCM,Email,2024-11-20,25-34,Unknown,VIP,0
+CST_000096,Hà Nội,Referral,2024-01-15,18-24,Female,VIP,0
+CST_000097,Đồng Nai,Google Ads,2024-07-10,25-34,Unknown,Churned,0
+CST_000098,Đà Nẵng,Google Ads,2024-10-16,25-34,Male,Churned,0
+CST_000099,Hải Phòng,Email,2024-11-13,55+,Male,Returning,0
+CST_000100,Cần Thơ,Email,2024-08-24,35-44,Unknown,New,0
+CST_000101,Cần Thơ,Google Ads,2024-08-26,18-24,Female,VIP,0
+CST_000102,Cần Thơ,Shopee Ads,2024-10-27,35-44,Female,VIP,0
+CST_000103,Đồng Nai,Email,2024-04-11,18-24,Male,Churned,0
+CST_000104,Bình Dương,Organic Search,2024-10-19,35-44,Male,Churned,0
+CST_000105,Hà Nội,TikTok Ads,2024-05-20,55+,Unknown,Churned,0
+CST_000106,Hải Phòng,Referral,2024-05-26,25-34,Unknown,Returning,0
+CST_000107,Cần Thơ,Google Ads,2024-11-13,18-24,Unknown,New,0
+CST_000108,Huế,TikTok Ads,2024-06-07,55+,Female,Returning,0
+CST_000109,Cần Thơ,Referral,2024-02-16,45-54,Male,Returning,0
+CST_000110,Bình Dương,Organic Search,2024-03-08,25-34,Female,Churned,0
+CST_000111,Bình Dương,Instagram Ads,2024-05-31,45-54,Male,Returning,0
+CST_000112,Đồng Nai,Referral,2024-04-25,18-24,Female,New,0
+CST_000113,TP.HCM,Email,2024-05-15,35-44,Unknown,VIP,0
+CST_000114,Đồng Nai,Referral,2024-10-26,18-24,Unknown,Returning,0
+CST_000115,Hà Nội,Referral,2024-08-29,55+,Male,New,0
+CST_000116,Huế,Organic Search,2024-11-21,45-54,Male,Returning,0
+CST_000117,Hà Nội,Organic Search,2024-01-24,45-54,Male,New,0
+CST_000118,Đà Nẵng,Shopee Ads,2024-04-30,45-54,Female,Churned,0
+CST_000119,Đà Nẵng,Shopee Ads,2024-10-27,18-24,Female,Churned,0
+CST_000120,Hà Nội,Referral,2024-05-23,25-34,Female,Churned,0
+CST_000121,Bình Dương,Instagram Ads,2024-04-30,35-44,Unknown,VIP,0
+CST_000122,Đồng Nai,Organic Search,2024-02-01,25-34,Male,Churned,0
+CST_000123,Hải Phòng,TikTok Ads,2024-02-16,18-24,Female,Returning,0
+CST_000124,Hải Phòng,Instagram Ads,2024-03-05,55+,Male,Returning,0
+CST_000125,Bình Dương,Google Ads,2024-04-29,55+,Male,VIP,0
+CST_000126,Đà Nẵng,Organic Search,2024-03-15,25-34,Male,New,0
+CST_000127,Hà Nội,Referral,2024-03-08,25-34,Unknown,VIP,0
+CST_000128,Đà Nẵng,Organic Search,2024-01-09,18-24,Male,Churned,0
+CST_000129,TP.HCM,Instagram Ads,2024-09-26,45-54,Female,VIP,0
+CST_000130,TP.HCM,Email,2024-09-19,55+,Male,New,0
+CST_000131,Cần Thơ,Email,2024-12-03,18-24,Male,Churned,0
+CST_000132,Đồng Nai,Instagram Ads,2024-07-24,45-54,Unknown,Churned,0
+CST_000133,TP.HCM,Referral,2024-02-07,55+,Male,New,0
+CST_000134,Cần Thơ,Referral,2024-03-05,45-54,Unknown,VIP,0
+CST_000135,Đồng Nai,Instagram Ads,2024-08-20,18-24,Unknown,Returning,0
+CST_000136,Huế,Facebook Ads,2024-08-08,45-54,Female,Churned,0
+CST_000137,Đồng Nai,Instagram Ads,2024-07-23,35-44,Female,VIP,0
+CST_000138,Cần Thơ,Referral,2024-12-06,25-34,Unknown,Churned,0
+CST_000139,TP.HCM,Instagram Ads,2024-02-04,18-24,Female,New,0
+CST_000140,Đà Nẵng,TikTok Ads,2024-07-09,55+,Unknown,VIP,0
+CST_000141,TP.HCM,Shopee Ads,2024-12-09,35-44,Unknown,Churned,0
+CST_000142,Cần Thơ,Organic Search,2024-01-27,35-44,Male,Returning,0
+CST_000143,Huế,Facebook Ads,2024-03-20,18-24,Female,VIP,0
+CST_000144,Cần Thơ,Facebook Ads,2024-02-28,45-54,Unknown,New,0
+CST_000145,Cần Thơ,TikTok Ads,2024-11-07,25-34,Female,VIP,0
+CST_000146,Bình Dương,TikTok Ads,2024-06-22,25-34,Male,Churned,0
+CST_000147,Đà Nẵng,TikTok Ads,2024-02-05,18-24,Unknown,Returning,0
+CST_000148,Đồng Nai,Email,2024-07-11,35-44,Male,VIP,0
+CST_000149,Bình Dương,Instagram Ads,2024-06-08,18-24,Male,Returning,0
+CST_000150,Hà Nội,Instagram Ads,2024-11-12,35-44,Female,Churned,0
+CST_000151,Huế,Shopee Ads,2024-09-05,35-44,Male,New,0
+CST_000152,Đồng Nai,Instagram Ads,2024-06-25,35-44,Unknown,Churned,0
+CST_000153,Cần Thơ,TikTok Ads,2024-09-26,25-34,Female,New,0
+CST_000154,Hải Phòng,Organic Search,2024-01-04,25-34,Male,VIP,0
+CST_000155,Bình Dương,Instagram Ads,2024-05-28,18-24,Female,Churned,0
+CST_000156,Đà Nẵng,Shopee Ads,2024-03-30,55+,Unknown,Returning,0
+CST_000157,Bình Dương,Instagram Ads,2024-09-13,45-54,Unknown,New,0
+CST_000158,Hà Nội,Email,2024-08-11,18-24,Female,Churned,0
+CST_000159,Đồng Nai,Shopee Ads,2024-10-20,35-44,Male,Churned,0
+CST_000160,Bình Dương,Google Ads,2024-01-11,55+,Female,VIP,0
+CST_000161,Đồng Nai,Instagram Ads,2024-02-15,25-34,Female,Churned,0
+CST_000162,TP.HCM,Shopee Ads,2024-09-25,35-44,Unknown,VIP,0
+CST_000163,Bình Dương,Google Ads,2024-04-23,18-24,Unknown,New,0
+CST_000164,Hải Phòng,Referral,2024-09-28,35-44,Unknown,Returning,0
+CST_000165,TP.HCM,Google Ads,2024-04-30,35-44,Male,Returning,0
+CST_000166,Đà Nẵng,Instagram Ads,2024-11-04,25-34,Unknown,Churned,0
+CST_000167,Huế,Referral,2024-08-25,35-44,Male,Churned,0
+CST_000168,Huế,Email,2024-02-04,35-44,Female,New,0
+CST_000169,TP.HCM,Organic Search,2024-06-29,45-54,Female,New,0
+CST_000170,Bình Dương,Organic Search,2024-01-30,18-24,Unknown,New,0
+CST_000171,Đồng Nai,Email,2024-11-10,55+,Unknown,New,0
+CST_000172,Hải Phòng,Referral,2024-08-18,55+,Female,Returning,0
+CST_000173,Huế,Instagram Ads,2024-02-01,35-44,Unknown,New,0
+CST_000174,Đà Nẵng,TikTok Ads,2024-09-15,25-34,Unknown,Churned,0
+CST_000175,Đà Nẵng,Referral,2024-08-12,35-44,Female,Churned,0
+CST_000176,Bình Dương,TikTok Ads,2024-07-28,35-44,Male,VIP,0
+CST_000177,Đồng Nai,Organic Search,2024-02-18,35-44,Unknown,Returning,0
+CST_000178,TP.HCM,Google Ads,2024-06-19,35-44,Female,Churned,0
+CST_000179,TP.HCM,Organic Search,2024-03-07,55+,Female,VIP,0
+CST_000180,TP.HCM,Shopee Ads,2024-03-06,55+,Female,New,0
+CST_000181,Cần Thơ,Google Ads,2024-07-04,25-34,Female,Churned,0
+CST_000182,Hải Phòng,Google Ads,2024-04-08,25-34,Male,VIP,0
+CST_000183,Hà Nội,Referral,2024-02-21,55+,Male,Churned,0
+CST_000184,Đà Nẵng,Google Ads,2024-03-19,55+,Male,Churned,0
+CST_000185,Đồng Nai,Referral,2024-01-23,25-34,Female,VIP,0
+CST_000186,Hải Phòng,Facebook Ads,2024-08-17,35-44,Female,Returning,0
+CST_000187,Huế,Email,2024-07-07,35-44,Female,Churned,0
+CST_000188,Hải Phòng,Google Ads,2024-03-23,35-44,Male,Churned,0
+CST_000189,TP.HCM,Instagram Ads,2024-07-09,35-44,Male,Returning,0
+CST_000190,Huế,Google Ads,2024-05-19,45-54,Male,Returning,0
+CST_000191,Bình Dương,TikTok Ads,2024-08-18,45-54,Male,Churned,0
+CST_000192,Bình Dương,Facebook Ads,2024-09-14,45-54,Male,VIP,0
+CST_000193,Hà Nội,Referral,2024-04-24,18-24,Unknown,VIP,0
+CST_000194,Đà Nẵng,TikTok Ads,2024-03-15,35-44,Female,Returning,0
+CST_000195,Huế,Email,2024-12-27,55+,Male,New,0
+CST_000196,Cần Thơ,Facebook Ads,2024-01-10,25-34,Unknown,Churned,0
+CST_000197,Cần Thơ,Facebook Ads,2024-02-26,35-44,Male,New,0
+CST_000198,Đồng Nai,Email,2024-05-02,18-24,Male,Churned,0
+CST_000199,Hà Nội,Facebook Ads,2024-11-01,25-34,Female,Churned,0
+CST_000200,Bình Dương,Facebook Ads,2024-01-01,55+,Female,Returning,0
+CST_000201,TP.HCM,Referral,2024-12-06,18-24,Unknown,New,0
+CST_000202,Huế,TikTok Ads,2024-07-18,45-54,Female,VIP,0
+CST_000203,Bình Dương,Instagram Ads,2024-01-09,35-44,Male,New,0
+CST_000204,Bình Dương,Google Ads,2024-10-24,18-24,Female,VIP,0
+CST_000205,Đà Nẵng,Email,2024-11-25,45-54,Unknown,Returning,0
+CST_000206,TP.HCM,Email,2024-03-10,18-24,Female,Returning,0
+CST_000207,Hải Phòng,TikTok Ads,2024-01-23,35-44,Female,Churned,0
+CST_000208,Huế,Organic Search,2024-10-05,18-24,Unknown,Returning,0
+CST_000209,Bình Dương,TikTok Ads,2024-05-26,35-44,Female,New,0
+CST_000210,Đồng Nai,Shopee Ads,2024-07-07,45-54,Female,VIP,0
+CST_000211,Huế,Email,2024-04-05,35-44,Unknown,VIP,0
+CST_000212,Đồng Nai,Instagram Ads,2024-02-12,45-54,Unknown,Returning,0
+CST_000213,Cần Thơ,Referral,2024-10-06,18-24,Male,VIP,0
+CST_000214,Cần Thơ,Organic Search,2024-12-04,45-54,Unknown,Churned,0
+CST_000215,Huế,Referral,2024-03-26,45-54,Male,VIP,0
+CST_000216,Đồng Nai,Organic Search,2024-11-10,18-24,Male,Churned,0
+CST_000217,Đà Nẵng,TikTok Ads,2024-07-05,25-34,Unknown,Churned,0
+CST_000218,Đà Nẵng,Instagram Ads,2024-01-18,25-34,Unknown,VIP,0
+CST_000219,Đồng Nai,TikTok Ads,2024-07-04,55+,Male,Churned,0
+CST_000220,Bình Dương,Email,2024-07-08,18-24,Unknown,Returning,0
+CST_000221,Bình Dương,Shopee Ads,2024-09-28,35-44,Unknown,VIP,0
+CST_000222,TP.HCM,TikTok Ads,2024-05-07,25-34,Female,Churned,0
+CST_000223,TP.HCM,Organic Search,2024-10-14,35-44,Unknown,Churned,0
+CST_000224,Cần Thơ,Email,2024-04-19,25-34,Male,Returning,0
+CST_000225,Huế,Google Ads,2024-02-07,45-54,Male,VIP,0
+CST_000226,Bình Dương,Instagram Ads,2024-12-07,55+,Unknown,VIP,0
+CST_000227,Đà Nẵng,Google Ads,2024-06-02,35-44,Unknown,Returning,0
+CST_000228,Hải Phòng,Google Ads,2024-03-03,25-34,Female,New,0
+CST_000229,Bình Dương,Email,2024-07-03,55+,Male,New,0
+CST_000230,Cần Thơ,Shopee Ads,2024-02-03,45-54,Unknown,Churned,0
+CST_000231,TP.HCM,Google Ads,2024-07-28,35-44,Unknown,New,0
+CST_000232,Huế,Referral,2024-08-18,25-34,Unknown,Returning,0
+CST_000233,Đồng Nai,TikTok Ads,2024-03-07,18-24,Unknown,Returning,0
+CST_000234,Đà Nẵng,Google Ads,2024-06-04,35-44,Unknown,Returning,0
+CST_000235,Cần Thơ,Instagram Ads,2024-06-26,35-44,Male,VIP,0
+CST_000236,Cần Thơ,Instagram Ads,2024-03-05,55+,Unknown,Returning,0
+CST_000237,Đà Nẵng,Google Ads,2024-10-30,55+,Unknown,VIP,0
+CST_000238,Hà Nội,TikTok Ads,2024-10-15,18-24,Male,VIP,0
+CST_000239,Hải Phòng,Shopee Ads,2024-11-29,55+,Unknown,New,0
+CST_000240,Cần Thơ,Organic Search,2024-09-11,45-54,Male,Churned,0
+CST_000241,Huế,Instagram Ads,2024-06-01,18-24,Male,Churned,0
+CST_000242,Huế,Email,2024-07-31,25-34,Female,Returning,0
+CST_000243,Bình Dương,Referral,2024-06-09,45-54,Male,VIP,0
+CST_000244,TP.HCM,Referral,2024-09-20,25-34,Female,New,0
+CST_000245,Huế,Facebook Ads,2024-05-16,25-34,Male,New,0
+CST_000246,Đồng Nai,Shopee Ads,2024-05-28,25-34,Male,VIP,0
+CST_000247,Bình Dương,Facebook Ads,2024-10-22,25-34,Female,Churned,0
+CST_000248,Cần Thơ,Email,2024-09-12,18-24,Male,Churned,0
+CST_000249,Huế,Facebook Ads,2024-09-15,25-34,Unknown,VIP,0
+CST_000250,Hà Nội,Organic Search,2024-01-25,45-54,Unknown,Churned,0
+CST_000251,Hà Nội,Instagram Ads,2024-05-26,45-54,Male,VIP,0
+CST_000252,Đồng Nai,Referral,2024-07-06,18-24,Female,New,0
+CST_000253,Hải Phòng,Referral,2024-10-18,55+,Female,New,0
+CST_000254,Huế,Organic Search,2024-07-16,55+,Unknown,New,0
+CST_000255,TP.HCM,Shopee Ads,2024-03-06,35-44,Female,VIP,0
+CST_000256,Hải Phòng,Shopee Ads,2024-03-14,55+,Male,New,0
+CST_000257,Đà Nẵng,Referral,2024-01-20,45-54,Unknown,Churned,0
+CST_000258,Đà Nẵng,Referral,2024-03-17,55+,Female,Returning,0
+CST_000259,Cần Thơ,Referral,2024-07-20,55+,Unknown,Churned,0
+CST_000260,Cần Thơ,Email,2024-12-28,18-24,Female,VIP,0
+CST_000261,TP.HCM,Shopee Ads,2024-12-10,55+,Female,New,0
+CST_000262,Huế,Organic Search,2024-11-01,55+,Unknown,Returning,0
+CST_000263,Huế,Google Ads,2024-01-27,55+,Unknown,Churned,0
+CST_000264,Hải Phòng,TikTok Ads,2024-03-16,55+,Unknown,New,0
+CST_000265,Hà Nội,Email,2024-04-07,35-44,Female,Returning,0
+CST_000266,Hải Phòng,Shopee Ads,2024-07-30,55+,Unknown,Churned,0
+CST_000267,Đà Nẵng,Facebook Ads,2024-02-01,55+,Female,Churned,0
+CST_000268,Đồng Nai,Referral,2024-09-26,25-34,Female,VIP,0
+CST_000269,Bình Dương,Organic Search,2024-10-06,55+,Female,Returning,0
+CST_000270,Cần Thơ,Organic Search,2024-05-06,25-34,Female,VIP,0
+CST_000271,Hải Phòng,Email,2024-12-26,35-44,Female,VIP,0
+CST_000272,Cần Thơ,Organic Search,2024-10-13,18-24,Unknown,Churned,0
+CST_000273,Bình Dương,Google Ads,2024-07-21,35-44,Male,VIP,0
+CST_000274,TP.HCM,Referral,2024-12-31,45-54,Unknown,VIP,0
+CST_000275,Hải Phòng,Facebook Ads,2024-09-02,55+,Female,VIP,0
+CST_000276,TP.HCM,Facebook Ads,2024-03-11,25-34,Male,Returning,0
+CST_000277,Hải Phòng,TikTok Ads,2024-11-22,18-24,Female,VIP,0
+CST_000278,TP.HCM,Google Ads,2024-08-29,18-24,Unknown,Returning,0
+CST_000279,Huế,Email,2024-07-27,25-34,Female,VIP,0
+CST_000280,Hà Nội,Instagram Ads,2024-05-26,55+,Male,New,0
+CST_000281,Đồng Nai,Google Ads,2024-03-30,18-24,Female,Churned,0
+CST_000282,Cần Thơ,TikTok Ads,2024-04-05,18-24,Female,New,0
+CST_000283,Cần Thơ,Email,2024-06-20,55+,Unknown,Churned,0
+CST_000284,Huế,Organic Search,2024-03-09,25-34,Male,VIP,0
+CST_000285,Huế,Organic Search,2024-03-24,25-34,Male,VIP,0
+CST_000286,Hải Phòng,Google Ads,2024-05-31,55+,Unknown,Churned,0
+CST_000287,Bình Dương,Instagram Ads,2024-08-06,45-54,Unknown,New,0
+CST_000288,Đà Nẵng,Email,2024-04-04,35-44,Male,New,0
+CST_000289,Đồng Nai,Facebook Ads,2024-05-13,45-54,Female,VIP,0
+CST_000290,Hà Nội,Organic Search,2024-06-03,35-44,Unknown,Returning,0
+CST_000291,TP.HCM,Email,2024-02-01,35-44,Male,Churned,0
+CST_000292,Cần Thơ,Instagram Ads,2024-12-17,35-44,Female,Returning,0
+CST_000293,Đà Nẵng,Email,2024-04-22,25-34,Female,VIP,0
+CST_000294,Huế,Facebook Ads,2024-07-31,25-34,Unknown,New,0
+CST_000295,Huế,Referral,2024-09-26,18-24,Unknown,New,0
+CST_000296,Hải Phòng,Google Ads,2024-02-01,25-34,Female,Churned,0
+CST_000297,Hải Phòng,Email,2024-02-29,18-24,Unknown,Churned,0
+CST_000298,Huế,Google Ads,2024-01-29,55+,Female,Churned,0
+CST_000299,Hà Nội,Email,2024-10-15,35-44,Unknown,New,0
+CST_000300,Cần Thơ,TikTok Ads,2024-07-21,25-34,Unknown,New,0
+CST_000301,Đồng Nai,Referral,2024-01-24,18-24,Unknown,New,0
+CST_000302,Huế,TikTok Ads,2024-02-05,35-44,Female,Returning,0
+CST_000303,Đồng Nai,Referral,2024-03-10,45-54,Female,Churned,0
+CST_000304,TP.HCM,Google Ads,2024-07-11,35-44,Male,Returning,0
+CST_000305,Đồng Nai,Google Ads,2024-10-02,25-34,Male,New,0
+CST_000306,Huế,Shopee Ads,2024-06-01,55+,Female,Returning,0
+CST_000307,Huế,Referral,2024-05-06,25-34,Female,Returning,0
+CST_000308,Hà Nội,Shopee Ads,2024-02-27,55+,Male,Returning,0
+CST_000309,TP.HCM,Instagram Ads,2024-04-15,55+,Male,Churned,0
+CST_000310,Hà Nội,Facebook Ads,2024-11-02,18-24,Female,Churned,0
+CST_000311,Hải Phòng,TikTok Ads,2024-04-29,25-34,Unknown,VIP,0
+CST_000312,Bình Dương,Referral,2024-04-29,25-34,Female,Returning,0
+CST_000313,Hải Phòng,Shopee Ads,2024-12-04,35-44,Female,New,0
+CST_000314,Đà Nẵng,Shopee Ads,2024-10-12,55+,Female,New,0
+CST_000315,Đồng Nai,Referral,2024-06-25,45-54,Female,Returning,0
+CST_000316,Đồng Nai,Google Ads,2024-06-02,55+,Female,Returning,0
+CST_000317,Cần Thơ,Google Ads,2024-04-25,45-54,Male,Churned,0
+CST_000318,Đà Nẵng,Shopee Ads,2024-08-01,25-34,Female,Returning,0
+CST_000319,TP.HCM,Email,2024-06-18,35-44,Male,Returning,0
+CST_000320,Cần Thơ,Shopee Ads,2024-01-27,55+,Unknown,New,0
+CST_000321,Hải Phòng,Facebook Ads,2024-02-07,45-54,Male,VIP,0
+CST_000322,Hà Nội,Facebook Ads,2024-06-04,25-34,Unknown,New,0
+CST_000323,Hải Phòng,Facebook Ads,2024-09-02,45-54,Male,VIP,0
+CST_000324,Đồng Nai,Email,2024-05-24,55+,Unknown,VIP,0
+CST_000325,Cần Thơ,Referral,2024-06-06,55+,Female,Churned,0
+CST_000326,Huế,Referral,2024-02-20,25-34,Female,VIP,0
+CST_000327,Hà Nội,Facebook Ads,2024-07-30,25-34,Male,VIP,0
+CST_000328,Đồng Nai,Organic Search,2024-10-10,25-34,Male,VIP,0
+CST_000329,Đồng Nai,Facebook Ads,2024-04-27,45-54,Unknown,VIP,0
+CST_000330,Huế,Email,2024-05-11,45-54,Male,VIP,0
+CST_000331,Đà Nẵng,Email,2024-03-27,25-34,Unknown,New,0
+CST_000332,Hà Nội,Instagram Ads,2024-09-25,18-24,Male,Churned,0
+CST_000333,Hải Phòng,Instagram Ads,2024-03-11,25-34,Male,Returning,0
+CST_000334,Huế,Referral,2024-09-15,18-24,Unknown,Churned,0
+CST_000335,Huế,TikTok Ads,2024-12-03,18-24,Unknown,Churned,0
+CST_000336,Hà Nội,Organic Search,2024-01-07,55+,Female,New,0
+CST_000337,Đồng Nai,Google Ads,2024-09-14,18-24,Male,Returning,0
+CST_000338,Hải Phòng,Organic Search,2024-05-03,35-44,Female,Churned,0
+CST_000339,Bình Dương,Shopee Ads,2024-02-10,45-54,Unknown,Returning,0
+CST_000340,Hải Phòng,Organic Search,2024-12-22,18-24,Unknown,New,0
+CST_000341,Đồng Nai,Shopee Ads,2024-02-17,45-54,Unknown,Churned,0
+CST_000342,Hà Nội,Google Ads,2024-01-29,18-24,Female,Churned,0
+CST_000343,Bình Dương,Instagram Ads,2024-11-26,55+,Male,Returning,0
+CST_000344,Huế,Organic Search,2024-04-18,18-24,Male,VIP,0
+CST_000345,Hà Nội,Google Ads,2024-10-05,35-44,Male,Returning,0
+CST_000346,Đà Nẵng,Shopee Ads,2024-10-27,18-24,Female,Returning,0
+CST_000347,Hải Phòng,Shopee Ads,2024-10-15,55+,Female,Churned,0
+CST_000348,TP.HCM,Referral,2024-03-12,18-24,Male,Churned,0
+CST_000349,TP.HCM,Referral,2024-04-28,55+,Unknown,Churned,0
+CST_000350,Hà Nội,Organic Search,2024-06-16,45-54,Female,Returning,0
+CST_000351,Đồng Nai,Shopee Ads,2024-07-01,25-34,Unknown,Churned,0
+CST_000352,Cần Thơ,Facebook Ads,2024-02-13,18-24,Male,VIP,0
+CST_000353,Đồng Nai,Google Ads,2024-03-19,45-54,Female,VIP,0
+CST_000354,TP.HCM,TikTok Ads,2024-02-24,35-44,Female,VIP,0
+CST_000355,TP.HCM,Google Ads,2024-05-18,18-24,Male,Churned,0
+CST_000356,Đồng Nai,Instagram Ads,2024-08-17,18-24,Male,VIP,0
+CST_000357,TP.HCM,Referral,2024-10-10,45-54,Male,VIP,0
+CST_000358,Đồng Nai,Instagram Ads,2024-07-30,55+,Male,Returning,0
+CST_000359,Đồng Nai,Google Ads,2024-12-16,25-34,Female,VIP,0
+CST_000360,Huế,Google Ads,2024-05-17,18-24,Male,Churned,0
+CST_000361,Đồng Nai,Organic Search,2024-05-21,45-54,Male,VIP,0
+CST_000362,Hải Phòng,Email,2024-05-08,55+,Unknown,Returning,0
+CST_000363,TP.HCM,Google Ads,2024-08-22,35-44,Male,Churned,0
+CST_000364,Đồng Nai,Referral,2024-06-19,45-54,Female,Churned,0
+CST_000365,Đà Nẵng,Organic Search,2024-11-29,35-44,Unknown,Returning,0
+CST_000366,Bình Dương,Google Ads,2024-09-02,45-54,Female,VIP,0
+CST_000367,Huế,Facebook Ads,2024-12-21,35-44,Female,VIP,0
+CST_000368,Bình Dương,Instagram Ads,2024-07-20,55+,Male,Returning,0
+CST_000369,Hà Nội,Email,2024-12-15,25-34,Female,VIP,0
+CST_000370,TP.HCM,Shopee Ads,2024-12-20,45-54,Male,VIP,0
+CST_000371,Cần Thơ,Google Ads,2024-05-03,45-54,Female,New,0
+CST_000372,Huế,Shopee Ads,2024-08-17,55+,Unknown,Churned,0
+CST_000373,Hà Nội,Referral,2024-10-05,55+,Unknown,New,0
+CST_000374,Hải Phòng,Referral,2024-02-25,25-34,Unknown,New,0
+CST_000375,Đồng Nai,Referral,2024-10-15,45-54,Male,New,0
+CST_000376,Cần Thơ,Facebook Ads,2024-02-20,55+,Unknown,Returning,0
+CST_000377,Bình Dương,Shopee Ads,2024-08-16,45-54,Unknown,Returning,0
+CST_000378,Hà Nội,Email,2024-06-25,18-24,Female,Churned,0
+CST_000379,TP.HCM,Google Ads,2024-02-13,35-44,Female,VIP,0
+CST_000380,Hải Phòng,Email,2024-08-21,35-44,Female,New,0
+CST_000381,Huế,Referral,2024-08-12,18-24,Female,New,0
+CST_000382,TP.HCM,TikTok Ads,2024-12-29,35-44,Unknown,New,0
+CST_000383,Đà Nẵng,Facebook Ads,2024-12-12,55+,Male,Returning,0
+CST_000384,Đồng Nai,Email,2024-06-18,25-34,Female,Returning,0
+CST_000385,Đồng Nai,Shopee Ads,2024-04-05,18-24,Unknown,Returning,0
+CST_000386,Đồng Nai,Shopee Ads,2024-08-18,18-24,Unknown,Returning,0
+CST_000387,Cần Thơ,Instagram Ads,2024-04-15,55+,Male,Returning,0
+CST_000388,Bình Dương,Facebook Ads,2024-07-06,45-54,Male,VIP,0
+CST_000389,Huế,Referral,2024-12-09,55+,Female,Churned,0
+CST_000390,TP.HCM,Referral,2024-10-27,35-44,Female,Returning,0
+CST_000391,Cần Thơ,Instagram Ads,2024-12-10,25-34,Female,New,0
+CST_000392,Cần Thơ,Instagram Ads,2024-05-02,25-34,Female,Returning,0
+CST_000393,Đồng Nai,Shopee Ads,2024-09-18,55+,Male,Churned,0
+CST_000394,Đà Nẵng,Email,2024-08-04,55+,Unknown,Returning,0
+CST_000395,Đà Nẵng,Email,2024-10-11,35-44,Male,Returning,0
+CST_000396,Huế,TikTok Ads,2024-06-10,35-44,Male,Churned,0
+CST_000397,Hải Phòng,Shopee Ads,2024-03-10,55+,Unknown,Churned,0
+CST_000398,Huế,Shopee Ads,2024-07-28,45-54,Female,Returning,0
+CST_000399,Hà Nội,Facebook Ads,2024-02-12,35-44,Male,VIP,0
+CST_000400,Cần Thơ,Google Ads,2024-04-25,45-54,Unknown,Churned,0
+CST_000401,TP.HCM,Instagram Ads,2024-10-08,35-44,Unknown,VIP,0
+CST_000402,Hà Nội,Email,2024-10-04,55+,Male,Churned,0
+CST_000403,Hải Phòng,Organic Search,2024-02-22,18-24,Female,VIP,0
+CST_000404,TP.HCM,Email,2024-06-27,18-24,Male,Returning,0
+CST_000405,Bình Dương,Shopee Ads,2024-10-28,25-34,Unknown,Returning,0
+CST_000406,Hải Phòng,TikTok Ads,2024-04-15,55+,Female,VIP,0
+CST_000407,Đà Nẵng,Referral,2024-11-01,35-44,Female,VIP,0
+CST_000408,TP.HCM,Google Ads,2024-09-20,45-54,Male,VIP,0
+CST_000409,Đà Nẵng,Google Ads,2024-12-01,25-34,Male,VIP,0
+CST_000410,Đồng Nai,Email,2024-05-06,25-34,Unknown,VIP,0
+CST_000411,Đồng Nai,Shopee Ads,2024-11-17,45-54,Male,New,0
+CST_000412,Cần Thơ,Referral,2024-07-25,45-54,Female,VIP,0
+CST_000413,Hà Nội,Instagram Ads,2024-10-24,45-54,Unknown,VIP,0
+CST_000414,Đồng Nai,Facebook Ads,2024-02-02,45-54,Male,Churned,0
+CST_000415,Bình Dương,Organic Search,2024-05-17,35-44,Unknown,Returning,0
+CST_000416,Huế,Referral,2024-10-16,18-24,Male,New,0
+CST_000417,Huế,TikTok Ads,2024-11-16,18-24,Male,Churned,0
+CST_000418,Hà Nội,Shopee Ads,2024-08-21,25-34,Unknown,Returning,0
+CST_000419,Cần Thơ,Google Ads,2024-11-28,35-44,Male,VIP,0
+CST_000420,TP.HCM,Referral,2024-05-08,25-34,Male,Churned,0
+CST_000421,Cần Thơ,Facebook Ads,2024-11-16,45-54,Unknown,New,0
+CST_000422,TP.HCM,TikTok Ads,2024-12-26,25-34,Female,New,0
+CST_000423,Hải Phòng,Email,2024-03-08,18-24,Male,VIP,0
+CST_000424,Đồng Nai,Google Ads,2024-03-02,45-54,Male,Returning,0
+CST_000425,TP.HCM,Instagram Ads,2024-07-15,18-24,Female,VIP,0
+CST_000426,Đà Nẵng,Shopee Ads,2024-06-02,25-34,Unknown,Returning,0
+CST_000427,Hà Nội,Google Ads,2024-02-05,45-54,Female,Returning,0
+CST_000428,Đà Nẵng,Shopee Ads,2024-11-17,55+,Unknown,Churned,0
+CST_000429,TP.HCM,Instagram Ads,2024-04-21,25-34,Male,Churned,0
+CST_000430,Đồng Nai,Referral,2024-06-28,25-34,Male,VIP,0
+CST_000431,TP.HCM,Facebook Ads,2024-11-26,55+,Unknown,VIP,0
+CST_000432,Hà Nội,Organic Search,2024-12-19,25-34,Unknown,Returning,0
+CST_000433,Cần Thơ,TikTok Ads,2024-07-19,25-34,Female,Churned,0
+CST_000434,Hải Phòng,Email,2024-02-27,55+,Male,New,0
+CST_000435,Bình Dương,Google Ads,2024-07-03,45-54,Unknown,Churned,0
+CST_000436,Đà Nẵng,Email,2024-07-06,18-24,Male,New,0
+CST_000437,Cần Thơ,Facebook Ads,2024-01-08,18-24,Male,Churned,0
+CST_000438,Cần Thơ,Shopee Ads,2024-09-16,45-54,Unknown,Churned,0
+CST_000439,Đà Nẵng,Organic Search,2024-02-12,18-24,Female,New,0
+CST_000440,Hải Phòng,Google Ads,2024-09-18,55+,Female,Churned,0
+CST_000441,TP.HCM,Organic Search,2024-10-27,45-54,Unknown,Returning,0
+CST_000442,Hải Phòng,Instagram Ads,2024-01-30,45-54,Male,Churned,0
+CST_000443,Hà Nội,Organic Search,2024-11-09,25-34,Male,New,0
+CST_000444,Đà Nẵng,TikTok Ads,2024-12-28,25-34,Female,VIP,0
+CST_000445,Cần Thơ,Google Ads,2024-09-24,35-44,Male,VIP,0
+CST_000446,Hà Nội,Referral,2024-03-01,45-54,Female,New,0
+CST_000447,TP.HCM,Email,2024-05-14,45-54,Unknown,VIP,0
+CST_000448,Huế,Google Ads,2024-01-29,35-44,Male,VIP,0
+CST_000449,TP.HCM,Facebook Ads,2024-02-22,55+,Male,New,0
+CST_000450,Hải Phòng,TikTok Ads,2024-01-07,45-54,Female,Churned,0
+CST_000451,Đà Nẵng,TikTok Ads,2024-03-17,55+,Unknown,Churned,0
+CST_000452,Bình Dương,Facebook Ads,2024-04-24,45-54,Unknown,VIP,0
+CST_000453,TP.HCM,Referral,2024-05-18,18-24,Unknown,New,0
+CST_000454,Hải Phòng,TikTok Ads,2024-04-01,45-54,Male,Churned,0
+CST_000455,Cần Thơ,Referral,2024-05-24,18-24,Unknown,Churned,0
+CST_000456,Bình Dương,Facebook Ads,2024-01-05,35-44,Unknown,VIP,0
+CST_000457,Hải Phòng,Email,2024-11-14,35-44,Unknown,Churned,0
+CST_000458,Hải Phòng,Google Ads,2024-04-10,18-24,Female,New,0
+CST_000459,Bình Dương,TikTok Ads,2024-04-29,35-44,Male,Churned,0
+CST_000460,TP.HCM,Facebook Ads,2024-06-06,55+,Male,Churned,0
+CST_000461,Hà Nội,Google Ads,2024-09-08,35-44,Male,New,0
+CST_000462,Đồng Nai,Referral,2024-04-28,45-54,Unknown,New,0
+CST_000463,TP.HCM,Google Ads,2024-10-24,45-54,Male,New,0
+CST_000464,Đà Nẵng,Facebook Ads,2024-08-10,35-44,Female,VIP,0
+CST_000465,Bình Dương,Referral,2024-07-20,45-54,Female,Returning,0
+CST_000466,Hải Phòng,Google Ads,2024-02-08,55+,Male,Returning,0
+CST_000467,Đà Nẵng,Email,2024-02-24,45-54,Female,Churned,0
+CST_000468,Bình Dương,Facebook Ads,2024-03-02,45-54,Female,Churned,0
+CST_000469,TP.HCM,Instagram Ads,2024-05-15,25-34,Unknown,VIP,0
+CST_000470,Hà Nội,Facebook Ads,2024-12-26,35-44,Male,New,0
+CST_000471,Hải Phòng,Referral,2024-12-30,45-54,Unknown,New,0
+CST_000472,Cần Thơ,Organic Search,2024-12-12,25-34,Male,Churned,0
+CST_000473,Hải Phòng,Instagram Ads,2024-08-19,45-54,Male,Returning,0
+CST_000474,Hà Nội,TikTok Ads,2024-03-03,25-34,Male,Returning,0
+CST_000475,Bình Dương,Instagram Ads,2024-07-24,55+,Unknown,VIP,0
+CST_000476,Hà Nội,Instagram Ads,2024-02-08,25-34,Unknown,Churned,0
+CST_000477,TP.HCM,Referral,2024-03-06,18-24,Male,Churned,0
+CST_000478,Đà Nẵng,Shopee Ads,2024-01-26,45-54,Female,New,0
+CST_000479,Đồng Nai,Google Ads,2024-07-14,35-44,Male,Returning,0
+CST_000480,Cần Thơ,Email,2024-05-20,25-34,Male,Returning,0
+CST_000481,Cần Thơ,Email,2024-11-27,45-54,Unknown,Churned,0
+CST_000482,TP.HCM,Organic Search,2024-02-01,45-54,Male,Churned,0
+CST_000483,Hải Phòng,TikTok Ads,2024-04-12,45-54,Unknown,VIP,0
+CST_000484,Huế,Referral,2024-09-02,55+,Unknown,VIP,0
+CST_000485,Cần Thơ,Google Ads,2024-07-17,18-24,Female,Returning,0
+CST_000486,Cần Thơ,TikTok Ads,2024-01-16,45-54,Unknown,VIP,0
+CST_000487,Hải Phòng,Google Ads,2024-10-26,18-24,Male,Returning,0
+CST_000488,Hà Nội,Facebook Ads,2024-05-16,55+,Female,VIP,0
+CST_000489,Đà Nẵng,Facebook Ads,2024-03-29,55+,Female,VIP,0
+CST_000490,Hà Nội,Referral,2024-10-29,55+,Unknown,Returning,0
+CST_000491,Hải Phòng,Email,2024-10-15,55+,Female,Returning,0
+CST_000492,Hà Nội,Instagram Ads,2024-09-08,18-24,Male,Returning,0
+CST_000493,Huế,TikTok Ads,2024-01-11,35-44,Unknown,Returning,0
+CST_000494,Bình Dương,Google Ads,2024-03-07,35-44,Male,New,0
+CST_000495,Đà Nẵng,Instagram Ads,2024-03-16,55+,Female,New,0
+CST_000496,Đồng Nai,Instagram Ads,2024-07-10,35-44,Female,VIP,0
+CST_000497,Đà Nẵng,Shopee Ads,2024-03-10,45-54,Unknown,VIP,0
+CST_000498,Bình Dương,Facebook Ads,2024-03-30,55+,Male,Churned,0
+CST_000499,Cần Thơ,Google Ads,2024-06-06,25-34,Unknown,New,0
+CST_000500,Đồng Nai,TikTok Ads,2024-12-25,25-34,Unknown,VIP,0
+CST_000501,Hải Phòng,Instagram Ads,2024-11-09,45-54,Male,VIP,0
+CST_000502,Hải Phòng,Referral,2024-02-09,35-44,Male,New,0
+CST_000503,Bình Dương,Email,2024-12-28,18-24,Female,Returning,0
+CST_000504,TP.HCM,Referral,2024-05-07,35-44,Male,New,0
+CST_000505,Đồng Nai,Email,2024-01-25,45-54,Male,Churned,0
+CST_000506,Đồng Nai,Referral,2024-09-09,55+,Female,New,0
+CST_000507,Hải Phòng,Google Ads,2024-09-02,45-54,Male,New,0
+CST_000508,Hà Nội,Referral,2024-05-30,35-44,Male,New,0
+CST_000509,Đà Nẵng,Shopee Ads,2024-06-24,25-34,Unknown,New,0
+CST_000510,TP.HCM,Referral,2024-10-07,55+,Unknown,Churned,0
+CST_000511,Hà Nội,Shopee Ads,2024-12-26,25-34,Unknown,Churned,0
+CST_000512,Hà Nội,Instagram Ads,2024-03-21,35-44,Male,Returning,0
+CST_000513,Cần Thơ,Organic Search,2024-07-28,35-44,Male,New,0
+CST_000514,Đồng Nai,Email,2024-01-26,25-34,Male,VIP,0
+CST_000515,Đồng Nai,Instagram Ads,2024-01-02,35-44,Unknown,Churned,0
+CST_000516,TP.HCM,TikTok Ads,2024-04-12,25-34,Male,VIP,0
+CST_000517,Huế,Instagram Ads,2024-02-11,35-44,Female,Churned,0
+CST_000518,Cần Thơ,Instagram Ads,2024-09-07,55+,Female,Returning,0
+CST_000519,Đồng Nai,Referral,2024-07-08,25-34,Female,New,0
+CST_000520,Huế,Email,2024-05-14,35-44,Male,VIP,0
+CST_000521,Hà Nội,Google Ads,2024-10-15,18-24,Male,VIP,0
+CST_000522,Đồng Nai,Facebook Ads,2024-10-04,55+,Male,Churned,0
+CST_000523,Đồng Nai,Email,2024-09-24,55+,Male,Churned,0
+CST_000524,TP.HCM,Shopee Ads,2024-06-02,18-24,Unknown,Returning,0
+CST_000525,Huế,Google Ads,2024-03-02,25-34,Male,Returning,0
+CST_000526,Hà Nội,Shopee Ads,2024-03-05,18-24,Unknown,Churned,0
+CST_000527,Đà Nẵng,Organic Search,2024-04-13,35-44,Unknown,New,0
+CST_000528,Đồng Nai,Shopee Ads,2024-02-14,55+,Female,VIP,0
+CST_000529,Huế,TikTok Ads,2024-09-23,55+,Unknown,Churned,0
+CST_000530,Đồng Nai,Google Ads,2024-02-27,25-34,Unknown,New,0
+CST_000531,TP.HCM,Organic Search,2024-02-24,55+,Female,Churned,0
+CST_000532,Đồng Nai,Email,2024-05-15,55+,Unknown,Churned,0
+CST_000533,Đà Nẵng,Organic Search,2024-01-20,45-54,Male,Churned,0
+CST_000534,Đồng Nai,Referral,2024-01-20,25-34,Male,Churned,0
+CST_000535,Bình Dương,TikTok Ads,2024-05-17,35-44,Female,VIP,0
+CST_000536,Huế,Instagram Ads,2024-05-23,25-34,Male,VIP,0
+CST_000537,Bình Dương,Organic Search,2024-08-14,45-54,Unknown,New,0
+CST_000538,Huế,Facebook Ads,2024-04-06,45-54,Unknown,Churned,0
+CST_000539,Bình Dương,TikTok Ads,2024-09-21,55+,Male,New,0
+CST_000540,Đồng Nai,Google Ads,2024-06-08,55+,Unknown,New,0
+CST_000541,Hải Phòng,Facebook Ads,2024-03-29,18-24,Male,New,0
+CST_000542,Hà Nội,Referral,2024-08-21,25-34,Female,VIP,0
+CST_000543,Đồng Nai,Instagram Ads,2024-08-25,18-24,Male,VIP,0
+CST_000544,Huế,Google Ads,2024-09-07,45-54,Unknown,VIP,0
+CST_000545,Đà Nẵng,Organic Search,2024-06-25,18-24,Female,New,0
+CST_000546,Hà Nội,Google Ads,2024-07-16,55+,Male,Returning,0
+CST_000547,Hải Phòng,Facebook Ads,2024-11-27,35-44,Unknown,Churned,0
+CST_000548,Hà Nội,TikTok Ads,2024-09-19,45-54,Male,Returning,0
+CST_000549,Hà Nội,Facebook Ads,2024-11-03,35-44,Unknown,VIP,0
+CST_000550,Cần Thơ,Shopee Ads,2024-12-30,45-54,Female,Churned,0
+CST_000551,Hải Phòng,Email,2024-05-09,35-44,Unknown,Churned,0
+CST_000552,TP.HCM,TikTok Ads,2024-10-26,55+,Unknown,VIP,0
+CST_000553,Cần Thơ,Organic Search,2024-10-14,18-24,Female,New,0
+CST_000554,Cần Thơ,Referral,2024-06-21,35-44,Female,VIP,0
+CST_000555,Đà Nẵng,Facebook Ads,2024-04-06,18-24,Unknown,Churned,0
+CST_000556,Bình Dương,Google Ads,2024-12-04,18-24,Unknown,Churned,0
+CST_000557,Cần Thơ,Shopee Ads,2024-05-31,45-54,Female,New,0
+CST_000558,Hải Phòng,Referral,2024-10-25,25-34,Unknown,Churned,0
+CST_000559,Bình Dương,Organic Search,2024-12-09,25-34,Unknown,Returning,0
+CST_000560,TP.HCM,Email,2024-05-30,25-34,Unknown,VIP,0
+CST_000561,Đà Nẵng,Referral,2024-10-13,18-24,Male,VIP,0
+CST_000562,Cần Thơ,Shopee Ads,2024-04-24,35-44,Female,VIP,0
+CST_000563,Cần Thơ,Email,2024-10-26,18-24,Female,New,0
+CST_000564,TP.HCM,Email,2024-11-20,25-34,Unknown,New,0
+CST_000565,Đồng Nai,Organic Search,2024-12-14,45-54,Male,Returning,0
+CST_000566,Hải Phòng,Referral,2024-03-11,45-54,Unknown,Churned,0
+CST_000567,Bình Dương,Google Ads,2024-03-14,18-24,Female,VIP,0
+CST_000568,Đà Nẵng,Referral,2024-11-19,18-24,Male,Churned,0
+CST_000569,Hải Phòng,Google Ads,2024-05-20,55+,Male,Churned,0
+CST_000570,Đà Nẵng,Shopee Ads,2024-02-15,45-54,Female,Churned,0
+CST_000571,Đồng Nai,TikTok Ads,2024-09-01,18-24,Unknown,Returning,0
+CST_000572,Hà Nội,Referral,2024-07-10,55+,Male,New,0
+CST_000573,Hà Nội,Facebook Ads,2024-12-12,25-34,Unknown,VIP,0
+CST_000574,Đà Nẵng,Instagram Ads,2024-06-08,45-54,Unknown,VIP,0
+CST_000575,TP.HCM,TikTok Ads,2024-03-26,35-44,Female,Churned,0
+CST_000576,Bình Dương,Shopee Ads,2024-09-23,25-34,Female,Churned,0
+CST_000577,Hải Phòng,Google Ads,2024-07-02,45-54,Male,Returning,0
+CST_000578,Đà Nẵng,Facebook Ads,2024-04-24,18-24,Unknown,Returning,0
+CST_000579,Bình Dương,TikTok Ads,2024-03-04,45-54,Unknown,VIP,0
+CST_000580,Hà Nội,TikTok Ads,2024-09-30,18-24,Unknown,New,0
+CST_000581,TP.HCM,Shopee Ads,2024-01-25,45-54,Female,New,0
+CST_000582,Cần Thơ,Email,2024-10-07,25-34,Male,New,0
+CST_000583,Đồng Nai,Instagram Ads,2024-06-03,55+,Female,Returning,0
+CST_000584,TP.HCM,Instagram Ads,2024-08-02,35-44,Male,New,0
+CST_000585,Hải Phòng,Facebook Ads,2024-09-11,35-44,Unknown,Returning,0
+CST_000586,Đồng Nai,Organic Search,2024-07-02,25-34,Male,Churned,0
+CST_000587,Huế,Referral,2024-04-16,25-34,Male,New,0
+CST_000588,TP.HCM,Instagram Ads,2024-12-09,55+,Unknown,Churned,0
+CST_000589,TP.HCM,Instagram Ads,2024-03-17,18-24,Female,Returning,0
+CST_000590,Cần Thơ,Organic Search,2024-08-21,45-54,Male,New,0
+CST_000591,Hà Nội,Organic Search,2024-03-30,35-44,Unknown,VIP,0
+CST_000592,TP.HCM,Instagram Ads,2024-08-06,18-24,Male,Returning,0
+CST_000593,Đà Nẵng,Referral,2024-12-05,35-44,Female,VIP,0
+CST_000594,Bình Dương,Referral,2024-02-17,25-34,Male,Churned,0
+CST_000595,Huế,Organic Search,2024-07-23,45-54,Unknown,Churned,0
+CST_000596,Đà Nẵng,Instagram Ads,2024-08-03,25-34,Unknown,New,0
+CST_000597,TP.HCM,Shopee Ads,2024-03-22,55+,Female,Churned,0
+CST_000598,Đồng Nai,Referral,2024-04-02,55+,Male,Returning,0
+CST_000599,Huế,Instagram Ads,2024-09-04,45-54,Female,New,0
+CST_000600,Cần Thơ,Referral,2024-02-02,18-24,Unknown,Returning,0
+CST_000601,Bình Dương,Instagram Ads,2024-12-08,45-54,Unknown,Returning,0
+CST_000602,Bình Dương,Shopee Ads,2024-09-03,25-34,Unknown,New,0
+CST_000603,Đà Nẵng,Email,2024-01-06,45-54,Male,New,0
+CST_000604,Bình Dương,Facebook Ads,2024-09-08,35-44,Female,New,0
+CST_000605,Hải Phòng,Shopee Ads,2024-09-16,45-54,Male,New,0
+CST_000606,Huế,Email,2024-08-23,18-24,Female,Churned,0
+CST_000607,TP.HCM,Email,2024-06-10,18-24,Male,Churned,0
+CST_000608,Hà Nội,TikTok Ads,2024-07-30,18-24,Unknown,VIP,0
+CST_000609,Hải Phòng,Email,2024-09-17,35-44,Female,New,0
+CST_000610,Huế,Referral,2024-04-24,55+,Unknown,Churned,0
+CST_000611,Bình Dương,Email,2024-12-02,18-24,Male,Returning,0
+CST_000612,Bình Dương,Referral,2024-01-02,35-44,Unknown,VIP,0
+CST_000613,TP.HCM,TikTok Ads,2024-12-25,25-34,Female,Returning,0
+CST_000614,TP.HCM,Organic Search,2024-07-28,55+,Male,Returning,0
+CST_000615,Đồng Nai,Facebook Ads,2024-03-02,45-54,Male,VIP,0
+CST_000616,Đồng Nai,TikTok Ads,2024-02-25,55+,Male,Churned,0
+CST_000617,Đà Nẵng,Email,2024-08-22,18-24,Unknown,New,0
+CST_000618,Đồng Nai,Email,2024-10-10,55+,Male,Returning,0
+CST_000619,TP.HCM,Shopee Ads,2024-03-06,55+,Unknown,VIP,0
+CST_000620,Đồng Nai,Shopee Ads,2024-09-15,55+,Unknown,Returning,0
+CST_000621,Đồng Nai,Referral,2024-05-20,35-44,Female,Returning,0
+CST_000622,Đồng Nai,Organic Search,2024-03-11,55+,Female,Returning,0
+CST_000623,Hải Phòng,Organic Search,2024-04-12,35-44,Unknown,Returning,0
+CST_000624,Đà Nẵng,Referral,2024-12-29,18-24,Female,Churned,0
+CST_000625,Đồng Nai,Organic Search,2024-10-25,45-54,Male,New,0
+CST_000626,Đồng Nai,Google Ads,2024-01-13,18-24,Unknown,New,0
+CST_000627,Cần Thơ,Google Ads,2024-04-12,35-44,Unknown,VIP,0
+CST_000628,Hà Nội,Organic Search,2024-03-15,25-34,Unknown,New,0
+CST_000629,Huế,Instagram Ads,2024-07-02,55+,Unknown,Returning,0
+CST_000630,Đồng Nai,Facebook Ads,2024-11-27,55+,Unknown,VIP,0
+CST_000631,Hà Nội,Shopee Ads,2024-12-20,45-54,Female,VIP,0
+CST_000632,Hà Nội,TikTok Ads,2024-10-09,35-44,Male,Churned,0
+CST_000633,Bình Dương,Facebook Ads,2024-04-25,25-34,Female,Churned,0
+CST_000634,TP.HCM,Google Ads,2024-03-31,25-34,Unknown,New,0
+CST_000635,Hà Nội,Shopee Ads,2024-07-12,35-44,Unknown,VIP,0
+CST_000636,Đà Nẵng,Organic Search,2024-03-07,18-24,Female,Churned,0
+CST_000637,Đà Nẵng,TikTok Ads,2024-12-29,25-34,Female,New,0
+CST_000638,Cần Thơ,Email,2024-11-16,55+,Unknown,VIP,0
+CST_000639,Bình Dương,Facebook Ads,2024-02-07,25-34,Unknown,New,0
+CST_000640,Đà Nẵng,Shopee Ads,2024-09-15,55+,Unknown,Churned,0
+CST_000641,Bình Dương,Facebook Ads,2024-02-17,25-34,Unknown,VIP,0
+CST_000642,Bình Dương,Organic Search,2024-06-18,25-34,Unknown,Churned,0
+CST_000643,Hà Nội,Instagram Ads,2024-10-14,35-44,Female,Returning,0
+CST_000644,Hải Phòng,TikTok Ads,2024-11-24,35-44,Female,New,0
+CST_000645,Cần Thơ,Organic Search,2024-07-16,18-24,Unknown,VIP,0
+CST_000646,Huế,Email,2024-09-20,18-24,Female,Returning,0
+CST_000647,TP.HCM,Instagram Ads,2024-06-13,25-34,Unknown,New,0
+CST_000648,TP.HCM,Facebook Ads,2024-11-16,25-34,Unknown,Churned,0
+CST_000649,Hải Phòng,Shopee Ads,2024-02-23,18-24,Unknown,Returning,0
+CST_000650,Huế,Referral,2024-01-13,18-24,Male,New,0
+CST_000651,Đà Nẵng,Organic Search,2024-01-28,55+,Male,Returning,0
+CST_000652,Đồng Nai,Shopee Ads,2024-05-12,45-54,Unknown,Churned,0
+CST_000653,Bình Dương,TikTok Ads,2024-08-09,45-54,Unknown,New,0
+CST_000654,Hà Nội,Instagram Ads,2024-09-30,55+,Male,New,0
+CST_000655,TP.HCM,Organic Search,2024-07-02,35-44,Unknown,New,0
+CST_000656,Huế,Shopee Ads,2024-05-24,45-54,Unknown,New,0
+CST_000657,Đà Nẵng,Facebook Ads,2024-08-30,25-34,Unknown,Churned,0
+CST_000658,Cần Thơ,Google Ads,2024-10-06,35-44,Unknown,VIP,0
+CST_000659,Đà Nẵng,Instagram Ads,2024-01-06,18-24,Male,Churned,0
+CST_000660,TP.HCM,Organic Search,2024-10-02,25-34,Unknown,VIP,0
+CST_000661,Đồng Nai,Google Ads,2024-04-18,25-34,Male,Returning,0
+CST_000662,Cần Thơ,Facebook Ads,2024-11-11,18-24,Male,New,0
+CST_000663,Huế,Instagram Ads,2024-10-08,35-44,Unknown,New,0
+CST_000664,TP.HCM,Facebook Ads,2024-05-08,55+,Female,VIP,0
+CST_000665,Đà Nẵng,Facebook Ads,2024-07-01,18-24,Female,New,0
+CST_000666,Bình Dương,Email,2024-04-09,45-54,Female,VIP,0
+CST_000667,Đà Nẵng,Referral,2024-12-21,35-44,Female,Returning,0
+CST_000668,Bình Dương,Facebook Ads,2024-01-03,25-34,Unknown,Churned,0
+CST_000669,Bình Dương,Google Ads,2024-05-21,35-44,Female,Churned,0
+CST_000670,Bình Dương,Organic Search,2024-08-16,45-54,Unknown,New,0
+CST_000671,TP.HCM,Organic Search,2024-03-30,25-34,Unknown,Returning,0
+CST_000672,TP.HCM,Instagram Ads,2024-05-14,18-24,Unknown,New,0
+CST_000673,Đồng Nai,Facebook Ads,2024-10-24,18-24,Unknown,VIP,0
+CST_000674,Huế,Google Ads,2024-10-05,35-44,Female,Returning,0
+CST_000675,Cần Thơ,Google Ads,2024-10-28,45-54,Unknown,New,0
+CST_000676,Bình Dương,TikTok Ads,2024-07-22,25-34,Unknown,Returning,0
+CST_000677,Đà Nẵng,Email,2024-09-20,25-34,Male,Returning,0
+CST_000678,Bình Dương,TikTok Ads,2024-09-04,25-34,Female,Returning,0
+CST_000679,Cần Thơ,Referral,2024-02-02,25-34,Male,Returning,0
+CST_000680,Bình Dương,Shopee Ads,2024-09-22,45-54,Female,New,0
+CST_000681,Bình Dương,Instagram Ads,2024-01-21,55+,Unknown,VIP,0
+CST_000682,Đà Nẵng,Shopee Ads,2024-05-14,45-54,Female,New,0
+CST_000683,Cần Thơ,Shopee Ads,2024-09-21,25-34,Unknown,Churned,0
+CST_000684,Bình Dương,Email,2024-06-29,45-54,Unknown,New,0
+CST_000685,Đà Nẵng,Email,2024-09-13,25-34,Male,New,0
+CST_000686,Cần Thơ,Facebook Ads,2024-09-20,25-34,Male,Returning,0
+CST_000687,TP.HCM,Facebook Ads,2024-07-04,45-54,Female,New,0
+CST_000688,Huế,Email,2024-09-03,25-34,Unknown,Returning,0
+CST_000689,Đồng Nai,TikTok Ads,2024-11-27,25-34,Male,Returning,0
+CST_000690,Đà Nẵng,Google Ads,2024-10-20,55+,Male,Returning,0
+CST_000691,Đà Nẵng,Organic Search,2024-01-29,25-34,Unknown,Churned,0
+CST_000692,Hà Nội,Organic Search,2024-11-02,18-24,Male,Churned,0
+CST_000693,Huế,Email,2024-11-06,25-34,Male,Churned,0
+CST_000694,Đà Nẵng,Google Ads,2024-11-03,55+,Unknown,VIP,0
+CST_000695,Bình Dương,Email,2024-03-26,55+,Unknown,New,0
+CST_000696,Đồng Nai,Shopee Ads,2024-04-27,25-34,Male,New,0
+CST_000697,Đồng Nai,Google Ads,2024-04-13,55+,Male,Returning,0
+CST_000698,Hà Nội,Instagram Ads,2024-08-31,18-24,Female,Returning,0
+CST_000699,Hà Nội,Shopee Ads,2024-11-04,55+,Female,VIP,0
+CST_000700,Đồng Nai,Facebook Ads,2024-01-23,45-54,Female,VIP,0
+CST_000701,TP.HCM,Shopee Ads,2024-10-28,25-34,Female,Churned,0
+CST_000702,TP.HCM,Organic Search,2024-04-29,55+,Unknown,Churned,0
+CST_000703,Hải Phòng,TikTok Ads,2024-05-11,18-24,Unknown,New,0
+CST_000704,Hà Nội,Shopee Ads,2024-09-23,25-34,Unknown,VIP,0
+CST_000705,Bình Dương,Instagram Ads,2024-07-28,25-34,Female,VIP,0
+CST_000706,Đồng Nai,Referral,2024-05-13,55+,Female,Churned,0
+CST_000707,Đồng Nai,Email,2024-04-14,25-34,Female,Churned,0
+CST_000708,Cần Thơ,Referral,2024-05-09,45-54,Unknown,Returning,0
+CST_000709,TP.HCM,Facebook Ads,2024-12-03,45-54,Unknown,Returning,0
+CST_000710,Hải Phòng,Shopee Ads,2024-02-21,35-44,Unknown,New,0
+CST_000711,Đồng Nai,TikTok Ads,2024-03-23,18-24,Male,Churned,0
+CST_000712,Đồng Nai,Instagram Ads,2024-11-03,18-24,Female,Returning,0
+CST_000713,TP.HCM,TikTok Ads,2024-07-08,45-54,Female,VIP,0
+CST_000714,Hà Nội,Google Ads,2024-12-30,45-54,Female,New,0
+CST_000715,Cần Thơ,Facebook Ads,2024-04-13,18-24,Unknown,Returning,0
+CST_000716,Đà Nẵng,TikTok Ads,2024-11-10,35-44,Male,New,0
+CST_000717,TP.HCM,Organic Search,2024-03-21,45-54,Female,Churned,0
+CST_000718,Hải Phòng,TikTok Ads,2024-07-26,18-24,Male,VIP,0
+CST_000719,Bình Dương,Referral,2024-10-13,35-44,Male,Returning,0
+CST_000720,Đồng Nai,TikTok Ads,2024-08-20,35-44,Male,Churned,0
+CST_000721,TP.HCM,Instagram Ads,2024-09-16,55+,Female,VIP,0
+CST_000722,Cần Thơ,Organic Search,2024-02-29,45-54,Female,Churned,0
+CST_000723,Bình Dương,Email,2024-05-04,45-54,Unknown,New,0
+CST_000724,TP.HCM,Organic Search,2024-09-03,18-24,Female,Returning,0
+CST_000725,Hải Phòng,Referral,2024-12-12,45-54,Female,New,0
+CST_000726,Cần Thơ,Facebook Ads,2024-12-24,35-44,Male,Churned,0
+CST_000727,Bình Dương,Instagram Ads,2024-12-10,55+,Male,Churned,0
+CST_000728,Bình Dương,Facebook Ads,2024-06-09,55+,Female,Returning,0
+CST_000729,Hải Phòng,Email,2024-12-15,25-34,Male,Returning,0
+CST_000730,Hải Phòng,Facebook Ads,2024-05-15,25-34,Male,VIP,0
+CST_000731,TP.HCM,Instagram Ads,2024-03-20,18-24,Unknown,Churned,0
+CST_000732,Hà Nội,TikTok Ads,2024-11-10,45-54,Female,VIP,0
+CST_000733,Cần Thơ,Email,2024-09-09,25-34,Unknown,VIP,0
+CST_000734,Hải Phòng,Google Ads,2024-07-22,18-24,Unknown,Churned,0
+CST_000735,Hà Nội,Referral,2024-09-01,45-54,Unknown,Returning,0
+CST_000736,TP.HCM,Email,2024-08-22,35-44,Unknown,New,0
+CST_000737,Hải Phòng,Shopee Ads,2024-01-07,55+,Male,VIP,0
+CST_000738,Cần Thơ,Google Ads,2024-07-04,55+,Female,Returning,0
+CST_000739,Huế,Referral,2024-05-17,35-44,Male,Churned,0
+CST_000740,Hải Phòng,Shopee Ads,2024-08-05,35-44,Female,Churned,0
+CST_000741,Huế,Google Ads,2024-05-23,55+,Male,Returning,0
+CST_000742,Cần Thơ,Facebook Ads,2024-02-21,55+,Female,Churned,0
+CST_000743,Đà Nẵng,Google Ads,2024-04-10,45-54,Male,Returning,0
+CST_000744,Huế,Google Ads,2024-08-03,55+,Unknown,VIP,0
+CST_000745,Cần Thơ,Organic Search,2024-09-06,55+,Unknown,New,0
+CST_000746,TP.HCM,Google Ads,2024-07-22,18-24,Male,VIP,0
+CST_000747,TP.HCM,Email,2024-08-31,35-44,Female,VIP,0
+CST_000748,Cần Thơ,Referral,2024-07-03,18-24,Female,New,0
+CST_000749,Hải Phòng,Google Ads,2024-06-28,35-44,Female,VIP,0
+CST_000750,Huế,Email,2024-12-10,18-24,Female,VIP,0
+CST_000751,Đà Nẵng,Google Ads,2024-08-25,35-44,Female,Churned,0
+CST_000752,TP.HCM,Google Ads,2024-02-06,35-44,Male,VIP,0
+CST_000753,Cần Thơ,Organic Search,2024-06-11,55+,Unknown,Churned,0
+CST_000754,Huế,Referral,2024-05-18,55+,Unknown,Churned,0
+CST_000755,Đà Nẵng,Google Ads,2024-07-30,18-24,Male,Returning,0
+CST_000756,Cần Thơ,Instagram Ads,2024-12-04,25-34,Male,Churned,0
+CST_000757,TP.HCM,Instagram Ads,2024-02-22,45-54,Unknown,New,0
+CST_000758,Đồng Nai,Instagram Ads,2024-01-14,18-24,Female,Returning,0
+CST_000759,Đồng Nai,Organic Search,2024-02-13,25-34,Male,VIP,0
+CST_000760,Đà Nẵng,Google Ads,2024-08-14,55+,Male,New,0
+CST_000761,Bình Dương,Referral,2024-01-18,45-54,Female,VIP,0
+CST_000762,Huế,Google Ads,2024-10-07,55+,Male,Churned,0
+CST_000763,Đồng Nai,Organic Search,2024-11-19,35-44,Female,Returning,0
+CST_000764,Huế,Organic Search,2024-02-15,35-44,Female,VIP,0
+CST_000765,Cần Thơ,TikTok Ads,2024-03-20,18-24,Unknown,Returning,0
+CST_000766,Cần Thơ,Email,2024-06-25,55+,Male,Churned,0
+CST_000767,Cần Thơ,TikTok Ads,2024-09-01,45-54,Female,Returning,0
+CST_000768,Bình Dương,Facebook Ads,2024-01-04,45-54,Unknown,Churned,0
+CST_000769,Hải Phòng,Google Ads,2024-07-21,45-54,Female,Returning,0
+CST_000770,TP.HCM,Shopee Ads,2024-05-14,25-34,Unknown,VIP,0
+CST_000771,Cần Thơ,Shopee Ads,2024-05-25,25-34,Male,Returning,0
+CST_000772,Cần Thơ,Instagram Ads,2024-03-10,45-54,Unknown,Churned,0
+CST_000773,Huế,Facebook Ads,2024-05-19,35-44,Male,Returning,0
+CST_000774,Hà Nội,Google Ads,2024-01-26,18-24,Female,VIP,0
+CST_000775,Huế,TikTok Ads,2024-03-05,25-34,Male,Returning,0
+CST_000776,Huế,Facebook Ads,2024-01-08,35-44,Female,VIP,0
+CST_000777,Bình Dương,Email,2024-09-12,18-24,Female,New,0
+CST_000778,Hà Nội,Organic Search,2024-03-15,45-54,Male,Churned,0
+CST_000779,Hải Phòng,Organic Search,2024-04-02,45-54,Male,New,0
+CST_000780,Hải Phòng,Shopee Ads,2024-12-31,45-54,Male,New,0
+CST_000781,Huế,Instagram Ads,2024-04-11,55+,Unknown,Returning,0
+CST_000782,Đồng Nai,Organic Search,2024-08-30,35-44,Male,New,0
+CST_000783,TP.HCM,Organic Search,2024-10-08,45-54,Unknown,VIP,0
+CST_000784,Bình Dương,TikTok Ads,2024-04-11,25-34,Male,Returning,0
+CST_000785,Đồng Nai,Referral,2024-11-20,18-24,Male,VIP,0
+CST_000786,TP.HCM,Shopee Ads,2024-10-26,25-34,Male,New,0
+CST_000787,Huế,Google Ads,2024-10-24,35-44,Male,Returning,0
+CST_000788,Huế,Instagram Ads,2024-03-21,55+,Female,New,0
+CST_000789,Bình Dương,Google Ads,2024-01-31,55+,Male,Returning,0
+CST_000790,Hải Phòng,Referral,2024-09-06,55+,Unknown,VIP,0
+CST_000791,Hải Phòng,TikTok Ads,2024-08-12,45-54,Female,Returning,0
+CST_000792,Hà Nội,Email,2024-05-08,45-54,Unknown,VIP,0
+CST_000793,Huế,Facebook Ads,2024-10-04,55+,Male,VIP,0
+CST_000794,Huế,Organic Search,2024-06-14,55+,Unknown,Returning,0
+CST_000795,Đà Nẵng,Email,2024-02-05,35-44,Female,VIP,0
+CST_000796,Hà Nội,Shopee Ads,2024-08-20,25-34,Male,VIP,0
+CST_000797,Hải Phòng,Referral,2024-11-13,18-24,Unknown,Churned,0
+CST_000798,Huế,Google Ads,2024-04-07,55+,Female,VIP,0
+CST_000799,Bình Dương,Instagram Ads,2024-07-28,18-24,Unknown,New,0
+CST_000800,Đà Nẵng,Google Ads,2024-01-23,18-24,Male,New,0
+CST_000801,Hải Phòng,Instagram Ads,2024-09-05,18-24,Unknown,Churned,0
+CST_000802,Huế,Organic Search,2024-12-02,18-24,Female,Returning,0
+CST_000803,TP.HCM,TikTok Ads,2024-11-06,25-34,Unknown,Churned,0
+CST_000804,Huế,TikTok Ads,2024-02-10,35-44,Unknown,Churned,0
+CST_000805,Hà Nội,Organic Search,2024-07-07,55+,Male,New,0
+CST_000806,TP.HCM,Facebook Ads,2024-06-04,55+,Male,New,0
+CST_000807,Đồng Nai,Facebook Ads,2024-04-28,25-34,Unknown,Returning,0
+CST_000808,Đà Nẵng,Shopee Ads,2024-10-18,18-24,Unknown,VIP,0
+CST_000809,Huế,Shopee Ads,2024-12-11,18-24,Male,Returning,0
+CST_000810,Đồng Nai,Referral,2024-10-08,25-34,Unknown,Churned,0
+CST_000811,Bình Dương,Referral,2024-06-29,35-44,Female,Churned,0
+CST_000812,Hải Phòng,Facebook Ads,2024-06-14,45-54,Unknown,VIP,0
+CST_000813,Huế,Email,2024-07-03,45-54,Male,New,0
+CST_000814,Hà Nội,Google Ads,2024-05-25,35-44,Male,VIP,0
+CST_000815,Hải Phòng,Referral,2024-04-23,18-24,Unknown,VIP,0
+CST_000816,Đà Nẵng,Instagram Ads,2024-10-10,18-24,Female,VIP,0
+CST_000817,Đà Nẵng,Organic Search,2024-03-20,35-44,Unknown,Returning,0
+CST_000818,Cần Thơ,Organic Search,2024-04-29,18-24,Unknown,Churned,0
+CST_000819,Hải Phòng,Instagram Ads,2024-10-18,35-44,Female,Returning,0
+CST_000820,TP.HCM,Organic Search,2024-09-06,18-24,Unknown,Churned,0
+CST_000821,Hà Nội,Referral,2024-02-10,35-44,Female,Churned,0
+CST_000822,Hải Phòng,TikTok Ads,2024-03-02,45-54,Male,VIP,0
+CST_000823,Hà Nội,Referral,2024-09-25,55+,Unknown,Returning,0
+CST_000824,Hải Phòng,Google Ads,2024-06-16,18-24,Unknown,Churned,0
+CST_000825,TP.HCM,Facebook Ads,2024-08-16,45-54,Female,Churned,0
+CST_000826,Đà Nẵng,Referral,2024-03-16,18-24,Female,New,0
+CST_000827,Đồng Nai,Organic Search,2024-10-07,18-24,Female,Churned,0
+CST_000828,Đà Nẵng,Google Ads,2024-12-23,45-54,Unknown,Returning,0
+CST_000829,Đồng Nai,Facebook Ads,2024-09-06,55+,Unknown,Returning,0
+CST_000830,TP.HCM,Organic Search,2024-05-04,45-54,Female,New,0
+CST_000831,Đồng Nai,Shopee Ads,2024-02-27,35-44,Female,Returning,0
+CST_000832,Bình Dương,TikTok Ads,2024-06-13,35-44,Male,VIP,0
+CST_000833,Huế,Google Ads,2024-11-11,45-54,Male,Returning,0
+CST_000834,Bình Dương,Google Ads,2024-04-12,18-24,Male,New,0
+CST_000835,Đà Nẵng,Organic Search,2024-05-04,18-24,Female,New,0
+CST_000836,Huế,Email,2024-06-05,18-24,Female,Returning,0
+CST_000837,Hải Phòng,Facebook Ads,2024-10-02,55+,Unknown,VIP,0
+CST_000838,Huế,Google Ads,2024-10-07,18-24,Female,New,0
+CST_000839,Đà Nẵng,TikTok Ads,2024-05-10,35-44,Male,VIP,0
+CST_000840,Huế,TikTok Ads,2024-01-28,18-24,Female,VIP,0
+CST_000841,Bình Dương,Instagram Ads,2024-12-05,18-24,Female,Churned,0
+CST_000842,Đồng Nai,Instagram Ads,2024-04-28,35-44,Female,New,0
+CST_000843,Hải Phòng,Email,2024-04-05,55+,Unknown,New,0
+CST_000844,Hải Phòng,Organic Search,2024-01-21,35-44,Female,Churned,0
+CST_000845,Hà Nội,Referral,2024-03-21,35-44,Female,VIP,0
+CST_000846,Cần Thơ,TikTok Ads,2024-04-30,35-44,Female,New,0
+CST_000847,Cần Thơ,Facebook Ads,2024-10-11,25-34,Female,Churned,0
+CST_000848,Đà Nẵng,Instagram Ads,2024-12-02,45-54,Unknown,Returning,0
+CST_000849,Hải Phòng,Google Ads,2024-08-01,45-54,Female,VIP,0
+CST_000850,Đà Nẵng,Facebook Ads,2024-08-17,25-34,Unknown,Returning,0
+CST_000851,Cần Thơ,Google Ads,2024-03-11,45-54,Male,Returning,0
+CST_000852,TP.HCM,Instagram Ads,2024-06-11,25-34,Female,Returning,0
+CST_000853,Bình Dương,Shopee Ads,2024-01-16,45-54,Female,Churned,0
+CST_000854,Cần Thơ,Google Ads,2024-11-22,25-34,Male,Returning,0
+CST_000855,Hà Nội,Organic Search,2024-04-04,55+,Unknown,Returning,0
+CST_000856,Hải Phòng,Facebook Ads,2024-11-01,18-24,Female,New,0
+CST_000857,Huế,Google Ads,2024-12-18,55+,Unknown,Churned,0
+CST_000858,Bình Dương,Google Ads,2024-12-30,45-54,Female,Churned,0
+CST_000859,Đà Nẵng,Facebook Ads,2024-03-11,25-34,Male,Churned,0
+CST_000860,Cần Thơ,Shopee Ads,2024-01-08,25-34,Unknown,Returning,0
+CST_000861,TP.HCM,Google Ads,2024-04-14,45-54,Unknown,Churned,0
+CST_000862,Bình Dương,Email,2024-12-18,25-34,Female,Churned,0
+CST_000863,Đồng Nai,Referral,2024-01-22,45-54,Unknown,New,0
+CST_000864,TP.HCM,Email,2024-09-23,45-54,Male,Returning,0
+CST_000865,Đồng Nai,TikTok Ads,2024-09-22,55+,Female,New,0
+CST_000866,Cần Thơ,Email,2024-04-07,45-54,Female,VIP,0
+CST_000867,Đà Nẵng,Shopee Ads,2024-08-24,35-44,Unknown,New,0
+CST_000868,Đà Nẵng,Email,2024-12-19,45-54,Male,New,0
+CST_000869,Đà Nẵng,Shopee Ads,2024-04-02,45-54,Female,Churned,0
+CST_000870,Đà Nẵng,Email,2024-01-13,55+,Unknown,Returning,0
+CST_000871,TP.HCM,Organic Search,2024-08-20,35-44,Unknown,Returning,0
+CST_000872,TP.HCM,Instagram Ads,2024-03-04,45-54,Unknown,VIP,0
+CST_000873,Đồng Nai,Google Ads,2024-02-13,45-54,Unknown,Churned,0
+CST_000874,Đà Nẵng,Referral,2024-01-23,55+,Unknown,Returning,0
+CST_000875,Đà Nẵng,Google Ads,2024-03-24,18-24,Female,VIP,0
+CST_000876,Huế,Organic Search,2024-06-07,25-34,Male,Returning,0
+CST_000877,Hà Nội,Organic Search,2024-04-13,18-24,Female,Churned,0
+CST_000878,Hà Nội,Email,2024-09-12,25-34,Male,Churned,0
+CST_000879,Đồng Nai,Email,2024-08-20,18-24,Unknown,New,0
+CST_000880,Cần Thơ,Facebook Ads,2024-05-05,18-24,Male,Returning,0
+CST_000881,Bình Dương,TikTok Ads,2024-01-29,25-34,Male,VIP,0
+CST_000882,TP.HCM,TikTok Ads,2024-06-18,18-24,Female,Returning,0
+CST_000883,Cần Thơ,Google Ads,2024-03-23,45-54,Unknown,VIP,0
+CST_000884,TP.HCM,Organic Search,2024-01-19,35-44,Female,Churned,0
+CST_000885,Đồng Nai,Instagram Ads,2024-02-04,35-44,Female,Returning,0
+CST_000886,Cần Thơ,Referral,2024-03-03,55+,Female,Returning,0
+CST_000887,Hải Phòng,TikTok Ads,2024-12-22,18-24,Unknown,New,0
+CST_000888,Cần Thơ,Shopee Ads,2024-09-04,55+,Female,VIP,0
+CST_000889,Bình Dương,Google Ads,2024-09-26,55+,Unknown,Churned,0
+CST_000890,Huế,Email,2024-09-23,25-34,Unknown,Returning,0
+CST_000891,Cần Thơ,Facebook Ads,2024-12-28,18-24,Male,New,0
+CST_000892,TP.HCM,Facebook Ads,2024-08-26,55+,Female,Churned,0
+CST_000893,Bình Dương,Referral,2024-01-24,55+,Unknown,Returning,0
+CST_000894,Hải Phòng,Organic Search,2024-01-06,35-44,Male,VIP,0
+CST_000895,Bình Dương,TikTok Ads,2024-06-02,18-24,Unknown,VIP,0
+CST_000896,Đồng Nai,TikTok Ads,2024-06-23,25-34,Male,VIP,0
+CST_000897,Huế,Email,2024-06-22,18-24,Unknown,Returning,0
+CST_000898,Đà Nẵng,Email,2024-09-03,55+,Female,Churned,0
+CST_000899,Hà Nội,Organic Search,2024-07-30,55+,Unknown,VIP,0
+CST_000900,Hà Nội,Facebook Ads,2024-10-11,55+,Unknown,VIP,0
+CST_000901,TP.HCM,Google Ads,2024-06-30,35-44,Male,VIP,0
+CST_000902,Đà Nẵng,Shopee Ads,2024-07-11,25-34,Unknown,New,0
+CST_000903,Bình Dương,TikTok Ads,2024-06-06,35-44,Female,New,0
+CST_000904,Hải Phòng,Referral,2024-09-11,45-54,Female,Returning,0
+CST_000905,Cần Thơ,Google Ads,2024-09-25,18-24,Female,New,0
+CST_000906,TP.HCM,Email,2024-04-13,55+,Male,Churned,0
+CST_000907,Đà Nẵng,Facebook Ads,2024-09-13,35-44,Female,VIP,0
+CST_000908,Đà Nẵng,Instagram Ads,2024-06-16,55+,Unknown,Returning,0
+CST_000909,Hà Nội,Email,2024-04-15,45-54,Unknown,New,0
+CST_000910,Cần Thơ,TikTok Ads,2024-01-03,55+,Male,VIP,0
+CST_000911,Hà Nội,Instagram Ads,2024-08-27,55+,Unknown,VIP,0
+CST_000912,Cần Thơ,Facebook Ads,2024-01-12,35-44,Male,Returning,0
+CST_000913,Cần Thơ,Referral,2024-05-26,45-54,Unknown,New,0
+CST_000914,Đà Nẵng,Google Ads,2024-05-19,35-44,Male,New,0
+CST_000915,TP.HCM,Facebook Ads,2024-11-14,55+,Female,VIP,0
+CST_000916,Đà Nẵng,Organic Search,2024-05-18,55+,Male,Returning,0
+CST_000917,Cần Thơ,Referral,2024-02-06,55+,Female,New,0
+CST_000918,Hà Nội,Email,2024-03-07,18-24,Male,Churned,0
+CST_000919,TP.HCM,Shopee Ads,2024-01-28,45-54,Male,Churned,0
+CST_000920,Bình Dương,Organic Search,2024-11-11,35-44,Male,New,0
+CST_000921,Đà Nẵng,Instagram Ads,2024-08-26,45-54,Male,Churned,0
+CST_000922,Huế,Email,2024-06-07,25-34,Male,Returning,0
+CST_000923,Cần Thơ,Referral,2024-11-11,45-54,Male,VIP,0
+CST_000924,Huế,Email,2024-06-15,18-24,Male,Churned,0
+CST_000925,Bình Dương,Email,2024-02-27,45-54,Male,VIP,0
+CST_000926,Đà Nẵng,Instagram Ads,2024-06-27,45-54,Unknown,New,0
+CST_000927,TP.HCM,Organic Search,2024-06-15,55+,Female,Churned,0
+CST_000928,Đồng Nai,Facebook Ads,2024-10-29,55+,Male,Returning,0
+CST_000929,Đồng Nai,Instagram Ads,2024-09-03,35-44,Male,Churned,0
+CST_000930,Bình Dương,Facebook Ads,2024-08-10,25-34,Unknown,New,0
+CST_000931,Huế,Instagram Ads,2024-12-30,55+,Unknown,Churned,0
+CST_000932,TP.HCM,Email,2024-06-15,25-34,Female,Churned,0
+CST_000933,TP.HCM,Shopee Ads,2024-02-05,35-44,Female,New,0
+CST_000934,Hải Phòng,Google Ads,2024-02-16,55+,Unknown,New,0
+CST_000935,Đà Nẵng,Email,2024-03-16,55+,Female,Churned,0
+CST_000936,Huế,Facebook Ads,2024-11-11,25-34,Unknown,VIP,0
+CST_000937,Cần Thơ,Shopee Ads,2024-06-02,35-44,Male,New,0
+CST_000938,Đồng Nai,Google Ads,2024-11-09,35-44,Male,VIP,0
+CST_000939,Hà Nội,TikTok Ads,2024-10-08,55+,Female,New,0
+CST_000940,Hà Nội,Facebook Ads,2024-05-24,45-54,Unknown,Churned,0
+CST_000941,Bình Dương,Shopee Ads,2024-11-16,45-54,Female,Churned,0
+CST_000942,Hải Phòng,Google Ads,2024-10-06,45-54,Male,Returning,0
+CST_000943,Đồng Nai,Referral,2024-10-11,45-54,Male,VIP,0
+CST_000944,Đà Nẵng,Google Ads,2024-12-09,18-24,Male,New,0
+CST_000945,Huế,Shopee Ads,2024-03-14,25-34,Male,Returning,0
+CST_000946,Đồng Nai,Email,2024-11-24,55+,Female,Returning,0
+CST_000947,Đồng Nai,Email,2024-08-20,45-54,Female,Returning,0
+CST_000948,Đồng Nai,TikTok Ads,2024-04-05,55+,Female,Returning,0
+CST_000949,Cần Thơ,Shopee Ads,2024-12-30,55+,Unknown,VIP,0
+CST_000950,Hà Nội,Email,2024-01-18,35-44,Male,Churned,0
+CST_000951,TP.HCM,Google Ads,2024-12-19,55+,Female,Churned,0
+CST_000952,TP.HCM,Instagram Ads,2024-09-21,25-34,Female,New,0
+CST_000953,Cần Thơ,TikTok Ads,2024-12-16,35-44,Unknown,New,0
+CST_000954,Huế,Email,2024-08-28,55+,Unknown,VIP,0
+CST_000955,Bình Dương,Organic Search,2024-08-03,35-44,Male,New,0
+CST_000956,Cần Thơ,Organic Search,2024-12-21,18-24,Unknown,Churned,0
+CST_000957,Đà Nẵng,TikTok Ads,2024-10-23,35-44,Unknown,New,0
+CST_000958,Huế,Instagram Ads,2024-05-26,25-34,Unknown,New,0
+CST_000959,Cần Thơ,Google Ads,2024-05-22,55+,Female,VIP,0
+CST_000960,Hà Nội,Instagram Ads,2024-05-11,55+,Male,Returning,0
+CST_000961,Huế,Referral,2024-12-03,25-34,Female,Returning,0
+CST_000962,Đà Nẵng,TikTok Ads,2024-09-05,35-44,Male,Returning,0
+CST_000963,Đà Nẵng,Email,2024-10-31,45-54,Female,Returning,0
+CST_000964,Huế,Google Ads,2024-12-04,25-34,Unknown,VIP,0
+CST_000965,Cần Thơ,Instagram Ads,2024-01-28,18-24,Male,Churned,0
+CST_000966,Huế,Organic Search,2024-07-23,45-54,Unknown,Returning,0
+CST_000967,Đồng Nai,Email,2024-07-13,35-44,Male,Churned,0
+CST_000968,Cần Thơ,Email,2024-01-07,45-54,Unknown,VIP,0
+CST_000969,Hà Nội,Instagram Ads,2024-09-28,55+,Unknown,VIP,0
+CST_000970,Cần Thơ,Referral,2024-08-09,35-44,Female,New,0
+CST_000971,Đồng Nai,Email,2024-05-10,25-34,Unknown,Returning,0
+CST_000972,Bình Dương,Google Ads,2024-09-23,35-44,Unknown,New,0
+CST_000973,Hà Nội,Instagram Ads,2024-12-10,18-24,Female,New,0
+CST_000974,TP.HCM,Email,2024-09-25,35-44,Male,VIP,0
+CST_000975,Hải Phòng,TikTok Ads,2024-05-08,18-24,Unknown,New,0
+CST_000976,Hải Phòng,Instagram Ads,2024-01-30,18-24,Male,Returning,0
+CST_000977,Đà Nẵng,Instagram Ads,2024-07-11,25-34,Female,VIP,0
+CST_000978,TP.HCM,Email,2024-08-27,35-44,Female,VIP,0
+CST_000979,Đà Nẵng,Instagram Ads,2024-05-11,35-44,Male,Churned,0
+CST_000980,Bình Dương,TikTok Ads,2024-07-17,35-44,Female,Returning,0
+CST_000981,TP.HCM,Email,2024-08-13,25-34,Unknown,Churned,0
+CST_000982,Huế,Instagram Ads,2024-04-01,25-34,Unknown,Churned,0
+CST_000983,TP.HCM,Email,2024-04-21,35-44,Male,New,0
+CST_000984,TP.HCM,Organic Search,2024-02-07,45-54,Male,Churned,0
+CST_000985,Hà Nội,TikTok Ads,2024-03-17,45-54,Female,Returning,0
+CST_000986,Bình Dương,Shopee Ads,2024-12-24,55+,Male,Churned,0
+CST_000987,Đồng Nai,Shopee Ads,2024-09-01,18-24,Unknown,Returning,0
+CST_000988,Đồng Nai,Email,2024-01-02,18-24,Unknown,VIP,0
+CST_000989,Cần Thơ,Shopee Ads,2024-06-19,18-24,Unknown,New,0
+CST_000990,Bình Dương,Instagram Ads,2024-07-06,45-54,Female,Returning,0
+CST_000991,Hà Nội,Shopee Ads,2024-03-31,25-34,Female,Churned,0
+CST_000992,Bình Dương,Email,2024-02-24,18-24,Unknown,Churned,0
+CST_000993,Đà Nẵng,TikTok Ads,2024-04-07,25-34,Male,Returning,0
+CST_000994,Đồng Nai,Instagram Ads,2024-09-07,55+,Unknown,VIP,0
+CST_000995,Huế,TikTok Ads,2024-09-12,18-24,Female,New,0
+CST_000996,Hà Nội,Shopee Ads,2024-06-21,18-24,Male,Churned,0
+CST_000997,Đà Nẵng,Facebook Ads,2024-12-13,18-24,Male,Returning,0
+CST_000998,Hà Nội,Email,2024-09-07,55+,Male,Returning,0
+CST_000999,Đà Nẵng,TikTok Ads,2024-12-25,25-34,Unknown,New,0
+CST_001000,TP.HCM,Email,2024-06-06,55+,Male,New,0
+CST_001001,TP.HCM,Email,2024-02-24,55+,Unknown,Returning,0
+CST_001002,Hải Phòng,Shopee Ads,2024-02-02,35-44,Unknown,Churned,0
+CST_001003,TP.HCM,Google Ads,2024-06-15,35-44,Male,New,0
+CST_001004,Đà Nẵng,Referral,2024-10-30,18-24,Male,VIP,0
+CST_001005,Đồng Nai,Google Ads,2024-03-13,35-44,Unknown,Returning,0
+CST_001006,Hải Phòng,TikTok Ads,2024-08-12,25-34,Male,Churned,0
+CST_001007,Hà Nội,Email,2024-03-21,18-24,Male,New,0
+CST_001008,TP.HCM,Organic Search,2024-04-01,45-54,Unknown,Churned,0
+CST_001009,Đà Nẵng,Facebook Ads,2024-12-20,25-34,Unknown,VIP,0
+CST_001010,Huế,Shopee Ads,2024-09-24,25-34,Male,New,0
+CST_001011,Đà Nẵng,Email,2024-11-01,55+,Male,VIP,0
+CST_001012,Đồng Nai,TikTok Ads,2024-06-27,55+,Male,Returning,0
+CST_001013,TP.HCM,Referral,2024-03-01,55+,Unknown,Returning,0
+CST_001014,Hải Phòng,Organic Search,2024-08-25,18-24,Male,New,0
+CST_001015,Huế,Email,2024-03-17,25-34,Male,New,0
+CST_001016,Bình Dương,Organic Search,2024-01-28,25-34,Female,VIP,0
+CST_001017,Huế,TikTok Ads,2024-06-20,18-24,Unknown,New,0
+CST_001018,Đà Nẵng,Google Ads,2024-10-02,18-24,Female,New,0
+CST_001019,Hải Phòng,Email,2024-02-06,55+,Unknown,VIP,0
+CST_001020,Hải Phòng,Referral,2024-08-02,25-34,Male,VIP,0
+CST_001021,TP.HCM,Facebook Ads,2024-04-26,45-54,Male,Churned,0
+CST_001022,TP.HCM,Email,2024-04-22,55+,Female,New,0
+CST_001023,Đà Nẵng,Facebook Ads,2024-08-11,55+,Female,Returning,0
+CST_001024,Bình Dương,Google Ads,2024-07-17,45-54,Unknown,Returning,0
+CST_001025,Bình Dương,Organic Search,2024-11-19,25-34,Female,Returning,0
+CST_001026,Hà Nội,Organic Search,2024-01-17,25-34,Male,Churned,0
+CST_001027,Đồng Nai,Google Ads,2024-08-22,35-44,Male,VIP,0
+CST_001028,Đà Nẵng,Google Ads,2024-11-05,55+,Unknown,Returning,0
+CST_001029,Đồng Nai,Email,2024-02-14,25-34,Unknown,Churned,0
+CST_001030,Cần Thơ,TikTok Ads,2024-08-24,45-54,Unknown,Returning,0
+CST_001031,Bình Dương,Shopee Ads,2024-05-06,55+,Male,Returning,0
+CST_001032,Hà Nội,Shopee Ads,2024-10-20,18-24,Male,Churned,0
+CST_001033,Hà Nội,Shopee Ads,2024-09-15,55+,Female,Churned,0
+CST_001034,TP.HCM,Email,2024-12-22,45-54,Male,New,0
+CST_001035,Hà Nội,Shopee Ads,2024-10-12,25-34,Male,VIP,0
+CST_001036,Hải Phòng,Instagram Ads,2024-05-31,18-24,Female,VIP,0
+CST_001037,Huế,TikTok Ads,2024-03-23,45-54,Female,Returning,0
+CST_001038,Đồng Nai,Google Ads,2024-12-26,35-44,Unknown,Churned,0
+CST_001039,Hà Nội,Instagram Ads,2024-12-26,45-54,Unknown,VIP,0
+CST_001040,Hà Nội,Organic Search,2024-09-28,45-54,Female,Returning,0
+CST_001041,TP.HCM,Referral,2024-12-16,18-24,Unknown,VIP,0
+CST_001042,TP.HCM,Shopee Ads,2024-01-27,35-44,Female,New,0
+CST_001043,Bình Dương,Google Ads,2024-07-06,55+,Unknown,New,0
+CST_001044,Hải Phòng,Google Ads,2024-10-14,35-44,Male,New,0
+CST_001045,Huế,Facebook Ads,2024-11-28,25-34,Female,VIP,0
+CST_001046,Đồng Nai,Organic Search,2024-05-16,18-24,Male,VIP,0
+CST_001047,Huế,Email,2024-06-25,55+,Unknown,New,0
+CST_001048,Cần Thơ,Email,2024-08-28,55+,Female,New,0
+CST_001049,Huế,Instagram Ads,2024-04-06,18-24,Female,Returning,0
+CST_001050,TP.HCM,Instagram Ads,2024-05-27,25-34,Female,New,0
+CST_001051,Đà Nẵng,Email,2024-12-22,25-34,Male,New,0
+CST_001052,Đồng Nai,Google Ads,2024-05-30,45-54,Female,Churned,0
+CST_001053,Hà Nội,Organic Search,2024-08-15,25-34,Male,New,0
+CST_001054,Bình Dương,Shopee Ads,2024-04-28,55+,Female,VIP,0
+CST_001055,Huế,Email,2024-09-05,35-44,Unknown,Returning,0
+CST_001056,Đà Nẵng,Organic Search,2024-06-05,25-34,Female,VIP,0
+CST_001057,Hà Nội,Google Ads,2024-05-27,35-44,Female,Churned,0
+CST_001058,Đà Nẵng,Organic Search,2024-03-26,25-34,Male,Returning,0
+CST_001059,Hải Phòng,Instagram Ads,2024-03-23,18-24,Female,Returning,0
+CST_001060,Cần Thơ,Referral,2024-08-13,25-34,Male,New,0
+CST_001061,Bình Dương,Referral,2024-12-06,25-34,Female,Churned,0
+CST_001062,Đà Nẵng,Organic Search,2024-10-03,18-24,Male,Churned,0
+CST_001063,Đà Nẵng,Email,2024-09-12,35-44,Male,New,0
+CST_001064,Bình Dương,Organic Search,2024-10-06,45-54,Female,Returning,0
+CST_001065,Huế,Referral,2024-10-16,18-24,Unknown,Churned,0
+CST_001066,Đà Nẵng,Instagram Ads,2024-01-21,35-44,Male,Churned,0
+CST_001067,Hải Phòng,Email,2024-11-12,35-44,Male,VIP,0
+CST_001068,Hải Phòng,Facebook Ads,2024-01-29,35-44,Male,New,0
+CST_001069,Huế,Instagram Ads,2024-02-12,55+,Female,Returning,0
+CST_001070,Bình Dương,TikTok Ads,2024-09-08,35-44,Female,Returning,0
+CST_001071,Bình Dương,Shopee Ads,2024-08-06,35-44,Male,VIP,0
+CST_001072,Bình Dương,Organic Search,2024-06-25,45-54,Unknown,New,0
+CST_001073,Huế,Shopee Ads,2024-04-20,45-54,Female,Returning,0
+CST_001074,Đồng Nai,Google Ads,2024-08-05,55+,Unknown,New,0
+CST_001075,Hải Phòng,Organic Search,2024-03-14,45-54,Unknown,VIP,0
+CST_001076,Đồng Nai,Instagram Ads,2024-02-03,18-24,Female,VIP,0
+CST_001077,Đà Nẵng,Email,2024-07-31,55+,Male,Returning,0
+CST_001078,Đồng Nai,Organic Search,2024-04-05,55+,Female,New,0
+CST_001079,Cần Thơ,Email,2024-06-03,55+,Unknown,Churned,0
+CST_001080,Hà Nội,TikTok Ads,2024-04-24,25-34,Female,VIP,0
+CST_001081,Huế,Instagram Ads,2024-11-23,35-44,Female,Returning,0
+CST_001082,Hải Phòng,TikTok Ads,2024-09-08,18-24,Female,Churned,0
+CST_001083,Bình Dương,Email,2024-02-04,55+,Female,VIP,0
+CST_001084,Huế,Instagram Ads,2024-11-17,35-44,Unknown,New,0
+CST_001085,Đà Nẵng,TikTok Ads,2024-05-12,25-34,Female,Churned,0
+CST_001086,Đà Nẵng,Referral,2024-12-20,25-34,Male,VIP,0
+CST_001087,Đồng Nai,Referral,2024-07-03,18-24,Female,VIP,0
+CST_001088,TP.HCM,Facebook Ads,2024-09-28,25-34,Male,Returning,0
+CST_001089,Bình Dương,Referral,2024-10-05,35-44,Female,VIP,0
+CST_001090,Bình Dương,Google Ads,2024-02-19,18-24,Male,VIP,0
+CST_001091,Huế,Shopee Ads,2024-07-09,35-44,Male,New,0
+CST_001092,Đà Nẵng,Facebook Ads,2024-04-21,25-34,Unknown,New,0
+CST_001093,Huế,Instagram Ads,2024-08-01,18-24,Male,New,0
+CST_001094,Bình Dương,Organic Search,2024-09-02,35-44,Male,Churned,0
+CST_001095,Bình Dương,Google Ads,2024-11-01,35-44,Male,New,0
+CST_001096,Đà Nẵng,Google Ads,2024-04-23,25-34,Female,Returning,0
+CST_001097,Đà Nẵng,Instagram Ads,2024-04-17,45-54,Unknown,New,0
+CST_001098,Hà Nội,Email,2024-02-09,45-54,Male,Returning,0
+CST_001099,Hà Nội,TikTok Ads,2024-02-25,45-54,Male,VIP,0
+CST_001100,TP.HCM,Organic Search,2024-01-23,18-24,Male,New,0
+CST_001101,Hải Phòng,Facebook Ads,2024-11-04,25-34,Unknown,VIP,0
+CST_001102,TP.HCM,Google Ads,2024-01-15,35-44,Unknown,VIP,0
+CST_001103,Đà Nẵng,Facebook Ads,2024-06-29,55+,Unknown,New,0
+CST_001104,Hà Nội,Facebook Ads,2024-02-20,25-34,Female,Returning,0
+CST_001105,Hà Nội,Instagram Ads,2024-10-02,25-34,Unknown,Churned,0
+CST_001106,Đà Nẵng,Email,2024-07-06,18-24,Male,VIP,0
+CST_001107,Đồng Nai,Facebook Ads,2024-07-13,55+,Male,Churned,0
+CST_001108,Bình Dương,Instagram Ads,2024-02-27,45-54,Male,Returning,0
+CST_001109,Bình Dương,Organic Search,2024-09-10,55+,Unknown,New,0
+CST_001110,Bình Dương,Email,2024-02-12,18-24,Female,VIP,0
+CST_001111,Cần Thơ,Email,2024-08-21,25-34,Unknown,Churned,0
+CST_001112,Đồng Nai,Facebook Ads,2024-05-28,18-24,Female,VIP,0
+CST_001113,Hà Nội,Email,2024-04-01,18-24,Female,Churned,0
+CST_001114,TP.HCM,Instagram Ads,2024-09-24,25-34,Female,Churned,0
+CST_001115,TP.HCM,Google Ads,2024-12-21,18-24,Female,Returning,0
+CST_001116,Hải Phòng,Shopee Ads,2024-06-22,18-24,Male,Churned,0
+CST_001117,Cần Thơ,Organic Search,2024-09-12,45-54,Female,Churned,0
+CST_001118,Đồng Nai,Email,2024-12-07,55+,Female,Returning,0
+CST_001119,TP.HCM,Instagram Ads,2024-08-20,35-44,Female,Churned,0
+CST_001120,Đà Nẵng,TikTok Ads,2024-04-28,18-24,Unknown,New,0
+CST_001121,Huế,TikTok Ads,2024-02-04,25-34,Female,VIP,0
+CST_001122,Cần Thơ,Instagram Ads,2024-03-19,18-24,Unknown,Churned,0
+CST_001123,Hải Phòng,Organic Search,2024-08-26,45-54,Female,VIP,0
+CST_001124,Bình Dương,TikTok Ads,2024-10-04,18-24,Female,New,0
+CST_001125,Huế,Referral,2024-07-15,45-54,Female,Churned,0
+CST_001126,Hà Nội,Google Ads,2024-01-19,55+,Unknown,VIP,0
+CST_001127,Đà Nẵng,Email,2024-12-27,45-54,Male,VIP,0
+CST_001128,Huế,Instagram Ads,2024-07-18,55+,Unknown,Churned,0
+CST_001129,Huế,Email,2024-12-03,55+,Male,New,0
+CST_001130,Cần Thơ,Email,2024-07-19,55+,Female,VIP,0
+CST_001131,Bình Dương,TikTok Ads,2024-05-25,18-24,Unknown,New,0
+CST_001132,Bình Dương,Referral,2024-03-06,55+,Male,VIP,0
+CST_001133,TP.HCM,Shopee Ads,2024-07-13,35-44,Female,Churned,0
+CST_001134,Hà Nội,Facebook Ads,2024-06-28,25-34,Male,VIP,0
+CST_001135,TP.HCM,Instagram Ads,2024-10-30,35-44,Male,VIP,0
+CST_001136,Hà Nội,Referral,2024-03-27,18-24,Female,Churned,0
+CST_001137,Đồng Nai,Organic Search,2024-10-17,18-24,Unknown,Churned,0
+CST_001138,Hà Nội,Referral,2024-10-28,45-54,Unknown,Churned,0
+CST_001139,TP.HCM,Email,2024-06-14,18-24,Unknown,Returning,0
+CST_001140,Huế,Referral,2024-06-21,25-34,Unknown,VIP,0
+CST_001141,Đồng Nai,Facebook Ads,2024-07-05,45-54,Unknown,New,0
+CST_001142,Hải Phòng,Organic Search,2024-10-01,35-44,Male,VIP,0
+CST_001143,Đồng Nai,Facebook Ads,2024-10-20,55+,Unknown,New,0
+CST_001144,TP.HCM,Referral,2024-10-23,35-44,Male,Churned,0
+CST_001145,Hải Phòng,Referral,2024-08-06,18-24,Unknown,VIP,0
+CST_001146,Cần Thơ,Shopee Ads,2024-09-15,55+,Female,Returning,0
+CST_001147,Đồng Nai,Organic Search,2024-07-31,55+,Unknown,Churned,0
+CST_001148,Đà Nẵng,TikTok Ads,2024-12-09,55+,Male,Churned,0
+CST_001149,Huế,Organic Search,2024-04-19,55+,Unknown,Churned,0
+CST_001150,Hà Nội,Facebook Ads,2024-10-16,35-44,Female,Returning,0
+CST_001151,Đà Nẵng,Organic Search,2024-05-03,45-54,Female,VIP,0
+CST_001152,Hải Phòng,Shopee Ads,2024-02-02,35-44,Female,Returning,0
+CST_001153,Hải Phòng,Shopee Ads,2024-05-11,25-34,Male,Returning,0
+CST_001154,Hà Nội,Facebook Ads,2024-04-08,35-44,Female,Churned,0
+CST_001155,Đồng Nai,Shopee Ads,2024-10-13,18-24,Male,Returning,0
+CST_001156,Đà Nẵng,TikTok Ads,2024-05-19,35-44,Female,Returning,0
+CST_001157,Hà Nội,Email,2024-11-25,18-24,Male,New,0
+CST_001158,Cần Thơ,Instagram Ads,2024-06-09,45-54,Female,New,0
+CST_001159,Đà Nẵng,Facebook Ads,2024-07-22,18-24,Unknown,New,0
+CST_001160,Cần Thơ,Email,2024-09-24,18-24,Male,New,0
+CST_001161,Bình Dương,Shopee Ads,2024-06-09,25-34,Female,Returning,0
+CST_001162,TP.HCM,Google Ads,2024-03-14,25-34,Female,Churned,0
+CST_001163,Cần Thơ,TikTok Ads,2024-07-28,45-54,Unknown,VIP,0
+CST_001164,TP.HCM,Referral,2024-12-24,55+,Female,Churned,0
+CST_001165,Hải Phòng,Organic Search,2024-12-15,25-34,Female,Churned,0
+CST_001166,Cần Thơ,TikTok Ads,2024-07-07,55+,Male,New,0
+CST_001167,Hải Phòng,Organic Search,2024-12-19,55+,Female,VIP,0
+CST_001168,Bình Dương,Instagram Ads,2024-11-23,55+,Male,Churned,0
+CST_001169,Hà Nội,Shopee Ads,2024-07-17,35-44,Female,New,0
+CST_001170,Cần Thơ,Facebook Ads,2024-04-30,25-34,Female,VIP,0
+CST_001171,Đồng Nai,TikTok Ads,2024-11-25,35-44,Male,Churned,0
+CST_001172,Đồng Nai,Referral,2024-08-29,45-54,Male,Returning,0
+CST_001173,Cần Thơ,Instagram Ads,2024-12-23,35-44,Female,VIP,0
+CST_001174,Hà Nội,TikTok Ads,2024-08-20,25-34,Unknown,Churned,0
+CST_001175,Đà Nẵng,TikTok Ads,2024-11-24,45-54,Male,VIP,0
+CST_001176,TP.HCM,Instagram Ads,2024-06-09,25-34,Male,Returning,0
+CST_001177,Đồng Nai,Referral,2024-10-31,45-54,Female,Returning,0
+CST_001178,Đà Nẵng,Referral,2024-05-13,35-44,Male,New,0
+CST_001179,Bình Dương,Google Ads,2024-07-31,45-54,Female,Returning,0
+CST_001180,Hà Nội,Facebook Ads,2024-01-11,18-24,Female,Returning,0
+CST_001181,Đà Nẵng,TikTok Ads,2024-05-14,45-54,Unknown,Churned,0
+CST_001182,Cần Thơ,Google Ads,2024-11-03,18-24,Female,Returning,0
+CST_001183,TP.HCM,TikTok Ads,2024-10-17,55+,Female,Churned,0
+CST_001184,Huế,Instagram Ads,2024-12-10,25-34,Unknown,Returning,0
+CST_001185,Cần Thơ,Organic Search,2024-04-07,45-54,Female,Returning,0
+CST_001186,Hải Phòng,Facebook Ads,2024-08-08,35-44,Unknown,Returning,0
+CST_001187,Đà Nẵng,Shopee Ads,2024-08-02,25-34,Male,VIP,0
+CST_001188,Hải Phòng,Email,2024-05-14,25-34,Female,Churned,0
+CST_001189,Hà Nội,Email,2024-02-13,25-34,Female,Churned,0
+CST_001190,Hải Phòng,Shopee Ads,2024-12-17,45-54,Unknown,VIP,0
+CST_001191,TP.HCM,TikTok Ads,2024-02-07,18-24,Female,Returning,0
+CST_001192,Bình Dương,TikTok Ads,2024-08-29,18-24,Female,Churned,0
+CST_001193,Đồng Nai,Referral,2024-06-03,25-34,Unknown,New,0
+CST_001194,Đà Nẵng,Organic Search,2024-10-24,25-34,Unknown,Churned,0
+CST_001195,Huế,Google Ads,2024-06-22,18-24,Female,Churned,0
+CST_001196,Cần Thơ,Instagram Ads,2024-03-13,35-44,Male,Returning,0
+CST_001197,Cần Thơ,Referral,2024-09-12,45-54,Female,VIP,0
+CST_001198,Cần Thơ,Referral,2024-11-09,45-54,Male,VIP,0
+CST_001199,Đà Nẵng,Email,2024-09-08,18-24,Male,Returning,0
+CST_001200,Hải Phòng,Google Ads,2024-01-28,18-24,Female,VIP,0
+CST_001201,Huế,Shopee Ads,2024-03-24,18-24,Female,New,0
+CST_001202,Bình Dương,Email,2024-08-14,45-54,Female,New,0
+CST_001203,TP.HCM,Referral,2024-03-16,18-24,Male,VIP,0
+CST_001204,Đà Nẵng,Organic Search,2024-04-02,55+,Unknown,Returning,0
+CST_001205,Hà Nội,Google Ads,2024-10-25,45-54,Male,Returning,0
+CST_001206,TP.HCM,Referral,2024-09-12,18-24,Female,New,0
+CST_001207,Bình Dương,Instagram Ads,2024-07-20,35-44,Male,New,0
+CST_001208,Huế,Email,2024-02-11,45-54,Unknown,VIP,0
+CST_001209,Hà Nội,Referral,2024-10-31,18-24,Unknown,Churned,0
+CST_001210,Đà Nẵng,Facebook Ads,2024-06-15,18-24,Unknown,VIP,0
+CST_001211,Hà Nội,Instagram Ads,2024-06-14,55+,Unknown,Churned,0
+CST_001212,Đồng Nai,Organic Search,2024-02-17,25-34,Male,Churned,0
+CST_001213,Hà Nội,Facebook Ads,2024-02-15,25-34,Female,Churned,0
+CST_001214,Đà Nẵng,Instagram Ads,2024-05-25,35-44,Female,Churned,0
+CST_001215,Đà Nẵng,Referral,2024-06-07,18-24,Female,Returning,0
+CST_001216,Huế,Shopee Ads,2024-09-07,45-54,Female,Churned,0
+CST_001217,Đồng Nai,Referral,2024-02-16,55+,Male,Churned,0
+CST_001218,Đồng Nai,Instagram Ads,2024-11-18,18-24,Unknown,VIP,0
+CST_001219,Hải Phòng,Google Ads,2024-08-25,45-54,Unknown,New,0
+CST_001220,Huế,Shopee Ads,2024-05-28,18-24,Female,VIP,0
+CST_001221,Đà Nẵng,Organic Search,2024-03-17,25-34,Unknown,Churned,0
+CST_001222,Hà Nội,Instagram Ads,2024-05-31,18-24,Unknown,New,0
+CST_001223,Đồng Nai,Shopee Ads,2024-09-18,18-24,Female,VIP,0
+CST_001224,Cần Thơ,Instagram Ads,2024-06-30,55+,Male,New,0
+CST_001225,Huế,Google Ads,2024-12-04,25-34,Female,New,0
+CST_001226,Đồng Nai,Organic Search,2024-02-12,35-44,Unknown,Churned,0
+CST_001227,Huế,Organic Search,2024-12-09,35-44,Male,Returning,0
+CST_001228,TP.HCM,Organic Search,2024-04-04,18-24,Female,New,0
+CST_001229,Đồng Nai,Instagram Ads,2024-01-03,18-24,Male,Churned,0
+CST_001230,Đồng Nai,Email,2024-08-23,35-44,Unknown,VIP,0
+CST_001231,Đồng Nai,Organic Search,2024-12-19,18-24,Male,Returning,0
+CST_001232,Hải Phòng,Instagram Ads,2024-01-08,18-24,Unknown,Returning,0
+CST_001233,Hải Phòng,Email,2024-01-14,25-34,Unknown,Returning,0
+CST_001234,Hải Phòng,Instagram Ads,2024-08-11,35-44,Female,Returning,0
+CST_001235,Đồng Nai,TikTok Ads,2024-08-30,18-24,Male,Returning,0
+CST_001236,Huế,Email,2024-12-25,45-54,Male,Churned,0
+CST_001237,Hải Phòng,Facebook Ads,2024-10-26,35-44,Unknown,Churned,0
+CST_001238,Bình Dương,TikTok Ads,2024-01-27,18-24,Unknown,Churned,0
+CST_001239,Huế,Organic Search,2024-07-31,18-24,Female,Churned,0
+CST_001240,Huế,Facebook Ads,2024-09-05,18-24,Unknown,New,0
+CST_001241,Bình Dương,Instagram Ads,2024-08-04,35-44,Unknown,Churned,0
+CST_001242,TP.HCM,Email,2024-08-30,55+,Unknown,VIP,0
+CST_001243,Đồng Nai,TikTok Ads,2024-08-17,25-34,Female,Returning,0
+CST_001244,Bình Dương,Email,2024-08-28,25-34,Unknown,Returning,0
+CST_001245,Bình Dương,Email,2024-10-27,25-34,Female,Churned,0
+CST_001246,Bình Dương,Email,2024-08-01,25-34,Unknown,Returning,0
+CST_001247,TP.HCM,Email,2024-05-24,25-34,Male,Returning,0
+CST_001248,Huế,Instagram Ads,2024-03-21,45-54,Female,VIP,0
+CST_001249,Hải Phòng,TikTok Ads,2024-04-30,18-24,Female,VIP,0
+CST_001250,Đà Nẵng,Google Ads,2024-07-01,55+,Male,New,0
+CST_001251,Đồng Nai,Instagram Ads,2024-06-21,55+,Male,New,0
+CST_001252,Hải Phòng,Email,2024-10-14,35-44,Female,VIP,0
+CST_001253,Cần Thơ,Google Ads,2024-01-24,55+,Unknown,New,0
+CST_001254,Hà Nội,Email,2024-12-27,45-54,Male,New,0
+CST_001255,TP.HCM,TikTok Ads,2024-11-08,55+,Male,Returning,0
+CST_001256,TP.HCM,Facebook Ads,2024-11-18,35-44,Male,VIP,0
+CST_001257,Huế,Email,2024-12-28,18-24,Male,VIP,0
+CST_001258,Đà Nẵng,Instagram Ads,2024-06-20,25-34,Female,Churned,0
+CST_001259,Hải Phòng,Email,2024-01-04,35-44,Female,Returning,0
+CST_001260,Cần Thơ,Referral,2024-02-13,45-54,Female,Returning,0
+CST_001261,Đồng Nai,Facebook Ads,2024-03-18,25-34,Female,Churned,0
+CST_001262,Huế,Referral,2024-07-28,18-24,Female,Returning,0
+CST_001263,TP.HCM,Instagram Ads,2024-01-06,35-44,Female,Churned,0
+CST_001264,Đồng Nai,TikTok Ads,2024-03-25,45-54,Male,Returning,0
+CST_001265,Hà Nội,Organic Search,2024-10-21,45-54,Female,VIP,0
+CST_001266,Bình Dương,TikTok Ads,2024-06-09,35-44,Unknown,Returning,0
+CST_001267,Đồng Nai,Email,2024-12-24,25-34,Unknown,Churned,0
+CST_001268,Bình Dương,Shopee Ads,2024-12-23,25-34,Female,New,0
+CST_001269,Bình Dương,Shopee Ads,2024-01-19,25-34,Unknown,VIP,0
+CST_001270,TP.HCM,Organic Search,2024-04-19,55+,Female,Returning,0
+CST_001271,Hà Nội,Organic Search,2024-01-12,25-34,Female,Churned,0
+CST_001272,TP.HCM,TikTok Ads,2024-09-15,35-44,Female,VIP,0
+CST_001273,Hà Nội,Instagram Ads,2024-03-04,45-54,Female,New,0
+CST_001274,Bình Dương,Facebook Ads,2024-08-20,55+,Unknown,Returning,0
+CST_001275,Cần Thơ,Organic Search,2024-06-28,55+,Unknown,Returning,0
+CST_001276,Đồng Nai,Facebook Ads,2024-12-31,18-24,Female,Returning,0
+CST_001277,Huế,Instagram Ads,2024-07-03,25-34,Unknown,Churned,0
+CST_001278,TP.HCM,Instagram Ads,2024-07-29,18-24,Female,Returning,0
+CST_001279,Hải Phòng,Email,2024-08-31,18-24,Female,Churned,0
+CST_001280,Đồng Nai,Organic Search,2024-10-28,55+,Female,Churned,0
+CST_001281,Huế,Shopee Ads,2024-08-13,25-34,Male,Returning,0
+CST_001282,Huế,Google Ads,2024-09-05,55+,Unknown,New,0
+CST_001283,Hải Phòng,Email,2024-12-21,45-54,Male,Returning,0
+CST_001284,Bình Dương,Instagram Ads,2024-10-13,55+,Female,New,0
+CST_001285,Bình Dương,Organic Search,2024-03-02,18-24,Unknown,Returning,0
+CST_001286,Bình Dương,Organic Search,2024-03-01,35-44,Female,VIP,0
+CST_001287,Hà Nội,Google Ads,2024-09-05,25-34,Unknown,Churned,0
+CST_001288,Cần Thơ,Organic Search,2024-01-25,25-34,Male,Churned,0
+CST_001289,TP.HCM,Referral,2024-01-02,18-24,Male,Churned,0
+CST_001290,Cần Thơ,Email,2024-09-03,35-44,Female,Churned,0
+CST_001291,Đà Nẵng,Google Ads,2024-11-06,55+,Unknown,Churned,0
+CST_001292,Huế,Google Ads,2024-08-18,35-44,Male,Churned,0
+CST_001293,Hải Phòng,Shopee Ads,2024-07-17,35-44,Unknown,New,0
+CST_001294,Huế,Organic Search,2024-12-09,18-24,Male,New,0
+CST_001295,Cần Thơ,Instagram Ads,2024-10-19,55+,Male,Returning,0
+CST_001296,Hà Nội,Facebook Ads,2024-11-12,45-54,Unknown,New,0
+CST_001297,Đà Nẵng,TikTok Ads,2024-03-02,35-44,Male,Returning,0
+CST_001298,Huế,Instagram Ads,2024-12-27,55+,Unknown,VIP,0
+CST_001299,Hà Nội,Email,2024-07-24,18-24,Female,Churned,0
+CST_001300,Đồng Nai,TikTok Ads,2024-04-02,55+,Female,Churned,0
+CST_001301,TP.HCM,Instagram Ads,2024-05-11,18-24,Unknown,Returning,0
+CST_001302,Đà Nẵng,Google Ads,2024-05-26,35-44,Male,Returning,0
+CST_001303,Đồng Nai,Google Ads,2024-06-06,18-24,Unknown,VIP,0
+CST_001304,Hà Nội,TikTok Ads,2024-04-02,35-44,Female,New,0
+CST_001305,Đà Nẵng,Shopee Ads,2024-06-12,35-44,Female,Churned,0
+CST_001306,Hà Nội,Facebook Ads,2024-03-02,25-34,Unknown,Returning,0
+CST_001307,Đồng Nai,Instagram Ads,2024-09-09,35-44,Male,VIP,0
+CST_001308,Đồng Nai,Instagram Ads,2024-08-25,45-54,Male,Churned,0
+CST_001309,Hải Phòng,TikTok Ads,2024-11-20,35-44,Unknown,New,0
+CST_001310,Đà Nẵng,Organic Search,2024-05-06,55+,Female,Churned,0
+CST_001311,Hải Phòng,Google Ads,2024-02-12,35-44,Unknown,Returning,0
+CST_001312,Đồng Nai,Email,2024-05-05,18-24,Male,Churned,0
+CST_001313,Cần Thơ,Google Ads,2024-11-13,18-24,Male,Churned,0
+CST_001314,Cần Thơ,Shopee Ads,2024-05-19,35-44,Unknown,Returning,0
+CST_001315,Cần Thơ,TikTok Ads,2024-10-26,25-34,Unknown,New,0
+CST_001316,TP.HCM,Shopee Ads,2024-06-02,18-24,Male,VIP,0
+CST_001317,Hải Phòng,Referral,2024-08-09,35-44,Unknown,VIP,0
+CST_001318,Huế,Organic Search,2024-12-28,25-34,Unknown,VIP,0
+CST_001319,Hải Phòng,Email,2024-06-23,55+,Female,New,0
+CST_001320,Đà Nẵng,TikTok Ads,2024-12-20,55+,Female,New,0
+CST_001321,Đà Nẵng,Shopee Ads,2024-01-05,55+,Unknown,Churned,0
+CST_001322,TP.HCM,Instagram Ads,2024-07-20,55+,Male,Churned,0
+CST_001323,TP.HCM,Referral,2024-12-10,45-54,Unknown,VIP,0
+CST_001324,Đà Nẵng,TikTok Ads,2024-07-17,18-24,Female,VIP,0
+CST_001325,Huế,TikTok Ads,2024-04-08,25-34,Unknown,New,0
+CST_001326,Bình Dương,Facebook Ads,2024-05-23,18-24,Unknown,VIP,0
+CST_001327,Hải Phòng,Email,2024-04-23,35-44,Male,VIP,0
+CST_001328,Hải Phòng,TikTok Ads,2024-09-09,25-34,Unknown,Churned,0
+CST_001329,Cần Thơ,Email,2024-02-26,25-34,Unknown,Returning,0
+CST_001330,Đà Nẵng,Instagram Ads,2024-12-03,55+,Male,New,0
+CST_001331,Cần Thơ,Facebook Ads,2024-03-06,55+,Unknown,VIP,0
+CST_001332,Hà Nội,Organic Search,2024-04-08,55+,Female,New,0
+CST_001333,Hà Nội,Referral,2024-08-06,45-54,Female,VIP,0
+CST_001334,Huế,Email,2024-03-03,35-44,Unknown,New,0
+CST_001335,Hà Nội,Organic Search,2024-04-24,45-54,Unknown,Churned,0
+CST_001336,Hà Nội,Shopee Ads,2024-06-10,25-34,Female,New,0
+CST_001337,Hà Nội,Facebook Ads,2024-10-19,45-54,Male,Returning,0
+CST_001338,Đà Nẵng,Referral,2024-04-10,35-44,Male,New,0
+CST_001339,Huế,Shopee Ads,2024-01-15,18-24,Unknown,VIP,0
+CST_001340,Hải Phòng,Instagram Ads,2024-05-08,45-54,Male,VIP,0
+CST_001341,Bình Dương,Facebook Ads,2024-01-28,18-24,Unknown,Churned,0
+CST_001342,Huế,Instagram Ads,2024-02-18,18-24,Male,New,0
+CST_001343,Bình Dương,Instagram Ads,2024-07-12,25-34,Male,Churned,0
+CST_001344,Cần Thơ,Shopee Ads,2024-01-29,18-24,Male,New,0
+CST_001345,Hà Nội,Organic Search,2024-10-13,45-54,Female,New,0
+CST_001346,Đồng Nai,Facebook Ads,2024-11-12,55+,Unknown,New,0
+CST_001347,Đồng Nai,Email,2024-08-20,45-54,Unknown,New,0
+CST_001348,Hà Nội,Email,2024-06-22,55+,Female,Returning,0
+CST_001349,TP.HCM,TikTok Ads,2024-02-25,55+,Unknown,New,0
+CST_001350,Hải Phòng,Google Ads,2024-10-30,55+,Female,VIP,0
+CST_001351,Huế,Email,2024-08-03,25-34,Male,Returning,0
+CST_001352,Hà Nội,Google Ads,2024-01-23,35-44,Unknown,Churned,0
+CST_001353,Bình Dương,Organic Search,2024-09-19,55+,Unknown,Returning,0
+CST_001354,Huế,Organic Search,2024-03-16,55+,Female,VIP,0
+CST_001355,Hà Nội,Google Ads,2024-07-07,18-24,Male,New,0
+CST_001356,Bình Dương,Facebook Ads,2024-08-04,25-34,Unknown,Returning,0
+CST_001357,Bình Dương,Facebook Ads,2024-02-05,45-54,Unknown,Churned,0
+CST_001358,Bình Dương,Referral,2024-11-03,55+,Female,Churned,0
+CST_001359,Đà Nẵng,Instagram Ads,2024-06-17,45-54,Male,Churned,0
+CST_001360,Hà Nội,Facebook Ads,2024-04-22,25-34,Female,Returning,0
+CST_001361,Huế,Referral,2024-05-02,45-54,Male,Churned,0
+CST_001362,Hà Nội,Referral,2024-04-04,18-24,Male,VIP,0
+CST_001363,TP.HCM,Google Ads,2024-01-16,35-44,Female,Returning,0
+CST_001364,Bình Dương,TikTok Ads,2024-11-19,18-24,Male,Returning,0
+CST_001365,Đà Nẵng,Facebook Ads,2024-05-25,35-44,Unknown,Returning,0
+CST_001366,Hải Phòng,Google Ads,2024-06-22,25-34,Male,Returning,0
+CST_001367,TP.HCM,TikTok Ads,2024-05-14,25-34,Female,New,0
+CST_001368,Hải Phòng,Organic Search,2024-06-22,45-54,Male,VIP,0
+CST_001369,Đà Nẵng,Shopee Ads,2024-07-09,18-24,Male,Returning,0
+CST_001370,Hải Phòng,Facebook Ads,2024-03-07,55+,Female,VIP,0
+CST_001371,Đồng Nai,Facebook Ads,2024-06-11,18-24,Unknown,Returning,0
+CST_001372,Cần Thơ,Google Ads,2024-10-01,35-44,Male,New,0
+CST_001373,Cần Thơ,Google Ads,2024-11-18,55+,Unknown,Churned,0
+CST_001374,TP.HCM,Email,2024-04-17,55+,Male,Returning,0
+CST_001375,Đồng Nai,Referral,2024-09-17,45-54,Unknown,Churned,0
+CST_001376,Bình Dương,Referral,2024-04-01,55+,Unknown,Churned,0
+CST_001377,Huế,Organic Search,2024-09-10,55+,Female,New,0
+CST_001378,Hải Phòng,Facebook Ads,2024-04-16,45-54,Male,Churned,0
+CST_001379,Cần Thơ,Shopee Ads,2024-04-21,45-54,Unknown,Returning,0
+CST_001380,Cần Thơ,Instagram Ads,2024-07-10,25-34,Male,VIP,0
+CST_001381,Bình Dương,Facebook Ads,2024-08-15,55+,Male,Churned,0
+CST_001382,Bình Dương,Shopee Ads,2024-09-19,45-54,Female,Churned,0
+CST_001383,Bình Dương,Email,2024-07-28,35-44,Female,Churned,0
+CST_001384,Đà Nẵng,Email,2024-01-13,25-34,Female,New,0
+CST_001385,TP.HCM,Organic Search,2024-07-02,55+,Unknown,New,0
+CST_001386,Hải Phòng,Instagram Ads,2024-05-21,18-24,Male,VIP,0
+CST_001387,Hải Phòng,Referral,2024-01-20,25-34,Unknown,VIP,0
+CST_001388,Cần Thơ,Organic Search,2024-05-08,25-34,Unknown,Returning,0
+CST_001389,Cần Thơ,TikTok Ads,2024-10-05,35-44,Female,VIP,0
+CST_001390,Đồng Nai,TikTok Ads,2024-07-25,45-54,Unknown,Returning,0
+CST_001391,Hải Phòng,Facebook Ads,2024-07-22,25-34,Female,Returning,0
+CST_001392,Huế,Email,2024-09-21,35-44,Male,VIP,0
+CST_001393,Đồng Nai,Shopee Ads,2024-04-06,25-34,Female,Churned,0
+CST_001394,Hà Nội,Referral,2024-10-12,25-34,Unknown,Returning,0
+CST_001395,Hà Nội,Email,2024-06-05,35-44,Female,Returning,0
+CST_001396,Đồng Nai,Shopee Ads,2024-08-02,55+,Female,VIP,0
+CST_001397,Hà Nội,TikTok Ads,2024-10-27,25-34,Male,VIP,0
+CST_001398,Đồng Nai,Shopee Ads,2024-10-17,25-34,Female,New,0
+CST_001399,Đồng Nai,Facebook Ads,2024-09-30,45-54,Male,VIP,0
+CST_001400,Huế,Organic Search,2024-10-18,18-24,Male,New,0
+CST_001401,Đà Nẵng,TikTok Ads,2024-12-11,55+,Female,New,0
+CST_001402,Hải Phòng,Instagram Ads,2024-04-05,45-54,Female,Returning,0
+CST_001403,Cần Thơ,Instagram Ads,2024-04-29,45-54,Male,VIP,0
+CST_001404,Hà Nội,Google Ads,2024-09-22,35-44,Female,Churned,0
+CST_001405,TP.HCM,Google Ads,2024-03-21,55+,Female,Churned,0
+CST_001406,Đồng Nai,Facebook Ads,2024-02-05,25-34,Male,VIP,0
+CST_001407,Huế,Google Ads,2024-08-09,55+,Unknown,VIP,0
+CST_001408,Hải Phòng,Email,2024-10-27,35-44,Male,New,0
+CST_001409,Huế,Instagram Ads,2024-03-14,45-54,Unknown,Returning,0
+CST_001410,Bình Dương,Email,2024-09-26,45-54,Female,New,0
+CST_001411,Cần Thơ,Email,2024-02-16,35-44,Unknown,VIP,0
+CST_001412,Đà Nẵng,Shopee Ads,2024-07-19,25-34,Male,Churned,0
+CST_001413,Đồng Nai,Google Ads,2024-08-22,55+,Male,Churned,0
+CST_001414,Hà Nội,Facebook Ads,2024-12-23,25-34,Female,VIP,0
+CST_001415,TP.HCM,Facebook Ads,2024-12-07,45-54,Female,New,0
+CST_001416,TP.HCM,Instagram Ads,2024-07-07,55+,Female,Churned,0
+CST_001417,Đà Nẵng,Organic Search,2024-08-18,25-34,Unknown,New,0
+CST_001418,Hà Nội,Instagram Ads,2024-08-24,45-54,Female,VIP,0
+CST_001419,Hải Phòng,Shopee Ads,2024-07-23,18-24,Male,VIP,0
+CST_001420,Đà Nẵng,Referral,2024-02-28,45-54,Female,Churned,0
+CST_001421,TP.HCM,Facebook Ads,2024-02-04,45-54,Male,Churned,0
+CST_001422,Đà Nẵng,Google Ads,2024-05-22,18-24,Unknown,New,0
+CST_001423,Cần Thơ,Instagram Ads,2024-03-31,55+,Unknown,Churned,0
+CST_001424,TP.HCM,TikTok Ads,2024-03-27,35-44,Male,Churned,0
+CST_001425,Đà Nẵng,Facebook Ads,2024-07-02,18-24,Unknown,Returning,0
+CST_001426,Hà Nội,Instagram Ads,2024-08-14,45-54,Unknown,VIP,0
+CST_001427,Hà Nội,TikTok Ads,2024-08-15,18-24,Female,Returning,0
+CST_001428,Bình Dương,Facebook Ads,2024-05-07,25-34,Male,New,0
+CST_001429,Hà Nội,TikTok Ads,2024-08-03,35-44,Male,New,0
+CST_001430,TP.HCM,Google Ads,2024-04-22,25-34,Male,Churned,0
+CST_001431,TP.HCM,Referral,2024-09-19,35-44,Unknown,Returning,0
+CST_001432,Hải Phòng,Shopee Ads,2024-11-15,45-54,Male,Returning,0
+CST_001433,TP.HCM,Referral,2024-04-19,35-44,Male,New,0
+CST_001434,Bình Dương,TikTok Ads,2024-07-24,45-54,Male,Churned,0
+CST_001435,TP.HCM,Organic Search,2024-04-22,55+,Female,New,0
+CST_001436,Hải Phòng,Shopee Ads,2024-02-04,35-44,Unknown,Churned,0
+CST_001437,Đà Nẵng,Organic Search,2024-02-22,18-24,Unknown,VIP,0
+CST_001438,Đồng Nai,Google Ads,2024-11-19,35-44,Male,VIP,0
+CST_001439,Huế,Instagram Ads,2024-12-07,35-44,Male,Churned,0
+CST_001440,Hải Phòng,TikTok Ads,2024-07-14,25-34,Male,New,0
+CST_001441,Hải Phòng,Shopee Ads,2024-06-07,25-34,Unknown,New,0
+CST_001442,Đà Nẵng,Referral,2024-01-31,45-54,Female,Returning,0
+CST_001443,Đồng Nai,Facebook Ads,2024-03-18,18-24,Male,Churned,0
+CST_001444,Đà Nẵng,Organic Search,2024-06-17,35-44,Unknown,New,0
+CST_001445,Đồng Nai,Organic Search,2024-09-23,18-24,Male,VIP,0
+CST_001446,Hải Phòng,Facebook Ads,2024-06-24,55+,Male,Returning,0
+CST_001447,Hải Phòng,Shopee Ads,2024-12-17,55+,Female,Returning,0
+CST_001448,Hà Nội,Instagram Ads,2024-08-14,45-54,Male,Returning,0
+CST_001449,Đà Nẵng,Facebook Ads,2024-01-27,25-34,Male,Returning,0
+CST_001450,Hải Phòng,Facebook Ads,2024-10-30,55+,Male,Churned,0
+CST_001451,Cần Thơ,Google Ads,2024-08-27,25-34,Male,Churned,0
+CST_001452,Hải Phòng,Organic Search,2024-03-31,35-44,Unknown,Churned,0
+CST_001453,Hải Phòng,Organic Search,2024-11-21,45-54,Male,VIP,0
+CST_001454,Đồng Nai,Google Ads,2024-07-22,45-54,Female,Churned,0
+CST_001455,Đồng Nai,Google Ads,2024-09-15,45-54,Male,Churned,0
+CST_001456,TP.HCM,Organic Search,2024-08-06,55+,Unknown,Returning,0
+CST_001457,Đà Nẵng,Organic Search,2024-10-10,45-54,Female,VIP,0
+CST_001458,Cần Thơ,Shopee Ads,2024-08-20,55+,Unknown,Churned,0
+CST_001459,Bình Dương,Google Ads,2024-02-06,45-54,Male,Returning,0
+CST_001460,Hà Nội,TikTok Ads,2024-04-07,55+,Unknown,VIP,0
+CST_001461,Đồng Nai,Shopee Ads,2024-09-08,45-54,Unknown,VIP,0
+CST_001462,Huế,Organic Search,2024-07-15,55+,Male,Churned,0
+CST_001463,TP.HCM,Shopee Ads,2024-01-20,55+,Male,Returning,0
+CST_001464,Cần Thơ,Referral,2024-08-11,55+,Unknown,Churned,0
+CST_001465,Bình Dương,TikTok Ads,2024-11-21,45-54,Female,Returning,0
+CST_001466,Huế,TikTok Ads,2024-05-04,35-44,Unknown,New,0
+CST_001467,Đà Nẵng,Organic Search,2024-12-23,55+,Female,Returning,0
+CST_001468,Hải Phòng,Google Ads,2024-05-10,18-24,Male,New,0
+CST_001469,Đồng Nai,Shopee Ads,2024-11-25,55+,Male,Returning,0
+CST_001470,Đà Nẵng,Shopee Ads,2024-08-04,35-44,Unknown,VIP,0
+CST_001471,Đồng Nai,Organic Search,2024-09-13,45-54,Unknown,New,0
+CST_001472,Bình Dương,Google Ads,2024-02-25,35-44,Unknown,Returning,0
+CST_001473,Cần Thơ,TikTok Ads,2024-07-22,25-34,Female,New,0
+CST_001474,TP.HCM,Shopee Ads,2024-02-19,55+,Female,VIP,0
+CST_001475,Đà Nẵng,Google Ads,2024-08-08,35-44,Male,Returning,0
+CST_001476,Huế,Google Ads,2024-04-11,55+,Male,Churned,0
+CST_001477,Hải Phòng,Google Ads,2024-10-17,25-34,Male,Returning,0
+CST_001478,Cần Thơ,Shopee Ads,2024-04-08,45-54,Unknown,New,0
+CST_001479,Đà Nẵng,Instagram Ads,2024-11-21,35-44,Male,Churned,0
+CST_001480,Cần Thơ,Instagram Ads,2024-03-04,35-44,Male,Returning,0
+CST_001481,Huế,Instagram Ads,2024-09-01,18-24,Male,VIP,0
+CST_001482,Hà Nội,Instagram Ads,2024-01-04,25-34,Unknown,New,0
+CST_001483,Cần Thơ,Email,2024-07-11,45-54,Female,Churned,0
+CST_001484,Bình Dương,Referral,2024-06-21,35-44,Male,VIP,0
+CST_001485,Đồng Nai,Shopee Ads,2024-12-06,55+,Male,VIP,0
+CST_001486,TP.HCM,TikTok Ads,2024-06-18,45-54,Unknown,Churned,0
+CST_001487,Hà Nội,Instagram Ads,2024-03-12,55+,Female,Returning,0
+CST_001488,Huế,Email,2024-07-07,55+,Female,Returning,0
+CST_001489,Bình Dương,TikTok Ads,2024-01-02,35-44,Male,VIP,0
+CST_001490,Huế,Facebook Ads,2024-12-13,55+,Female,Churned,0
+CST_001491,TP.HCM,Referral,2024-11-09,45-54,Female,New,0
+CST_001492,Cần Thơ,Facebook Ads,2024-07-16,25-34,Unknown,New,0
+CST_001493,Huế,Instagram Ads,2024-03-06,35-44,Unknown,Churned,0
+CST_001494,Huế,Instagram Ads,2024-03-27,45-54,Unknown,Returning,0
+CST_001495,Hải Phòng,Google Ads,2024-05-04,18-24,Male,Churned,0
+CST_001496,Đà Nẵng,Referral,2024-01-15,45-54,Female,Returning,0
+CST_001497,Huế,Instagram Ads,2024-05-11,25-34,Unknown,Churned,0
+CST_001498,Bình Dương,Facebook Ads,2024-02-16,55+,Unknown,New,0
+CST_001499,Bình Dương,Shopee Ads,2024-11-25,45-54,Unknown,Churned,0
+CST_001500,Hải Phòng,Organic Search,2024-04-29,18-24,Female,New,0
+CST_001501,TP.HCM,Referral,2024-02-27,55+,Male,New,0
+CST_001502,Bình Dương,Google Ads,2024-10-20,35-44,Female,New,0
+CST_001503,Hà Nội,Facebook Ads,2024-06-08,45-54,Female,VIP,0
+CST_001504,Đà Nẵng,Facebook Ads,2024-07-05,18-24,Female,New,0
+CST_001505,Huế,Referral,2024-10-02,25-34,Female,Returning,0
+CST_001506,Huế,Google Ads,2024-09-12,55+,Female,Returning,0
+CST_001507,Hà Nội,Referral,2024-12-06,35-44,Unknown,New,0
+CST_001508,Huế,Facebook Ads,2024-05-20,45-54,Female,Churned,0
+CST_001509,Bình Dương,Google Ads,2024-01-31,25-34,Unknown,Returning,0
+CST_001510,Hà Nội,Google Ads,2024-12-24,45-54,Unknown,Churned,0
+CST_001511,Đà Nẵng,TikTok Ads,2024-06-02,55+,Female,VIP,0
+CST_001512,Huế,Referral,2024-08-04,45-54,Female,New,0
+CST_001513,Cần Thơ,Organic Search,2024-09-27,25-34,Unknown,Churned,0
+CST_001514,Đà Nẵng,Referral,2024-02-19,55+,Male,VIP,0
+CST_001515,Đà Nẵng,Google Ads,2024-08-22,45-54,Unknown,Churned,0
+CST_001516,Đà Nẵng,Facebook Ads,2024-05-29,25-34,Unknown,Returning,0
+CST_001517,Hà Nội,Referral,2024-11-29,55+,Male,Returning,0
+CST_001518,Đồng Nai,Google Ads,2024-07-11,18-24,Male,VIP,0
+CST_001519,Đà Nẵng,TikTok Ads,2024-08-30,18-24,Unknown,VIP,0
+CST_001520,Đồng Nai,Google Ads,2024-10-30,45-54,Male,New,0
+CST_001521,Hải Phòng,Shopee Ads,2024-03-01,45-54,Female,Returning,0
+CST_001522,Đồng Nai,Instagram Ads,2024-11-30,45-54,Unknown,Churned,0
+CST_001523,Huế,Referral,2024-05-20,18-24,Male,New,0
+CST_001524,TP.HCM,Email,2024-02-12,55+,Male,New,0
+CST_001525,Huế,Organic Search,2024-10-27,18-24,Unknown,Returning,0
+CST_001526,Huế,Shopee Ads,2024-07-15,35-44,Unknown,Returning,0
+CST_001527,Bình Dương,Instagram Ads,2024-02-20,55+,Male,Churned,0
+CST_001528,Hà Nội,Shopee Ads,2024-12-24,55+,Unknown,Churned,0
+CST_001529,TP.HCM,Facebook Ads,2024-02-02,18-24,Male,Returning,0
+CST_001530,Huế,Referral,2024-01-03,18-24,Male,Returning,0
+CST_001531,Hải Phòng,Google Ads,2024-10-21,18-24,Unknown,VIP,0
+CST_001532,TP.HCM,Instagram Ads,2024-01-18,55+,Female,VIP,0
+CST_001533,Đà Nẵng,Shopee Ads,2024-10-05,18-24,Male,VIP,0
+CST_001534,Cần Thơ,Email,2024-01-24,25-34,Unknown,Churned,0
+CST_001535,Bình Dương,Referral,2024-12-21,55+,Unknown,Returning,0
+CST_001536,TP.HCM,TikTok Ads,2024-12-18,25-34,Male,Returning,0
+CST_001537,Cần Thơ,Facebook Ads,2024-03-13,25-34,Unknown,Returning,0
+CST_001538,Bình Dương,Organic Search,2024-10-29,25-34,Unknown,Churned,0
+CST_001539,Cần Thơ,Organic Search,2024-02-08,45-54,Unknown,Returning,0
+CST_001540,Huế,Instagram Ads,2024-07-23,35-44,Unknown,Churned,0
+CST_001541,Đà Nẵng,Facebook Ads,2024-12-21,18-24,Unknown,VIP,0
+CST_001542,Hải Phòng,Referral,2024-11-20,55+,Unknown,Returning,0
+CST_001543,Đà Nẵng,Referral,2024-08-02,45-54,Female,New,0
+CST_001544,Hải Phòng,Instagram Ads,2024-11-05,35-44,Male,New,0
+CST_001545,Đồng Nai,Instagram Ads,2024-12-16,35-44,Unknown,New,0
+CST_001546,Bình Dương,Organic Search,2024-07-04,25-34,Male,VIP,0
+CST_001547,TP.HCM,Shopee Ads,2024-01-06,25-34,Female,New,0
+CST_001548,Đà Nẵng,Organic Search,2024-03-04,55+,Female,New,0
+CST_001549,Bình Dương,Organic Search,2024-09-27,55+,Female,New,0
+CST_001550,Đà Nẵng,Referral,2024-01-25,45-54,Male,VIP,0
+CST_001551,Đồng Nai,Email,2024-12-13,55+,Male,VIP,0
+CST_001552,Đà Nẵng,Google Ads,2024-01-05,25-34,Female,VIP,0
+CST_001553,Bình Dương,Facebook Ads,2024-01-28,55+,Female,Churned,0
+CST_001554,Huế,Referral,2024-04-03,45-54,Unknown,VIP,0
+CST_001555,Đồng Nai,Facebook Ads,2024-05-21,35-44,Unknown,New,0
+CST_001556,Đồng Nai,Referral,2024-06-05,18-24,Unknown,New,0
+CST_001557,Hải Phòng,Instagram Ads,2024-02-09,25-34,Unknown,New,0
+CST_001558,Cần Thơ,Email,2024-02-13,18-24,Female,Returning,0
+CST_001559,Huế,Instagram Ads,2024-09-02,45-54,Male,Returning,0
+CST_001560,Đồng Nai,Referral,2024-01-04,25-34,Unknown,New,0
+CST_001561,Huế,Google Ads,2024-11-06,55+,Male,Returning,0
+CST_001562,Bình Dương,Google Ads,2024-02-08,55+,Female,New,0
+CST_001563,Huế,Shopee Ads,2024-08-04,25-34,Female,New,0
+CST_001564,Hải Phòng,Instagram Ads,2024-06-22,35-44,Female,Churned,0
+CST_001565,Cần Thơ,Facebook Ads,2024-05-30,18-24,Unknown,Churned,0
+CST_001566,Cần Thơ,TikTok Ads,2024-04-21,45-54,Unknown,Churned,0
+CST_001567,Bình Dương,TikTok Ads,2024-01-30,55+,Female,VIP,0
+CST_001568,Bình Dương,Instagram Ads,2024-06-01,18-24,Female,Returning,0
+CST_001569,Bình Dương,TikTok Ads,2024-07-24,18-24,Female,Churned,0
+CST_001570,TP.HCM,Google Ads,2024-04-11,45-54,Male,Churned,0
+CST_001571,Đà Nẵng,Organic Search,2024-01-04,25-34,Female,Churned,0
+CST_001572,Cần Thơ,Referral,2024-07-10,45-54,Male,VIP,0
+CST_001573,Huế,Email,2024-02-25,25-34,Male,VIP,0
+CST_001574,Hà Nội,Referral,2024-08-10,25-34,Male,Returning,0
+CST_001575,Hà Nội,Google Ads,2024-05-25,45-54,Female,VIP,0
+CST_001576,Đà Nẵng,Facebook Ads,2024-01-17,45-54,Unknown,VIP,0
+CST_001577,Đồng Nai,Email,2024-03-01,55+,Female,Returning,0
+CST_001578,Đồng Nai,Shopee Ads,2024-06-15,25-34,Male,New,0
+CST_001579,Đà Nẵng,Google Ads,2024-01-11,35-44,Unknown,New,0
+CST_001580,Hải Phòng,TikTok Ads,2024-12-16,35-44,Female,New,0
+CST_001581,Huế,Organic Search,2024-08-10,35-44,Female,New,0
+CST_001582,Hải Phòng,Google Ads,2024-08-07,55+,Male,Returning,0
+CST_001583,TP.HCM,Organic Search,2024-05-23,25-34,Unknown,Churned,0
+CST_001584,Huế,Instagram Ads,2024-04-11,55+,Unknown,Returning,0
+CST_001585,Đà Nẵng,Facebook Ads,2024-04-06,18-24,Male,Churned,0
+CST_001586,Cần Thơ,Facebook Ads,2024-01-20,25-34,Female,New,0
+CST_001587,Hải Phòng,Instagram Ads,2024-11-11,18-24,Female,Churned,0
+CST_001588,Cần Thơ,Facebook Ads,2024-09-25,25-34,Female,Churned,0
+CST_001589,Hà Nội,Shopee Ads,2024-09-02,18-24,Female,New,0
+CST_001590,Bình Dương,Organic Search,2024-05-17,35-44,Unknown,Churned,0
+CST_001591,Bình Dương,TikTok Ads,2024-05-06,25-34,Male,New,0
+CST_001592,Bình Dương,Facebook Ads,2024-01-27,35-44,Female,VIP,0
+CST_001593,TP.HCM,Shopee Ads,2024-11-06,25-34,Female,Churned,0
+CST_001594,Bình Dương,Organic Search,2024-07-05,18-24,Male,New,0
+CST_001595,Đà Nẵng,Referral,2024-12-15,35-44,Unknown,VIP,0
+CST_001596,Bình Dương,Facebook Ads,2024-10-28,35-44,Male,Churned,0
+CST_001597,TP.HCM,Google Ads,2024-02-14,55+,Male,New,0
+CST_001598,Hải Phòng,Facebook Ads,2024-10-27,45-54,Male,New,0
+CST_001599,Bình Dương,Organic Search,2024-10-06,45-54,Male,Returning,0
+CST_001600,Đà Nẵng,Facebook Ads,2024-01-23,45-54,Unknown,VIP,0
+CST_001601,Bình Dương,Referral,2024-10-13,45-54,Unknown,New,0
+CST_001602,TP.HCM,Email,2024-08-11,45-54,Unknown,New,0
+CST_001603,Cần Thơ,Google Ads,2024-03-26,35-44,Male,New,0
+CST_001604,Hải Phòng,Shopee Ads,2024-12-21,45-54,Unknown,New,0
+CST_001605,Huế,Shopee Ads,2024-03-25,55+,Female,Churned,0
+CST_001606,Cần Thơ,Facebook Ads,2024-11-06,25-34,Male,Returning,0
+CST_001607,Hải Phòng,TikTok Ads,2024-10-19,55+,Female,VIP,0
+CST_001608,Hải Phòng,Organic Search,2024-06-04,35-44,Unknown,New,0
+CST_001609,Hải Phòng,TikTok Ads,2024-03-28,55+,Male,VIP,0
+CST_001610,Đà Nẵng,Organic Search,2024-01-21,25-34,Female,New,0
+CST_001611,Hải Phòng,Facebook Ads,2024-11-24,55+,Male,New,0
+CST_001612,Bình Dương,Referral,2024-11-28,35-44,Male,VIP,0
+CST_001613,Đồng Nai,Organic Search,2024-03-09,35-44,Male,New,0
+CST_001614,Hải Phòng,Organic Search,2024-07-01,25-34,Female,New,0
+CST_001615,TP.HCM,Shopee Ads,2024-10-02,35-44,Unknown,Returning,0
+CST_001616,Hải Phòng,Referral,2024-08-14,35-44,Male,Churned,0
+CST_001617,Huế,Facebook Ads,2024-03-20,45-54,Female,Returning,0
+CST_001618,TP.HCM,Email,2024-09-02,25-34,Female,Returning,0
+CST_001619,Hải Phòng,Email,2024-03-31,25-34,Unknown,VIP,0
+CST_001620,Cần Thơ,Google Ads,2024-01-11,25-34,Female,Returning,0
+CST_001621,Đà Nẵng,Instagram Ads,2024-02-05,45-54,Male,Churned,0
+CST_001622,Đồng Nai,Instagram Ads,2024-11-26,55+,Male,New,0
+CST_001623,TP.HCM,Shopee Ads,2024-11-04,45-54,Male,New,0
+CST_001624,Hà Nội,Google Ads,2024-01-07,25-34,Male,VIP,0
+CST_001625,Hà Nội,TikTok Ads,2024-03-14,18-24,Unknown,VIP,0
+CST_001626,TP.HCM,Facebook Ads,2024-12-28,25-34,Female,Churned,0
+CST_001627,Cần Thơ,Referral,2024-03-24,45-54,Male,Returning,0
+CST_001628,Cần Thơ,Instagram Ads,2024-01-29,18-24,Male,New,0
+CST_001629,Cần Thơ,Instagram Ads,2024-10-05,55+,Female,Returning,0
+CST_001630,Hải Phòng,TikTok Ads,2024-01-01,25-34,Female,Churned,0
+CST_001631,Bình Dương,Organic Search,2024-03-16,25-34,Unknown,Churned,0
+CST_001632,TP.HCM,Email,2024-12-17,25-34,Male,Returning,0
+CST_001633,Cần Thơ,Referral,2024-02-22,18-24,Unknown,VIP,0
+CST_001634,Bình Dương,Instagram Ads,2024-03-01,18-24,Unknown,Returning,0
+CST_001635,Đồng Nai,Referral,2024-04-01,55+,Male,Churned,0
+CST_001636,Cần Thơ,Organic Search,2024-03-17,35-44,Male,VIP,0
+CST_001637,Bình Dương,Organic Search,2024-09-12,18-24,Male,Returning,0
+CST_001638,Đà Nẵng,Referral,2024-12-01,25-34,Female,Churned,0
+CST_001639,TP.HCM,Instagram Ads,2024-09-01,55+,Female,VIP,0
+CST_001640,TP.HCM,Referral,2024-03-15,25-34,Male,Churned,0
+CST_001641,Bình Dương,Email,2024-06-29,45-54,Female,Churned,0
+CST_001642,Bình Dương,Google Ads,2024-11-04,25-34,Female,Churned,0
+CST_001643,Huế,Email,2024-10-08,55+,Unknown,Returning,0
+CST_001644,TP.HCM,Shopee Ads,2024-07-15,55+,Unknown,Returning,0
+CST_001645,TP.HCM,Facebook Ads,2024-12-25,35-44,Male,Returning,0
+CST_001646,Bình Dương,Email,2024-01-09,25-34,Male,New,0
+CST_001647,Bình Dương,Google Ads,2024-06-27,35-44,Female,Returning,0
+CST_001648,Đồng Nai,Facebook Ads,2024-10-09,25-34,Male,New,0
+CST_001649,TP.HCM,Google Ads,2024-03-11,45-54,Unknown,New,0
+CST_001650,Đồng Nai,Referral,2024-12-22,18-24,Unknown,New,0
+CST_001651,TP.HCM,Email,2024-12-05,55+,Male,New,0
+CST_001652,Bình Dương,Google Ads,2024-03-16,18-24,Male,New,0
+CST_001653,Đồng Nai,Google Ads,2024-01-07,25-34,Female,Returning,0
+CST_001654,Cần Thơ,Email,2024-09-27,45-54,Unknown,VIP,0
+CST_001655,Hà Nội,Organic Search,2024-08-15,18-24,Male,New,0
+CST_001656,Hà Nội,Google Ads,2024-11-24,55+,Male,New,0
+CST_001657,Đồng Nai,Email,2024-07-21,55+,Unknown,VIP,0
+CST_001658,Cần Thơ,Facebook Ads,2024-10-19,45-54,Male,VIP,0
+CST_001659,Đồng Nai,Google Ads,2024-02-17,25-34,Female,New,0
+CST_001660,Đồng Nai,Google Ads,2024-04-22,55+,Unknown,New,0
+CST_001661,Huế,Email,2024-12-20,35-44,Unknown,Churned,0
+CST_001662,Đà Nẵng,TikTok Ads,2024-07-13,35-44,Unknown,Churned,0
+CST_001663,Cần Thơ,Instagram Ads,2024-04-09,18-24,Male,VIP,0
+CST_001664,Bình Dương,TikTok Ads,2024-11-04,25-34,Female,Returning,0
+CST_001665,TP.HCM,Instagram Ads,2024-10-04,25-34,Unknown,New,0
+CST_001666,Hải Phòng,Facebook Ads,2024-06-07,18-24,Male,VIP,0
+CST_001667,Hà Nội,Email,2024-02-13,18-24,Male,VIP,0
+CST_001668,Cần Thơ,TikTok Ads,2024-02-17,35-44,Female,Churned,0
+CST_001669,Hải Phòng,Referral,2024-09-13,45-54,Unknown,VIP,0
+CST_001670,TP.HCM,Referral,2024-03-07,45-54,Unknown,New,0
+CST_001671,Đà Nẵng,TikTok Ads,2024-09-14,55+,Female,Churned,0
+CST_001672,Hà Nội,Organic Search,2024-10-27,25-34,Male,Churned,0
+CST_001673,TP.HCM,Facebook Ads,2024-02-10,25-34,Unknown,Returning,0
+CST_001674,Bình Dương,Email,2024-03-23,25-34,Female,VIP,0
+CST_001675,Đồng Nai,TikTok Ads,2024-07-03,45-54,Male,Returning,0
+CST_001676,TP.HCM,Google Ads,2024-11-08,55+,Unknown,Churned,0
+CST_001677,Hà Nội,Google Ads,2024-02-19,35-44,Unknown,New,0
+CST_001678,TP.HCM,Email,2024-09-12,35-44,Male,VIP,0
+CST_001679,TP.HCM,Organic Search,2024-03-23,55+,Female,VIP,0
+CST_001680,TP.HCM,Google Ads,2024-02-15,45-54,Female,Churned,0
+CST_001681,Huế,Google Ads,2024-05-11,18-24,Unknown,Churned,0
+CST_001682,Bình Dương,Organic Search,2024-01-21,45-54,Female,Returning,0
+CST_001683,Bình Dương,Referral,2024-08-13,35-44,Male,Churned,0
+CST_001684,Huế,Organic Search,2024-09-16,18-24,Unknown,New,0
+CST_001685,Hà Nội,Google Ads,2024-05-05,18-24,Female,Churned,0
+CST_001686,Đồng Nai,Instagram Ads,2024-03-22,25-34,Female,Churned,0
+CST_001687,TP.HCM,Referral,2024-12-08,45-54,Female,Churned,0
+CST_001688,TP.HCM,Google Ads,2024-02-25,18-24,Female,Churned,0
+CST_001689,Đồng Nai,Referral,2024-04-12,18-24,Female,VIP,0
+CST_001690,Huế,Facebook Ads,2024-11-05,45-54,Male,VIP,0
+CST_001691,Hà Nội,Google Ads,2024-08-20,45-54,Male,Returning,0
+CST_001692,Hà Nội,Shopee Ads,2024-06-12,18-24,Female,Churned,0
+CST_001693,Hải Phòng,TikTok Ads,2024-08-30,25-34,Male,Churned,0
+CST_001694,Cần Thơ,Google Ads,2024-05-18,18-24,Male,New,0
+CST_001695,Đồng Nai,Instagram Ads,2024-05-20,35-44,Unknown,Churned,0
+CST_001696,Hải Phòng,Organic Search,2024-08-02,25-34,Male,New,0
+CST_001697,Bình Dương,Organic Search,2024-08-07,25-34,Male,VIP,0
+CST_001698,Huế,Email,2024-08-02,55+,Unknown,Returning,0
+CST_001699,Đồng Nai,Referral,2024-12-22,55+,Female,New,0
+CST_001700,Hải Phòng,Instagram Ads,2024-10-14,55+,Unknown,Returning,0
+CST_001701,Bình Dương,TikTok Ads,2024-06-14,25-34,Female,Returning,0
+CST_001702,Bình Dương,Instagram Ads,2024-09-12,45-54,Female,New,0
+CST_001703,Đà Nẵng,Email,2024-08-18,55+,Male,New,0
+CST_001704,Hải Phòng,Shopee Ads,2024-04-21,55+,Male,Churned,0
+CST_001705,Bình Dương,Facebook Ads,2024-04-20,25-34,Unknown,New,0
+CST_001706,Bình Dương,TikTok Ads,2024-07-08,35-44,Female,New,0
+CST_001707,Huế,Email,2024-12-24,45-54,Female,VIP,0
+CST_001708,Đồng Nai,Referral,2024-06-29,18-24,Male,Churned,0
+CST_001709,Bình Dương,Google Ads,2024-08-07,55+,Unknown,Returning,0
+CST_001710,Đồng Nai,Shopee Ads,2024-10-04,35-44,Unknown,Churned,0
+CST_001711,Cần Thơ,Instagram Ads,2024-11-20,18-24,Male,New,0
+CST_001712,Hà Nội,Shopee Ads,2024-11-28,18-24,Female,New,0
+CST_001713,Huế,TikTok Ads,2024-11-20,35-44,Female,Returning,0
+CST_001714,Huế,Shopee Ads,2024-04-24,18-24,Male,Churned,0
+CST_001715,Bình Dương,Email,2024-03-04,45-54,Unknown,Churned,0
+CST_001716,Bình Dương,Facebook Ads,2024-01-04,55+,Female,VIP,0
+CST_001717,Cần Thơ,Organic Search,2024-12-03,45-54,Unknown,Returning,0
+CST_001718,Đồng Nai,TikTok Ads,2024-01-03,18-24,Male,Returning,0
+CST_001719,Bình Dương,Referral,2024-07-10,25-34,Unknown,Churned,0
+CST_001720,Đồng Nai,Facebook Ads,2024-05-03,55+,Unknown,Churned,0
+CST_001721,Đồng Nai,Google Ads,2024-01-27,45-54,Unknown,Returning,0
+CST_001722,Bình Dương,Google Ads,2024-07-25,45-54,Male,New,0
+CST_001723,Đà Nẵng,Instagram Ads,2024-12-29,55+,Female,VIP,0
+CST_001724,Đà Nẵng,Referral,2024-10-10,25-34,Male,New,0
+CST_001725,Đồng Nai,TikTok Ads,2024-01-14,55+,Male,New,0
+CST_001726,TP.HCM,Shopee Ads,2024-11-12,18-24,Unknown,Returning,0
+CST_001727,Bình Dương,Google Ads,2024-08-20,25-34,Unknown,Returning,0
+CST_001728,Hải Phòng,Facebook Ads,2024-06-01,45-54,Female,New,0
+CST_001729,TP.HCM,Google Ads,2024-05-20,18-24,Unknown,New,0
+CST_001730,Huế,Instagram Ads,2024-02-26,18-24,Male,VIP,0
+CST_001731,Đà Nẵng,Instagram Ads,2024-05-14,18-24,Female,VIP,0
+CST_001732,Đồng Nai,Instagram Ads,2024-04-16,45-54,Male,Churned,0
+CST_001733,Huế,Instagram Ads,2024-02-07,25-34,Unknown,Churned,0
+CST_001734,Bình Dương,Email,2024-07-11,25-34,Male,VIP,0
+CST_001735,Đà Nẵng,TikTok Ads,2024-01-06,18-24,Female,VIP,0
+CST_001736,Hà Nội,Google Ads,2024-09-04,55+,Unknown,VIP,0
+CST_001737,Hải Phòng,TikTok Ads,2024-03-03,55+,Male,Returning,0
+CST_001738,Bình Dương,Instagram Ads,2024-04-20,25-34,Male,VIP,0
+CST_001739,Hải Phòng,Instagram Ads,2024-03-11,25-34,Female,VIP,0
+CST_001740,Hải Phòng,Instagram Ads,2024-09-03,35-44,Unknown,VIP,0
+CST_001741,Huế,Shopee Ads,2024-08-27,55+,Female,Returning,0
+CST_001742,Đà Nẵng,Facebook Ads,2024-05-08,35-44,Female,New,0
+CST_001743,Cần Thơ,Google Ads,2024-10-25,25-34,Unknown,Churned,0
+CST_001744,Huế,Shopee Ads,2024-08-09,55+,Unknown,VIP,0
+CST_001745,TP.HCM,Shopee Ads,2024-06-12,45-54,Male,VIP,0
+CST_001746,TP.HCM,Email,2024-07-10,25-34,Male,VIP,0
+CST_001747,Đồng Nai,Organic Search,2024-10-27,55+,Unknown,VIP,0
+CST_001748,Hà Nội,Instagram Ads,2024-07-22,25-34,Female,Churned,0
+CST_001749,Bình Dương,Facebook Ads,2024-04-05,18-24,Male,VIP,0
+CST_001750,Đà Nẵng,Referral,2024-07-09,18-24,Male,VIP,0
+CST_001751,Hà Nội,Referral,2024-12-18,25-34,Female,VIP,0
+CST_001752,TP.HCM,Shopee Ads,2024-04-29,35-44,Unknown,Returning,0
+CST_001753,Hải Phòng,Instagram Ads,2024-09-26,55+,Female,New,0
+CST_001754,Đồng Nai,Shopee Ads,2024-10-20,35-44,Female,Returning,0
+CST_001755,Hà Nội,Email,2024-04-10,45-54,Male,VIP,0
+CST_001756,TP.HCM,Instagram Ads,2024-08-03,45-54,Male,VIP,0
+CST_001757,Đồng Nai,Facebook Ads,2024-10-29,55+,Male,VIP,0
+CST_001758,Hà Nội,Email,2024-01-10,35-44,Male,Churned,0
+CST_001759,Hà Nội,Referral,2024-01-19,18-24,Male,Churned,0
+CST_001760,Đồng Nai,Organic Search,2024-02-18,35-44,Female,VIP,0
+CST_001761,TP.HCM,Referral,2024-07-23,45-54,Unknown,New,0
+CST_001762,Cần Thơ,Email,2024-07-20,45-54,Unknown,New,0
+CST_001763,TP.HCM,TikTok Ads,2024-07-10,25-34,Male,New,0
+CST_001764,TP.HCM,Referral,2024-03-12,45-54,Male,Returning,0
+CST_001765,Hải Phòng,Referral,2024-02-15,55+,Male,New,0
+CST_001766,Hà Nội,Instagram Ads,2024-05-12,18-24,Female,New,0
+CST_001767,Bình Dương,Shopee Ads,2024-05-15,35-44,Unknown,Returning,0
+CST_001768,Huế,Instagram Ads,2024-03-11,25-34,Female,Returning,0
+CST_001769,Đồng Nai,Email,2024-10-26,18-24,Unknown,Returning,0
+CST_001770,Huế,Email,2024-10-22,35-44,Female,Churned,0
+CST_001771,TP.HCM,Organic Search,2024-04-25,35-44,Unknown,New,0
+CST_001772,Hải Phòng,Facebook Ads,2024-06-29,18-24,Male,Churned,0
+CST_001773,Hải Phòng,TikTok Ads,2024-01-31,25-34,Female,Churned,0
+CST_001774,Huế,Instagram Ads,2024-04-06,35-44,Male,VIP,0
+CST_001775,Huế,Google Ads,2024-06-08,55+,Male,Returning,0
+CST_001776,Bình Dương,Shopee Ads,2024-04-22,45-54,Unknown,Returning,0
+CST_001777,Hải Phòng,Instagram Ads,2024-07-23,35-44,Female,Returning,0
+CST_001778,Cần Thơ,Instagram Ads,2024-12-17,25-34,Female,New,0
+CST_001779,Hải Phòng,TikTok Ads,2024-02-26,45-54,Male,VIP,0
+CST_001780,Huế,Email,2024-01-15,35-44,Female,New,0
+CST_001781,TP.HCM,Referral,2024-10-08,45-54,Male,Returning,0
+CST_001782,Đồng Nai,Referral,2024-07-22,18-24,Female,VIP,0
+CST_001783,TP.HCM,TikTok Ads,2024-07-08,45-54,Unknown,Churned,0
+CST_001784,Cần Thơ,Facebook Ads,2024-04-09,45-54,Male,VIP,0
+CST_001785,Huế,Shopee Ads,2024-09-28,18-24,Unknown,New,0
+CST_001786,Hải Phòng,Instagram Ads,2024-11-26,25-34,Male,New,0
+CST_001787,Cần Thơ,Facebook Ads,2024-01-19,18-24,Unknown,New,0
+CST_001788,Hải Phòng,Shopee Ads,2024-05-21,45-54,Female,New,0
+CST_001789,Cần Thơ,Email,2024-04-22,25-34,Male,Returning,0
+CST_001790,Cần Thơ,Organic Search,2024-06-26,18-24,Male,Returning,0
+CST_001791,Huế,Organic Search,2024-09-14,25-34,Male,VIP,0
+CST_001792,TP.HCM,Google Ads,2024-12-14,25-34,Female,Churned,0
+CST_001793,Hà Nội,Email,2024-03-13,45-54,Female,New,0
+CST_001794,Cần Thơ,Instagram Ads,2024-03-31,25-34,Unknown,New,0
+CST_001795,Bình Dương,Email,2024-10-31,55+,Male,Churned,0
+CST_001796,Huế,Instagram Ads,2024-05-06,18-24,Male,VIP,0
+CST_001797,Đà Nẵng,Google Ads,2024-04-26,18-24,Male,VIP,0
+CST_001798,Huế,Email,2024-06-20,35-44,Unknown,VIP,0
+CST_001799,Huế,Organic Search,2024-12-05,35-44,Female,New,0
+CST_001800,Cần Thơ,Referral,2024-06-29,55+,Unknown,Churned,0
+CST_001801,Cần Thơ,TikTok Ads,2024-02-27,25-34,Female,Returning,0
+CST_001802,Đà Nẵng,Referral,2024-12-03,45-54,Male,Returning,0
+CST_001803,Đồng Nai,Referral,2024-10-22,25-34,Unknown,New,0
+CST_001804,Đồng Nai,Instagram Ads,2024-04-09,35-44,Unknown,Churned,0
+CST_001805,Đà Nẵng,Organic Search,2024-09-26,35-44,Female,Churned,0
+CST_001806,Đồng Nai,Organic Search,2024-10-28,35-44,Male,New,0
+CST_001807,Bình Dương,Instagram Ads,2024-10-23,45-54,Female,VIP,0
+CST_001808,TP.HCM,TikTok Ads,2024-05-27,45-54,Unknown,Returning,0
+CST_001809,Đà Nẵng,Organic Search,2024-08-26,55+,Unknown,Returning,0
+CST_001810,Huế,Organic Search,2024-06-04,18-24,Female,New,0
+CST_001811,Hà Nội,Facebook Ads,2024-08-20,35-44,Unknown,New,0
+CST_001812,Huế,Organic Search,2024-01-28,18-24,Female,VIP,0
+CST_001813,Hà Nội,TikTok Ads,2024-12-04,35-44,Male,VIP,0
+CST_001814,Đà Nẵng,Instagram Ads,2024-05-25,35-44,Male,Returning,0
+CST_001815,TP.HCM,Organic Search,2024-08-09,25-34,Male,Churned,0
+CST_001816,Hải Phòng,Shopee Ads,2024-06-30,45-54,Female,New,0
+CST_001817,Cần Thơ,Organic Search,2024-05-13,25-34,Unknown,Churned,0
+CST_001818,Bình Dương,Google Ads,2024-12-13,25-34,Female,Returning,0
+CST_001819,Hải Phòng,Organic Search,2024-08-01,35-44,Male,VIP,0
+CST_001820,Huế,Google Ads,2024-10-17,45-54,Female,New,0
+CST_001821,Huế,Referral,2024-03-11,55+,Unknown,VIP,0
+CST_001822,Bình Dương,Shopee Ads,2024-08-27,45-54,Female,Churned,0
+CST_001823,Hà Nội,TikTok Ads,2024-08-24,45-54,Male,Returning,0
+CST_001824,Cần Thơ,Facebook Ads,2024-11-10,55+,Unknown,VIP,0
+CST_001825,Cần Thơ,TikTok Ads,2024-03-06,45-54,Male,Churned,0
+CST_001826,Hà Nội,Email,2024-12-09,55+,Female,New,0
+CST_001827,Hà Nội,Organic Search,2024-02-13,18-24,Female,New,0
+CST_001828,Huế,Referral,2024-05-28,18-24,Male,New,0
+CST_001829,Hải Phòng,Google Ads,2024-12-25,55+,Unknown,Churned,0
+CST_001830,Hải Phòng,Google Ads,2024-03-10,35-44,Unknown,VIP,0
+CST_001831,Huế,Facebook Ads,2024-01-04,18-24,Male,New,0
+CST_001832,TP.HCM,Instagram Ads,2024-03-19,25-34,Male,New,0
+CST_001833,Hà Nội,Email,2024-08-30,45-54,Male,New,0
+CST_001834,Đồng Nai,Email,2024-06-02,25-34,Male,VIP,0
+CST_001835,Huế,Instagram Ads,2024-11-09,45-54,Male,New,0
+CST_001836,Đà Nẵng,Facebook Ads,2024-04-04,25-34,Unknown,Returning,0
+CST_001837,Huế,Organic Search,2024-08-31,35-44,Unknown,New,0
+CST_001838,Huế,Referral,2024-10-28,35-44,Female,Churned,0
+CST_001839,TP.HCM,Email,2024-12-23,45-54,Female,Returning,0
+CST_001840,Cần Thơ,Email,2024-01-15,18-24,Unknown,Churned,0
+CST_001841,Cần Thơ,TikTok Ads,2024-01-06,55+,Female,New,0
+CST_001842,Đà Nẵng,Email,2024-06-30,45-54,Female,New,0
+CST_001843,Bình Dương,Facebook Ads,2024-03-22,35-44,Unknown,Churned,0
+CST_001844,TP.HCM,Google Ads,2024-09-19,25-34,Female,VIP,0
+CST_001845,Đà Nẵng,Organic Search,2024-08-23,35-44,Female,New,0
+CST_001846,Huế,Shopee Ads,2024-11-26,45-54,Unknown,Returning,0
+CST_001847,Cần Thơ,Google Ads,2024-10-21,35-44,Unknown,VIP,0
+CST_001848,Đồng Nai,Instagram Ads,2024-10-26,18-24,Male,Returning,0
+CST_001849,TP.HCM,Instagram Ads,2024-04-28,45-54,Unknown,Churned,0
+CST_001850,Hải Phòng,Facebook Ads,2024-06-14,18-24,Male,Churned,0
+CST_001851,TP.HCM,TikTok Ads,2024-08-03,55+,Female,New,0
+CST_001852,TP.HCM,Email,2024-01-20,35-44,Unknown,New,0
+CST_001853,Bình Dương,Instagram Ads,2024-03-30,45-54,Female,Returning,0
+CST_001854,Hải Phòng,Facebook Ads,2024-11-22,35-44,Female,Churned,0
+CST_001855,Cần Thơ,Facebook Ads,2024-12-13,25-34,Unknown,Returning,0
+CST_001856,Hải Phòng,Instagram Ads,2024-08-10,55+,Male,New,0
+CST_001857,Hà Nội,Google Ads,2024-04-14,18-24,Female,Churned,0
+CST_001858,TP.HCM,Referral,2024-10-17,25-34,Unknown,Churned,0
+CST_001859,Hải Phòng,Email,2024-04-07,55+,Female,VIP,0
+CST_001860,Đà Nẵng,Instagram Ads,2024-11-12,45-54,Female,Churned,0
+CST_001861,TP.HCM,Google Ads,2024-02-06,55+,Female,New,0
+CST_001862,Huế,Facebook Ads,2024-03-01,18-24,Unknown,VIP,0
+CST_001863,Hải Phòng,Organic Search,2024-01-12,35-44,Female,VIP,0
+CST_001864,Đà Nẵng,Organic Search,2024-02-04,18-24,Unknown,Returning,0
+CST_001865,Cần Thơ,Shopee Ads,2024-09-22,55+,Male,New,0
+CST_001866,Huế,Organic Search,2024-10-25,18-24,Male,VIP,0
+CST_001867,Cần Thơ,Facebook Ads,2024-08-03,35-44,Male,Returning,0
+CST_001868,Bình Dương,TikTok Ads,2024-04-14,25-34,Female,New,0
+CST_001869,Hà Nội,Referral,2024-10-15,18-24,Female,New,0
+CST_001870,Huế,Google Ads,2024-10-09,35-44,Unknown,New,0
+CST_001871,Hà Nội,Email,2024-02-23,55+,Male,VIP,0
+CST_001872,Huế,Organic Search,2024-08-08,25-34,Male,New,0
+CST_001873,Hải Phòng,Shopee Ads,2024-01-14,18-24,Unknown,Churned,0
+CST_001874,Đồng Nai,Shopee Ads,2024-01-27,25-34,Female,Churned,0
+CST_001875,Đà Nẵng,Instagram Ads,2024-10-08,45-54,Male,VIP,0
+CST_001876,Hải Phòng,Referral,2024-06-29,45-54,Male,Returning,0
+CST_001877,TP.HCM,TikTok Ads,2024-04-28,25-34,Female,New,0
+CST_001878,Hải Phòng,TikTok Ads,2024-01-08,18-24,Male,Returning,0
+CST_001879,Đà Nẵng,Organic Search,2024-08-12,18-24,Female,VIP,0
+CST_001880,Hải Phòng,Organic Search,2024-11-04,25-34,Unknown,Churned,0
+CST_001881,TP.HCM,Instagram Ads,2024-09-02,18-24,Female,Returning,0
+CST_001882,Bình Dương,Facebook Ads,2024-09-10,45-54,Unknown,VIP,0
+CST_001883,Cần Thơ,Facebook Ads,2024-07-06,55+,Female,VIP,0
+CST_001884,TP.HCM,TikTok Ads,2024-12-23,35-44,Female,Churned,0
+CST_001885,TP.HCM,Facebook Ads,2024-05-23,25-34,Unknown,Returning,0
+CST_001886,Hải Phòng,Instagram Ads,2024-06-05,35-44,Unknown,Returning,0
+CST_001887,Hải Phòng,Email,2024-01-19,45-54,Male,New,0
+CST_001888,Hà Nội,Organic Search,2024-09-12,35-44,Unknown,Churned,0
+CST_001889,TP.HCM,TikTok Ads,2024-06-02,35-44,Unknown,Churned,0
+CST_001890,Hà Nội,Shopee Ads,2024-09-10,45-54,Female,New,0
+CST_001891,Hải Phòng,Shopee Ads,2024-04-24,25-34,Unknown,Churned,0
+CST_001892,Hà Nội,Organic Search,2024-09-29,18-24,Unknown,VIP,0
+CST_001893,Bình Dương,Organic Search,2024-01-14,55+,Male,New,0
+CST_001894,Đồng Nai,Shopee Ads,2024-06-23,18-24,Male,Churned,0
+CST_001895,Cần Thơ,Email,2024-12-13,45-54,Unknown,VIP,0
+CST_001896,Đồng Nai,Email,2024-03-24,25-34,Male,New,0
+CST_001897,Cần Thơ,Instagram Ads,2024-05-23,25-34,Unknown,VIP,0
+CST_001898,Đồng Nai,TikTok Ads,2024-06-21,55+,Female,VIP,0
+CST_001899,Cần Thơ,TikTok Ads,2024-05-17,18-24,Female,VIP,0
+CST_001900,Đà Nẵng,Email,2024-05-15,45-54,Male,Churned,0
+CST_001901,Huế,TikTok Ads,2024-01-05,35-44,Female,Returning,0
+CST_001902,Hà Nội,Instagram Ads,2024-07-28,35-44,Unknown,VIP,0
+CST_001903,Huế,Google Ads,2024-02-02,35-44,Female,VIP,0
+CST_001904,Đà Nẵng,Facebook Ads,2024-09-10,25-34,Male,New,0
+CST_001905,TP.HCM,TikTok Ads,2024-04-29,25-34,Unknown,Churned,0
+CST_001906,Bình Dương,TikTok Ads,2024-10-23,55+,Unknown,Returning,0
+CST_001907,Cần Thơ,Organic Search,2024-02-01,18-24,Unknown,VIP,0
+CST_001908,Hà Nội,Facebook Ads,2024-10-03,35-44,Male,New,0
+CST_001909,Huế,Instagram Ads,2024-09-16,55+,Male,Returning,0
+CST_001910,Bình Dương,Referral,2024-04-14,45-54,Male,Churned,0
+CST_001911,Đà Nẵng,TikTok Ads,2024-05-24,35-44,Unknown,VIP,0
+CST_001912,Đồng Nai,Referral,2024-06-20,45-54,Female,New,0
+CST_001913,Bình Dương,TikTok Ads,2024-03-23,35-44,Male,New,0
+CST_001914,Hải Phòng,Referral,2024-02-24,55+,Unknown,VIP,0
+CST_001915,Đồng Nai,TikTok Ads,2024-04-20,25-34,Female,New,0
+CST_001916,Hải Phòng,Shopee Ads,2024-02-09,55+,Unknown,New,0
+CST_001917,Hà Nội,Email,2024-09-27,55+,Unknown,Churned,0
+CST_001918,Cần Thơ,Facebook Ads,2024-06-11,55+,Female,Returning,0
+CST_001919,Hải Phòng,Referral,2024-06-17,25-34,Female,VIP,0
+CST_001920,Hải Phòng,Email,2024-02-29,45-54,Female,New,0
+CST_001921,TP.HCM,Referral,2024-06-29,45-54,Unknown,Returning,0
+CST_001922,Đồng Nai,Facebook Ads,2024-08-17,55+,Male,Returning,0
+CST_001923,Đà Nẵng,Organic Search,2024-07-27,35-44,Female,VIP,0
+CST_001924,TP.HCM,Shopee Ads,2024-03-01,45-54,Unknown,Returning,0
+CST_001925,Huế,Facebook Ads,2024-10-21,25-34,Female,New,0
+CST_001926,TP.HCM,Shopee Ads,2024-03-26,35-44,Unknown,Churned,0
+CST_001927,Đà Nẵng,TikTok Ads,2024-02-21,45-54,Male,Returning,0
+CST_001928,Đà Nẵng,Shopee Ads,2024-02-07,45-54,Female,Returning,0
+CST_001929,Hải Phòng,Organic Search,2024-07-24,18-24,Female,VIP,0
+CST_001930,TP.HCM,TikTok Ads,2024-10-29,18-24,Unknown,VIP,0
+CST_001931,Đồng Nai,Email,2024-08-17,45-54,Female,Churned,0
+CST_001932,Đà Nẵng,Google Ads,2024-12-24,55+,Unknown,New,0
+CST_001933,Hà Nội,Referral,2024-03-18,45-54,Female,VIP,0
+CST_001934,Đà Nẵng,Organic Search,2024-08-12,18-24,Male,VIP,0
+CST_001935,Bình Dương,TikTok Ads,2024-09-09,55+,Unknown,Churned,0
+CST_001936,Bình Dương,Shopee Ads,2024-05-26,35-44,Male,Returning,0
+CST_001937,Hải Phòng,Shopee Ads,2024-01-22,55+,Female,VIP,0
+CST_001938,Bình Dương,Organic Search,2024-02-20,25-34,Male,VIP,0
+CST_001939,Huế,Email,2024-05-20,25-34,Male,VIP,0
+CST_001940,TP.HCM,Facebook Ads,2024-05-12,35-44,Male,New,0
+CST_001941,Đà Nẵng,TikTok Ads,2024-04-15,55+,Male,Returning,0
+CST_001942,Huế,TikTok Ads,2024-01-04,35-44,Male,VIP,0
+CST_001943,Đồng Nai,Email,2024-10-19,55+,Male,Churned,0
+CST_001944,TP.HCM,Instagram Ads,2024-05-31,45-54,Female,Churned,0
+CST_001945,TP.HCM,Google Ads,2024-05-14,35-44,Unknown,New,0
+CST_001946,TP.HCM,Facebook Ads,2024-06-30,18-24,Female,Returning,0
+CST_001947,Bình Dương,Organic Search,2024-09-16,45-54,Unknown,New,0
+CST_001948,Bình Dương,TikTok Ads,2024-12-27,45-54,Male,VIP,0
+CST_001949,Hà Nội,TikTok Ads,2024-04-07,25-34,Male,Churned,0
+CST_001950,Hải Phòng,Organic Search,2024-04-22,45-54,Male,Churned,0
+CST_001951,Huế,Organic Search,2024-04-05,25-34,Male,New,0
+CST_001952,Hải Phòng,TikTok Ads,2024-09-21,45-54,Male,Churned,0
+CST_001953,Hải Phòng,Google Ads,2024-10-12,18-24,Female,VIP,0
+CST_001954,Đồng Nai,Facebook Ads,2024-11-10,35-44,Female,Returning,0
+CST_001955,Hải Phòng,Organic Search,2024-06-02,45-54,Female,Churned,0
+CST_001956,Bình Dương,Email,2024-11-02,35-44,Male,Returning,0
+CST_001957,Cần Thơ,Shopee Ads,2024-02-27,45-54,Female,Returning,0
+CST_001958,Đồng Nai,Instagram Ads,2024-12-05,25-34,Female,VIP,0
+CST_001959,TP.HCM,Referral,2024-12-04,45-54,Unknown,Returning,0
+CST_001960,Huế,Shopee Ads,2024-09-04,25-34,Male,VIP,0
+CST_001961,Hải Phòng,Shopee Ads,2024-05-17,18-24,Unknown,VIP,0
+CST_001962,Bình Dương,Shopee Ads,2024-05-13,45-54,Female,Churned,0
+CST_001963,Cần Thơ,TikTok Ads,2024-07-23,35-44,Female,Returning,0
+CST_001964,Hà Nội,Organic Search,2024-06-22,45-54,Female,Returning,0
+CST_001965,Đà Nẵng,Facebook Ads,2024-10-20,18-24,Unknown,VIP,0
+CST_001966,Hà Nội,TikTok Ads,2024-03-07,45-54,Male,VIP,0
+CST_001967,TP.HCM,TikTok Ads,2024-06-29,55+,Male,VIP,0
+CST_001968,Hải Phòng,Google Ads,2024-10-01,55+,Female,Returning,0
+CST_001969,Đà Nẵng,Referral,2024-05-28,35-44,Female,Returning,0
+CST_001970,Hải Phòng,TikTok Ads,2024-10-10,18-24,Male,New,0
+CST_001971,Đồng Nai,Email,2024-09-13,18-24,Male,VIP,0
+CST_001972,Hà Nội,Facebook Ads,2024-06-03,25-34,Male,VIP,0
+CST_001973,Đồng Nai,Shopee Ads,2024-03-04,25-34,Unknown,VIP,0
+CST_001974,TP.HCM,Instagram Ads,2024-02-13,55+,Unknown,Churned,0
+CST_001975,Hà Nội,Google Ads,2024-01-11,18-24,Unknown,Churned,0
+CST_001976,Cần Thơ,Referral,2024-04-09,45-54,Unknown,New,0
+CST_001977,Cần Thơ,Email,2024-06-03,25-34,Male,VIP,0
+CST_001978,Huế,Shopee Ads,2024-12-01,35-44,Female,New,0
+CST_001979,Đồng Nai,Organic Search,2024-04-23,45-54,Female,Returning,0
+CST_001980,Hà Nội,Email,2024-07-14,45-54,Female,New,0
+CST_001981,Hải Phòng,TikTok Ads,2024-08-19,45-54,Male,Churned,0
+CST_001982,Huế,Instagram Ads,2024-07-08,35-44,Female,Returning,0
+CST_001983,TP.HCM,Instagram Ads,2024-11-18,55+,Male,Returning,0
+CST_001984,Hải Phòng,Instagram Ads,2024-09-07,25-34,Female,Churned,0
+CST_001985,Hải Phòng,TikTok Ads,2024-09-24,45-54,Female,Churned,0
+CST_001986,Bình Dương,Google Ads,2024-06-08,18-24,Female,Churned,0
+CST_001987,Cần Thơ,Facebook Ads,2024-01-03,55+,Female,Churned,0
+CST_001988,Hải Phòng,Referral,2024-06-09,45-54,Unknown,Churned,0
+CST_001989,TP.HCM,Instagram Ads,2024-09-20,45-54,Unknown,New,0
+CST_001990,Đà Nẵng,TikTok Ads,2024-07-11,25-34,Unknown,New,0
+CST_001991,Hải Phòng,Email,2024-03-26,18-24,Male,Churned,0
+CST_001992,Đà Nẵng,Email,2024-09-10,25-34,Unknown,Churned,0
+CST_001993,Hà Nội,Organic Search,2024-07-23,18-24,Female,VIP,0
+CST_001994,Cần Thơ,Referral,2024-12-12,55+,Female,Returning,0
+CST_001995,Cần Thơ,Facebook Ads,2024-03-13,55+,Unknown,VIP,0
+CST_001996,Cần Thơ,Email,2024-09-22,45-54,Male,VIP,0
+CST_001997,Đà Nẵng,Email,2024-03-10,18-24,Female,Churned,0
+CST_001998,Đà Nẵng,Email,2024-04-01,18-24,Male,VIP,0
+CST_001999,Hải Phòng,Facebook Ads,2024-12-25,18-24,Unknown,Churned,0
+CST_002000,TP.HCM,TikTok Ads,2024-06-18,55+,Female,Returning,0

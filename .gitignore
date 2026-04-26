@@ -1,0 +1,19 @@
+# 1. Credentials & Secrets
+.secrets/
+*.json
+*.pem
+
+# 2. dbt Artifacts (Không push bộ nhớ đệm)
+marketing_project/target/
+marketing_project/dbt_packages/
+marketing_project/logs/
+
+# 3. Airflow Logs (Không push log hệ thống)
+logs/
+plugins/
+*.pid
+
+# 4. Python
+__pycache__/
+*.pyc
+dbt-env/

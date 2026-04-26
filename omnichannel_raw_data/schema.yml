@@ -1,0 +1,344 @@
+version: 2
+
+# ══════════════════════════════════════════════════════════════════
+#  dbt SOURCE DEFINITIONS — Raw Layer (omnichannel_raw dataset)
+#  Project   : Omnichannel Marketing Data Warehouse
+#  Layer     : Raw / Bronze (as-is from source systems)
+#  Updated   : 2024-01-01
+#  Note      : Tests ở layer này chủ yếu là not_null + dupe checks.
+#              Referential integrity tests nằm ở staging layer sau.
+# ══════════════════════════════════════════════════════════════════
+
+sources:
+  - name: omnichannel_raw
+    description: >
+      Raw data extracted từ các hệ thống nguồn (CRM, Ad Platforms, OMS).
+      Dữ liệu chưa qua transform. dbt sẽ đọc từ BigQuery dataset này.
+    database: "{{ env_var('DBT_GCP_PROJECT') }}"
+    schema: omnichannel_raw
+
+    # Freshness check: cảnh báo nếu data cũ hơn 25h, lỗi nếu cũ hơn 49h
+    freshness:
+      warn_after: {count: 25, period: hour}
+      error_after: {count: 49, period: hour}
+
+    tables:
+
+      # ── 1. CREATORS ─────────────────────────────────────────────
+      - name: creators
+        description: >
+          Danh sách Creator/KOL/KOC exported từ Creator Management Platform.
+          ⚠️  Bảng này chứa NHIỀU DÒNG cho cùng một creator_id (do CDC / re-export).
+          Logic SCD Type 2 sẽ được xử lý ở staging layer bằng dbt.
+        loaded_at_field: updated_at
+        columns:
+          - name: creator_id
+            description: Business key của creator. KHÔNG unique ở raw layer (SCD2).
+            data_tests:
+              - not_null
+          - name: name
+            description: Tên hiển thị của creator.
+            data_tests:
+              - not_null
+          - name: platform
+            description: Nền tảng hoạt động chính của creator.
+            data_tests:
+              - not_null
+              - accepted_values:
+                  values: ["TikTok", "YouTube", "Instagram", "Facebook", "Shopee Live", "Lazada Live"]
+          - name: follower_count
+            description: >
+              Số follower tại thời điểm updated_at.
+              Giá trị này thay đổi theo thời gian → dùng updated_at để track lịch sử.
+            data_tests:
+              - not_null
+          - name: category
+            description: Danh mục nội dung chuyên sâu của creator.
+          - name: engagement_rate
+            description: Tỷ lệ tương tác (likes + comments + shares / impressions).
+          - name: tier
+            description: >
+              Phân loại creator theo follower_count.
+              Nano < 10K | Micro 10K-100K | Mid-tier 100K-500K | Macro 500K-1M | Mega 1M+
+            data_tests:
+              - accepted_values:
+                  values: ["Nano", "Micro", "Mid-tier", "Macro", "Mega"]
+          - name: status
+            description: Trạng thái hợp tác với creator (active / inactive / pending).
+            data_tests:
+              - accepted_values:
+                  values: ["active", "inactive", "pending"]
+          - name: country
+            description: Quốc gia của creator.
+          - name: updated_at
+            description: >
+              Timestamp cập nhật bản ghi từ hệ thống nguồn.
+              KEY FIELD cho SCD2: dòng có updated_at lớn nhất = bản ghi hiện tại.
+            data_tests:
+              - not_null
+
+      # ── 2. CAMPAIGNS ────────────────────────────────────────────
+      - name: campaigns
+        description: >
+          Danh sách chiến dịch quảng cáo từ hệ thống Campaign Management.
+          Mỗi campaign_id là duy nhất. Đây là dimension table chính.
+        loaded_at_field: created_at
+        columns:
+          - name: campaign_id
+            description: Primary key của chiến dịch. Unique ở raw layer.
+            data_tests:
+              - unique
+              - not_null
+          - name: campaign_name
+            description: Tên chiến dịch do Marketing team đặt.
+            data_tests:
+              - not_null
+          - name: source_platform
+            description: Nền tảng chạy chiến dịch (TikTok, YouTube...).
+            data_tests:
+              - not_null
+              - accepted_values:
+                  values: ["TikTok", "YouTube", "Instagram", "Facebook", "Shopee Live", "Lazada Live"]
+          - name: marketing_objective
+            description: Mục tiêu chiến dịch.
+            data_tests:
+              - not_null
+              - accepted_values:
+                  values: ["Awareness", "Conversion", "Retargeting", "Lead Generation"]
+          - name: budget_type
+            description: Loại ngân sách (Daily Budget / Lifetime Budget).
+            data_tests:
+              - accepted_values:
+                  values: ["Daily Budget", "Lifetime Budget"]
+          - name: total_budget_vnd
+            description: Tổng ngân sách chiến dịch (VND).
+          - name: target_audience
+            description: Nhóm đối tượng mục tiêu (Gen Z, Millennials...).
+          - name: product_category
+            description: Danh mục sản phẩm được quảng bá.
+          - name: start_date
+            description: Ngày bắt đầu chiến dịch.
+            data_tests:
+              - not_null
+          - name: end_date
+            description: Ngày kết thúc chiến dịch. Phải >= start_date.
+            data_tests:
+              - not_null
+          - name: created_at
+            description: Timestamp tạo campaign trong hệ thống.
+            data_tests:
+              - not_null
+
+      # ── 3. CUSTOMERS ────────────────────────────────────────────
+      - name: customers
+        description: >
+          Danh sách khách hàng từ CRM system.
+          Mỗi customer_id là duy nhất. Có thể có NULL ở một số trường
+          demographic do khách hàng không điền đầy đủ (ví dụ: gender).
+        loaded_at_field: registered_at
+        columns:
+          - name: customer_id
+            description: Primary key của khách hàng. Unique.
+            data_tests:
+              - unique
+              - not_null
+          - name: acquisition_source
+            description: >
+              Kênh acquisition đầu tiên của khách hàng (first-touch).
+              Ví dụ: TikTok Ads, Google Ads, Organic Search...
+            data_tests:
+              - not_null
+          - name: region
+            description: Khu vực địa lý của khách hàng (tỉnh/thành phố).
+          - name: age_group
+            description: Nhóm tuổi (18-24, 25-34...).
+            data_tests:
+              - accepted_values:
+                  values: ["18-24", "25-34", "35-44", "45-54", "55+"]
+          - name: gender
+            description: >
+              Giới tính. Có thể NULL nếu khách hàng không cung cấp.
+              ⚠️ Không test not_null ở đây — missing data là expected.
+          - name: registered_at
+            description: Thời điểm khách hàng đăng ký tài khoản.
+            data_tests:
+              - not_null
+
+      # ── 4. DATES ────────────────────────────────────────────────
+      - name: dates
+        description: >
+          Date spine — danh sách tất cả các ngày trong năm 2024.
+          Bảng này chỉ có 1 cột date_day. dbt sẽ enrich thành dim_dates
+          với các cột month, quarter, is_weekend, is_holiday_vn...
+        columns:
+          - name: date_day
+            description: Ngày cụ thể (YYYY-MM-DD). Primary key, unique.
+            data_tests:
+              - unique
+              - not_null
+
+      # ── 5. AD_PERFORMANCE ───────────────────────────────────────
+      - name: ad_performance
+        description: >
+          Hiệu suất quảng cáo theo ngày, được export từ các Ad Platform API
+          (TikTok Ads API, Meta Ads API...). Grain: 1 row = 1 performance_id
+          = 1 campaign × 1 creator × 1 ngày.
+          ⚠️ Raw data có thể có duplicates nếu pipeline chạy lại (idempotency).
+          dbt incremental model sẽ dùng performance_id để dedupe.
+        loaded_at_field: loaded_at
+        columns:
+          - name: performance_id
+            description: >
+              ID duy nhất của bản ghi performance (sinh bởi pipeline).
+              Dùng làm unique_key trong dbt incremental model.
+            data_tests:
+              - unique
+              - not_null
+          - name: campaign_id
+            description: Khóa ngoại → campaigns.campaign_id
+            data_tests:
+              - not_null
+              - relationships:
+                  to: source('omnichannel_raw', 'campaigns')
+                  field: campaign_id
+          - name: creator_id
+            description: >
+              Khóa ngoại → creators.creator_id.
+              ⚠️ Không dùng relationships test ở đây vì creators có duplicate rows.
+              Test referential integrity ở staging layer sau khi đã dedupe SCD2.
+            data_tests:
+              - not_null
+          - name: date
+            description: Ngày ghi nhận hiệu suất (YYYY-MM-DD).
+            data_tests:
+              - not_null
+          - name: spend_vnd
+            description: Tổng chi tiêu quảng cáo trong ngày (VND).
+            data_tests:
+              - not_null
+          - name: impressions
+            description: Tổng số lần hiển thị quảng cáo.
+            data_tests:
+              - not_null
+          - name: clicks
+            description: Tổng số lần click vào quảng cáo.
+          - name: video_views
+            description: Số lượt xem video (nếu có).
+          - name: reach
+            description: Số người dùng unique tiếp cận được.
+          - name: platform
+            description: Nền tảng chạy campaign (denormalized từ campaigns).
+          - name: loaded_at
+            description: Timestamp khi bản ghi được load vào BigQuery bởi pipeline.
+            data_tests:
+              - not_null
+
+      # ── 6. CONVERSIONS ──────────────────────────────────────────
+      - name: conversions
+        description: >
+          Bảng đơn hàng / conversion từ Order Management System (OMS).
+          Grain: 1 row = 1 đơn hàng.
+          order_id là unique và là primary key.
+          campaign_id và creator_id thể hiện attribution (last-touch mặc định).
+        loaded_at_field: loaded_at
+        columns:
+          - name: order_id
+            description: >
+              Mã đơn hàng duy nhất từ OMS. Primary key.
+              ✅ Bắt buộc unique và not_null — đây là key integrity test.
+            data_tests:
+              - unique
+              - not_null
+          - name: customer_id
+            description: Khóa ngoại → customers.customer_id
+            data_tests:
+              - not_null
+              - relationships:
+                  to: source('omnichannel_raw', 'customers')
+                  field: customer_id
+          - name: campaign_id
+            description: >
+              Campaign được attributed cho đơn hàng này (last-touch attribution).
+              Khóa ngoại → campaigns.campaign_id.
+            data_tests:
+              - not_null
+              - relationships:
+                  to: source('omnichannel_raw', 'campaigns')
+                  field: campaign_id
+          - name: creator_id
+            description: Creator được attributed cho conversion này.
+            data_tests:
+              - not_null
+          - name: order_amount_vnd
+            description: Giá trị đơn hàng (VND). Không bao gồm phí vận chuyển.
+            data_tests:
+              - not_null
+          - name: currency
+            description: Đơn vị tiền tệ. Luôn là VND trong dataset này.
+            data_tests:
+              - not_null
+              - accepted_values:
+                  values: ["VND"]
+          - name: payment_method
+            description: Phương thức thanh toán (COD, MoMo, ZaloPay...).
+          - name: order_status
+            description: Trạng thái đơn hàng dưới dạng STATUS CODE từ OMS.
+            data_tests:
+              - not_null
+              - accepted_values:
+                  values: ["COMPLETED", "RETURNED", "CANCELLED"]
+          - name: platform
+            description: Nền tảng nơi đơn hàng được đặt (denormalized).
+          - name: timestamp
+            description: >
+              Thời điểm đặt hàng (UTC+7). Có cả date và time.
+              ⚠️ KHÔNG có cột `date` riêng ở raw layer.
+              dbt sẽ extract: DATE(timestamp) → order_date.
+            data_tests:
+              - not_null
+          - name: loaded_at
+            description: Timestamp pipeline load vào BigQuery.
+            data_tests:
+              - not_null
+
+      # ── 7. CREATOR_REVIEWS (bonus) ──────────────────────────────
+      - name: creator_reviews
+        description: >
+          Đánh giá nội bộ về Creator sau mỗi campaign, ghi bởi Brand/Media team.
+          Dùng để build dim_creator_knowledge_base (RAG-ready text cho AI Agent).
+          Grain: 1 row = 1 đánh giá từ 1 reviewer cho 1 creator trong 1 campaign.
+        loaded_at_field: reviewed_at
+        columns:
+          - name: review_id
+            description: Primary key của review.
+            data_tests:
+              - unique
+              - not_null
+          - name: creator_id
+            description: Creator được đánh giá.
+            data_tests:
+              - not_null
+          - name: campaign_id
+            description: Campaign mà review này liên quan.
+            data_tests:
+              - not_null
+              - relationships:
+                  to: source('omnichannel_raw', 'campaigns')
+                  field: campaign_id
+          - name: reviewer_role
+            description: Chức danh của người đánh giá.
+          - name: rating
+            description: Điểm đánh giá từ 1 đến 5.
+            data_tests:
+              - not_null
+          - name: sentiment
+            description: Phân loại cảm xúc tổng quan (positive / neutral / negative).
+            data_tests:
+              - accepted_values:
+                  values: ["positive", "neutral", "negative"]
+          - name: comment
+            description: Nội dung đánh giá dạng free-text. Dùng cho RAG embedding.
+          - name: reviewed_at
+            description: Thời điểm ghi nhận đánh giá.
+            data_tests:
+              - not_null

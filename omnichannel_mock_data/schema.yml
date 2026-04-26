@@ -1,0 +1,221 @@
+version: 2
+
+# ─────────────────────────────────────────────────────────
+# SOURCES (raw layer từ BigQuery staging dataset)
+# ─────────────────────────────────────────────────────────
+sources:
+  - name: omnichannel_raw
+    database: your-gcp-project
+    schema: omnichannel_raw
+    tables:
+      - name: dim_creators
+      - name: dim_campaign
+      - name: dim_dates
+      - name: dim_customers
+      - name: fct_ad_performance
+      - name: fct_conversions
+
+# ─────────────────────────────────────────────────────────
+# MODELS
+# ─────────────────────────────────────────────────────────
+models:
+
+  # ── DIM CREATORS (SCD Type 2) ──────────────────────────
+  - name: dim_creators
+    description: >
+      SCD Type 2 - Bảng thông tin Creator/KOL/KOC.
+      Mỗi creator có thể có nhiều version (is_current = true là phiên bản hiện tại).
+    columns:
+      - name: surrogate_key
+        description: Surrogate key tự tăng cho SCD2
+        data_tests:
+          - unique
+          - not_null
+      - name: creator_id
+        description: Business key của creator (không unique vì SCD2)
+        data_tests:
+          - not_null
+      - name: name
+        data_tests:
+          - not_null
+      - name: platform
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: ["TikTok", "Instagram", "YouTube", "Facebook", "Shopee Live", "Lazada Live"]
+      - name: tier
+        data_tests:
+          - accepted_values:
+              values: ["Nano", "Micro", "Mid-tier", "Macro", "Mega"]
+      - name: is_current
+        data_tests:
+          - not_null
+
+  # ── DIM CAMPAIGN ───────────────────────────────────────
+  - name: dim_campaign
+    description: Bảng chiến dịch quảng cáo omnichannel.
+    columns:
+      - name: campaign_id
+        description: Primary key của chiến dịch
+        data_tests:
+          - unique
+          - not_null
+      - name: campaign_name
+        data_tests:
+          - not_null
+      - name: marketing_objective
+        data_tests:
+          - accepted_values:
+              values: ["Awareness", "Conversion", "Retargeting", "Lead Generation"]
+      - name: start_date
+        data_tests:
+          - not_null
+      - name: end_date
+        data_tests:
+          - not_null
+
+  # ── DIM DATES ──────────────────────────────────────────
+  - name: dim_dates
+    description: Date dimension table bao gồm toàn bộ năm 2024.
+    columns:
+      - name: date_day
+        description: Primary key - ngày cụ thể
+        data_tests:
+          - unique
+          - not_null
+
+  # ── DIM CUSTOMERS ──────────────────────────────────────
+  - name: dim_customers
+    description: Bảng khách hàng với thông tin acquisition source.
+    columns:
+      - name: customer_id
+        data_tests:
+          - unique
+          - not_null
+      - name: acquisition_source
+        data_tests:
+          - not_null
+
+  # ── FCT AD PERFORMANCE ─────────────────────────────────
+  - name: fct_ad_performance
+    description: >
+      Fact table hiệu suất quảng cáo theo ngày và creator.
+      Partitioned by `date` trên BigQuery để tối ưu chi phí query.
+      Incremental model - chỉ xử lý dữ liệu mới mỗi ngày.
+    config:
+      materialized: incremental
+      incremental_strategy: merge
+      unique_key: performance_id
+      partition_by:
+        field: date
+        data_type: date
+        granularity: day
+      cluster_by: ["campaign_id", "creator_id"]
+    columns:
+      - name: performance_id
+        data_tests:
+          - unique
+          - not_null
+      - name: campaign_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('dim_campaign')
+              field: campaign_id
+      - name: creator_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('dim_creators')
+              field: creator_id
+      - name: date
+        data_tests:
+          - not_null
+      - name: spend_vnd
+        data_tests:
+          - not_null
+      - name: impressions
+        data_tests:
+          - not_null
+
+  # ── FCT CONVERSIONS ────────────────────────────────────
+  - name: fct_conversions
+    description: >
+      Fact table đơn hàng/conversion được attributed về creator và campaign.
+      Partitioned by `date` trên BigQuery.
+      Incremental model với merge strategy dựa trên order_id.
+    config:
+      materialized: incremental
+      incremental_strategy: merge
+      unique_key: order_id
+      partition_by:
+        field: date
+        data_type: date
+        granularity: day
+      cluster_by: ["campaign_id", "creator_id"]
+    columns:
+      - name: order_id
+        description: Primary key - mã đơn hàng duy nhất
+        data_tests:
+          - unique
+          - not_null
+      - name: customer_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('dim_customers')
+              field: customer_id
+      - name: campaign_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('dim_campaign')
+              field: campaign_id
+      - name: creator_id
+        data_tests:
+          - not_null
+      - name: order_amount_vnd
+        data_tests:
+          - not_null
+      - name: timestamp
+        data_tests:
+          - not_null
+
+  # ── MART CREATOR INTELLIGENCE ──────────────────────────
+  - name: mart_creator_intelligence
+    description: >
+      Mart layer tổng hợp hiệu suất Creator: spend, revenue, ROI, ROAS.
+      Dùng để serve Looker Studio dashboard và AI agent queries.
+    columns:
+      - name: creator_id
+        data_tests:
+          - unique
+          - not_null
+      - name: creator_name
+        data_tests:
+          - not_null
+      - name: avg_roi
+        description: (total_revenue - total_spend) / total_spend
+      - name: roas
+        description: total_revenue / total_spend
+
+  # ── DIM CREATOR KNOWLEDGE BASE (RAG-ready) ─────────────
+  - name: dim_creator_knowledge_base
+    description: >
+      Bảng RAG-ready: Mỗi row chứa một đoạn văn bản (knowledge_text)
+      mô tả toàn diện về creator, sẵn sàng để embedding vào Vector DB
+      (ví dụ: Pinecone, Vertex AI Vector Search) phục vụ AI Agent.
+      
+      Use case: AI Agent có thể trả lời "Creator nào phù hợp nhất để
+      quảng bá sản phẩm tài chính cho Gen Z?"
+    columns:
+      - name: creator_id
+        data_tests:
+          - unique
+          - not_null
+      - name: knowledge_text
+        description: >
+          Text blob tổng hợp mô tả creator, được cấu trúc hóa để embedding.
+          Pipeline: BigQuery → Vertex AI Embeddings API → Vector DB → AI Agent.
+        data_tests:
+          - not_null
